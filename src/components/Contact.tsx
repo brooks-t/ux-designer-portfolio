@@ -23,13 +23,13 @@ const Contact = () => {
             <h3 className="text-xl font-semibold mb-6">Contact Information</h3>
             
             <div className="space-y-4">
-              <a href="mailto:hello@example.com" className="flex items-center group">
+              <a href="mailto:brooks.t.tiffany@gmail.com" className="flex items-center group">
                 <div className="h-10 w-10 rounded-full bg-primary/5 flex items-center justify-center mr-3 group-hover:bg-primary/10 transition-standard">
                   <Mail className="h-5 w-5 text-primary" />
                 </div>
                 <div>
                   <p className="text-sm text-primary/70">Email</p>
-                  <p className="font-medium">hello@example.com</p>
+                  <p className="font-medium">brooks.t.tiffany@gmail.com</p>
                 </div>
               </a>
               
