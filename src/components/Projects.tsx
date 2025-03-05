@@ -1,0 +1,59 @@
+
+import React from 'react';
+import ProjectCard from './ProjectCard';
+
+const projectsData = [
+  {
+    title: "Financial App Redesign",
+    description: "Revamping the user experience for a fintech app to improve user engagement and satisfaction.",
+    category: "Mobile App",
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    title: "E-commerce Website",
+    description: "Designing an intuitive shopping experience with a focus on product discovery and checkout optimization.",
+    category: "Web Design",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    title: "Healthcare Patient Portal",
+    description: "Creating an accessible interface for patients to manage appointments, view medical records, and communicate with providers.",
+    category: "UX Research & Design",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+  }
+];
+
+const Projects = () => {
+  return (
+    <section id="projects" className="section-padding">
+      <div className="content-container">
+        <div className="text-center max-w-xl mx-auto mb-16">
+          <span className="inline-block py-1 px-3 mb-3 text-sm font-medium border border-primary/10 rounded-full bg-primary/5">
+            Featured Work
+          </span>
+          <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-4">
+            Recent <span className="text-gradient">Projects</span>
+          </h2>
+          <p className="text-primary/70">
+            A showcase of my recent design work, case studies, and creative explorations.
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {projectsData.map((project, index) => (
+            <ProjectCard
+              key={index}
+              title={project.title}
+              description={project.description}
+              category={project.category}
+              image={project.image}
+              index={index}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Projects;
