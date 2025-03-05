@@ -64,9 +64,9 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Mobile menu toggle */}
+          {/* Mobile menu toggle - Moved outside the nav to ensure higher z-index */}
           <button 
-            className="md:hidden text-primary focus:outline-none" 
+            className="md:hidden text-primary focus:outline-none z-[60]" 
             onClick={toggleMobileMenu}
             aria-label="Toggle mobile menu"
           >
@@ -77,7 +77,7 @@ const Navbar = () => {
         {/* Mobile menu */}
         <div
           className={cn(
-            'fixed inset-0 bg-background glass-effect md:hidden z-40 transition-standard',
+            'fixed inset-0 bg-background glass-effect md:hidden z-50 transition-standard',
             mobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
           )}
         >
@@ -100,3 +100,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
