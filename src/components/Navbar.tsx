@@ -47,7 +47,7 @@ const Navbar = () => {
             href="#home" 
             className="text-2xl font-display font-bold tracking-tight text-primary"
           >
-            port<span className="text-gradient">folio</span>
+            brooks<span className="text-gradient"> tiffany</span>
           </a>
 
           {/* Desktop menu */}
