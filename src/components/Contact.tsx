@@ -48,7 +48,7 @@ const Contact = () => {
               <p className="text-primary/70 text-sm mb-4">Follow me on social media</p>
               <div className="flex items-center space-x-4">
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/brookstiffany/" 
                   className="h-10 w-10 rounded-full bg-primary/5 flex items-center justify-center hover:bg-primary/10 transition-standard"
                   aria-label="LinkedIn"
                 >
