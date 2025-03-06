@@ -37,7 +37,11 @@ const Navbar = () => {
   };
 
   const handleLogoClick = () => {
-    window.scrollTo(0, 0);
+    if (isHomePage) {
+      window.scrollTo(0, 0);
+    } else {
+      window.location.href = '/';
+    }
     if (isMobileMenuOpen) setIsMobileMenuOpen(false);
   };
 
@@ -64,13 +68,12 @@ const Navbar = () => {
     >
       <div className="content-container">
         <div className="flex items-center justify-between">
-          <Link 
-            to="/" 
+          <button 
             className="text-2xl font-display font-bold tracking-tight text-primary"
             onClick={handleLogoClick}
           >
             brooks<span className="text-gradient"> tiffany</span>
-          </Link>
+          </button>
 
           {/* Desktop Navigation */}
           <div className="hidden md:block">

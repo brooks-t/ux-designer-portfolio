@@ -20,6 +20,19 @@ export const NavBar = ({ items, className }: NavBarProps) => {
   const location = useLocation()
   const isHomePage = location.pathname === "/"
 
+  // Set initial active index based on URL
+  React.useEffect(() => {
+    if (isHomePage) {
+      const hash = window.location.hash
+      if (hash) {
+        const activeItem = items.findIndex(item => item.url === hash)
+        if (activeItem !== -1) {
+          setActiveIndex(activeItem)
+        }
+      }
+    }
+  }, [isHomePage, items, location])
+
   // Handle navigation with proper section scrolling
   const handleNavigation = (item: { url: string }, index: number) => {
     setActiveIndex(index)
@@ -39,19 +52,19 @@ export const NavBar = ({ items, className }: NavBarProps) => {
   return (
     <nav
       className={cn(
-        "relative flex items-center justify-center rounded-full border border-primary/10 bg-background/50 backdrop-blur-sm px-2 py-1",
+        "relative flex items-center justify-center rounded-full border border-primary/10 bg-background/50 backdrop-blur-sm px-3 py-2 shadow-sm",
         className
       )}
       onMouseLeave={() => setHoveredIndex(null)}
     >
-      <div className="relative flex space-x-2">
+      <div className="relative flex space-x-4">
         {items.map((item, index) => {
           const Icon = item.icon
           return (
             <button
               key={index}
               className={cn(
-                "relative flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
+                "relative z-10 flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-colors",
                 activeIndex === index
                   ? "text-primary"
                   : "text-primary/60 hover:text-primary"
@@ -70,8 +83,10 @@ export const NavBar = ({ items, className }: NavBarProps) => {
           <div
             className="absolute top-0 h-0.5 bg-primary transition-all duration-300"
             style={{
-              left: activeIndex * 120 + 8, // Adjust based on button width
-              width: "108px", // Adjust based on button width
+              left: `${(activeIndex * 100) + 12}px`, // Position based on active button
+              width: "80px", // Fixed width for the indicator
+              transform: "translateX(-50%)",
+              top: "-1px",
             }}
           />
         )}
@@ -79,12 +94,13 @@ export const NavBar = ({ items, className }: NavBarProps) => {
         {/* Tubelight highlight effect */}
         {hoveredIndex !== null && (
           <div
-            className="absolute inset-0 z-0 rounded-full bg-primary/10 transition-all duration-300"
+            className="absolute z-0 rounded-full bg-primary/10 transition-all duration-300 pointer-events-none"
             style={{
-              left: hoveredIndex * 120 + 8, // Adjust based on button width
-              width: "108px", // Adjust based on button width
-              top: "8px", // Position properly within the container
-              height: "calc(100% - 16px)", // Slightly smaller than container
+              left: `${(hoveredIndex * 100) + 12}px`, // Position based on hovered button
+              width: "80px", // Fixed width for the highlight
+              top: "2px",
+              height: "calc(100% - 4px)",
+              transform: "translateX(-50%)",
             }}
           />
         )}
