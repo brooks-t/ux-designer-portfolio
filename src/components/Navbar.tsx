@@ -53,6 +53,10 @@ const Navbar = () => {
     }
   }, [isHomePage, location.hash]);
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   const navItems = [
     { name: 'Home', url: 'home', icon: Home },
     { name: 'Projects', url: 'projects', icon: Briefcase },
