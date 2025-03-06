@@ -36,11 +36,11 @@ const About = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
               <div>
                 <h3 className="text-lg font-semibold mb-2">Education</h3>
-                <p className="text-primary/70">Master's, Human-Centered Design<br></br>University of Washington</p>
+                <p className="text-primary/70">MS, Human-Centered Design<br></br>University of Washington</p>
                 <br></br>
-                <p className="text-primary/70">Certificate, Web Development<br></br>University of Washington</p>
+                <p className="text-primary/70">Cert, Web Development<br></br>University of Washington</p>
                 <br></br>
-                <p className="text-primary/70">Bachelor's, English<br></br>Virginia Tech</p>
+                <p className="text-primary/70">BA, English<br></br>Virginia Tech</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Experience</h3>
