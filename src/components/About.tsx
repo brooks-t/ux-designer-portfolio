@@ -44,11 +44,11 @@ const About = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Experience</h3>
-                <p className="text-primary/70">UX Designer, IRS</p>
+                <p className="text-primary/70">UX Designer, IRS<br></br>Designated as a "Figma Champion"</p>
                 <br></br>
-                <p className="text-primary/70">UX Researcher, Kaiser Permanente</p>
+                <p className="text-primary/70">UX Researcher, Kaiser Permanente<br></br>Led UX as a Full Stack Designer</p>
                 <br></br>
-                <p className="text-primary/70">Customer Care Manager, Heyo</p>
+                <p className="text-primary/70">Customer Care Manager, Heyo<br></br>Fostered customer-centric culture</p>
               </div>
             </div>
             
