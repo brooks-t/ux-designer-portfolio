@@ -11,19 +11,22 @@ const projectsData = [
     slug: "financial-app-redesign"
   },
   {
-    title: "E-commerce Website",
-    description: "Designing an intuitive shopping experience with a focus on product discovery and checkout optimization.",
-    category: "Web Design",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
-    slug: "ecommerce-website"
-  },
-  {
     title: "Healthcare Patient Portal",
     description: "Creating an accessible interface for patients to manage appointments, view medical records, and communicate with providers.",
     category: "UX Research & Design",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
     slug: "healthcare-patient-portal"
   }
+  // E-commerce Website card removed but code kept for future use
+  /*
+  {
+    title: "E-commerce Website",
+    description: "Designing an intuitive shopping experience with a focus on product discovery and checkout optimization.",
+    category: "Web Design",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
+    slug: "ecommerce-website"
+  }
+  */
 ];
 
 const Projects = () => {
@@ -42,7 +45,7 @@ const Projects = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {projectsData.map((project, index) => (
             <ProjectCard
               key={index}

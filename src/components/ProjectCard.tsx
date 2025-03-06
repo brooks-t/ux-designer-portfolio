@@ -23,10 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div 
-      className={cn(
-        "group relative bg-white rounded-2xl overflow-hidden shadow-sm border border-primary/5 transition-standard hover:shadow-xl",
-        index % 2 === 0 ? "lg:col-span-2" : "lg:col-span-1"
-      )}
+      className="group relative bg-white rounded-2xl overflow-hidden shadow-sm border border-primary/5 transition-standard hover:shadow-xl"
     >
       <div className="aspect-[16/9] overflow-hidden">
         <img 

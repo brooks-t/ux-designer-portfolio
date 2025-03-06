@@ -35,6 +35,18 @@ const Navbar = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
+  // This helper ensures we're navigating to sections properly
+  const scrollToSection = (sectionId: string) => (e: React.MouseEvent) => {
+    if (isHomePage) {
+      e.preventDefault();
+      const element = document.querySelector(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+      setMobileMenuOpen(false);
+    }
+  };
+
   return (
     <header
       className={cn(
@@ -49,6 +61,7 @@ const Navbar = () => {
           <Link 
             to="/" 
             className="text-2xl font-display font-bold tracking-tight text-primary"
+            onClick={() => window.scrollTo(0, 0)}
           >
             brooks<span className="text-gradient"> tiffany</span>
           </Link>
@@ -61,12 +74,13 @@ const Navbar = () => {
                   <a
                     href={link.href}
                     className="text-sm font-medium text-primary/80 hover:text-primary transition-standard relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all hover:after:w-full"
+                    onClick={scrollToSection(link.href)}
                   >
                     {link.name}
                   </a>
                 ) : (
                   <Link
-                    to={`${link.path}${link.href}`}
+                    to={`/${link.href}`}
                     className="text-sm font-medium text-primary/80 hover:text-primary transition-standard relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all hover:after:w-full"
                   >
                     {link.name}
@@ -76,7 +90,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Mobile menu toggle - Moved outside the nav to ensure higher z-index */}
+          {/* Mobile menu toggle */}
           <button 
             className="md:hidden text-primary focus:outline-none z-[60]" 
             onClick={toggleMobileMenu}
@@ -100,14 +114,14 @@ const Navbar = () => {
                   key={link.name}
                   href={link.href}
                   className="text-2xl font-medium text-primary hover:text-gradient transition-standard"
-                  onClick={() => setMobileMenuOpen(false)}
+                  onClick={scrollToSection(link.href)}
                 >
                   {link.name}
                 </a>
               ) : (
                 <Link
                   key={link.name}
-                  to={`${link.path}${link.href}`}
+                  to={`/${link.href}`}
                   className="text-2xl font-medium text-primary hover:text-gradient transition-standard"
                   onClick={() => setMobileMenuOpen(false)}
                 >

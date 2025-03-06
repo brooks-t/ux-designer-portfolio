@@ -15,6 +15,10 @@ const Footer = () => {
             <a 
               href="#home" 
               className="text-2xl font-display font-bold tracking-tight mb-8"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
             >
               brooks<span className="bg-white/90 bg-clip-text text-transparent"> tiffany</span>
             </a>
@@ -30,11 +34,56 @@ const Footer = () => {
           <div className="flex flex-wrap justify-center gap-6 mb-8">
             {isHomePage ? (
               <>
-                <a href="#home" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Home</a>
-                <a href="#projects" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Projects</a>
-                <a href="#skills" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Skills</a>
-                <a href="#about" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">About</a>
-                <a href="#contact" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Contact</a>
+                <a 
+                  href="#home" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                >
+                  Home
+                </a>
+                <a 
+                  href="#projects" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  Projects
+                </a>
+                <a 
+                  href="#skills" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector('#skills')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  Skills
+                </a>
+                <a 
+                  href="#about" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  About
+                </a>
+                <a 
+                  href="#contact" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
+                >
+                  Contact
+                </a>
               </>
             ) : (
               <>
