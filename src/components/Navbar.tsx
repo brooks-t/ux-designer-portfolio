@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { Home, User, BookOpen, Briefcase, Mail, Menu, X } from 'lucide-react';
 import { NavBar } from "@/components/ui/tubelight-navbar";
 
