@@ -38,17 +38,17 @@ const About = () => {
                 <h3 className="text-lg font-semibold mb-2">Education</h3>
                 <p className="text-primary/70"><i>MS, Human-Centered Design</i><br></br>University of Washington</p>
                 <br></br>
-                <p className="text-primary/70">Cert, Web Development<br></br>University of Washington</p>
+                <p className="text-primary/70"><i>Cert, Web Development</i><br></br>University of Washington</p>
                 <br></br>
-                <p className="text-primary/70">BA, English<br></br>Virginia Tech</p>
+                <p className="text-primary/70"><i>BA, English</i><br></br>Virginia Tech</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Experience</h3>
-                <p className="text-primary/70">UX Designer, IRS<br></br>Designated as a "Figma Champion"</p>
+                <p className="text-primary/70"><i>UX Designer, IRS</i><br></br>Designated as a "Figma Champion"</p>
                 <br></br>
-                <p className="text-primary/70">UX Researcher, Kaiser Permanente<br></br>Led UX as a Full Stack Designer</p>
+                <p className="text-primary/70"><i>>UX Researcher, Kaiser Permanente</i><br></br>Led UX as a Full Stack Designer</p>
                 <br></br>
-                <p className="text-primary/70">Customer Care Manager, Heyo<br></br>Fostered customer-centric culture</p>
+                <p className="text-primary/70"><i>Customer Care Manager, Heyo</i><br></br>Fostered customer-centric culture</p>
               </div>
             </div>
             
