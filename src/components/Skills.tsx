@@ -41,7 +41,7 @@ const Skills = () => {
       <div className="content-container">
         <div className="text-center max-w-xl mx-auto mb-16">
           <span className="inline-block py-1 px-3 mb-3 text-sm font-medium border border-primary/10 rounded-full bg-primary/5">
-            Expertise
+            Skills
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-4">
             My Design <span className="text-gradient">Toolkit</span>
