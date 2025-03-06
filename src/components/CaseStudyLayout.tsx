@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { useScrollToTop } from '@/hooks/useScrollToTop';
 
 interface CaseStudyLayoutProps {
   title: string;
@@ -18,6 +19,9 @@ const CaseStudyLayout: React.FC<CaseStudyLayoutProps> = ({
   heroImage,
   children
 }) => {
+  // Use the scroll hook
+  useScrollToTop();
+  
   return (
     <div className="min-h-screen">
       <Navbar />
