@@ -8,18 +8,18 @@ const Footer = () => {
   const navigate = useNavigate();
   const isHomePage = location.pathname === '/';
   
-  const handleNavigation = (url: string, e: React.MouseEvent) => {
+  const handleNavigation = (sectionId: string, e: React.MouseEvent) => {
     e.preventDefault();
     
     if (isHomePage) {
       // If on home page, scroll to section
-      const element = document.querySelector(url);
+      const element = document.getElementById(sectionId);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     } else {
       // If on another page, navigate to home with the section anchor
-      navigate(`/${url}`);
+      navigate(`/#${sectionId}`);
     }
   };
   
@@ -51,35 +51,35 @@ const Footer = () => {
             <a 
               href="#home" 
               className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-              onClick={(e) => handleNavigation('#home', e)}
+              onClick={(e) => handleNavigation('home', e)}
             >
               Home
             </a>
             <a 
               href="#projects" 
               className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-              onClick={(e) => handleNavigation('#projects', e)}
+              onClick={(e) => handleNavigation('projects', e)}
             >
               Projects
             </a>
             <a 
               href="#skills" 
               className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-              onClick={(e) => handleNavigation('#skills', e)}
+              onClick={(e) => handleNavigation('skills', e)}
             >
               Skills
             </a>
             <a 
               href="#about" 
               className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-              onClick={(e) => handleNavigation('#about', e)}
+              onClick={(e) => handleNavigation('about', e)}
             >
               About
             </a>
             <a 
               href="#contact" 
               className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-              onClick={(e) => handleNavigation('#contact', e)}
+              onClick={(e) => handleNavigation('contact', e)}
             >
               Contact
             </a>

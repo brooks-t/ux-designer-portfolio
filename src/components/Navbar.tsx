@@ -37,17 +37,29 @@ const Navbar = () => {
     };
   }, []);
 
-  const navItems = [
-    { name: 'Home', url: '#home', icon: Home },
-    { name: 'Projects', url: '#projects', icon: Briefcase },
-    { name: 'Skills', url: '#skills', icon: BookOpen },
-    { name: 'About', url: '#about', icon: User },
-    { name: 'Contact', url: '#contact', icon: Mail }
-  ];
+  // Check if we need to scroll to a section after navigation
+  useEffect(() => {
+    // This runs after the component mounts or updates
+    if (isHomePage && location.hash) {
+      const sectionId = location.hash.replace('#', '');
+      const element = document.getElementById(sectionId);
+      
+      if (element) {
+        // Small delay to ensure the DOM is fully rendered
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    }
+  }, [isHomePage, location.hash]);
 
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
+  const navItems = [
+    { name: 'Home', url: 'home', icon: Home },
+    { name: 'Projects', url: 'projects', icon: Briefcase },
+    { name: 'Skills', url: 'skills', icon: BookOpen },
+    { name: 'About', url: 'about', icon: User },
+    { name: 'Contact', url: 'contact', icon: Mail }
+  ];
 
   const handleLogoClick = () => {
     if (isHomePage) {
@@ -58,16 +70,16 @@ const Navbar = () => {
     if (isMobileMenuOpen) setIsMobileMenuOpen(false);
   };
 
-  const handleNavigation = (url: string) => {
+  const handleNavigation = (sectionId: string) => {
     if (isHomePage) {
       // If on home page, scroll to section
-      const element = document.querySelector(url);
+      const element = document.getElementById(sectionId);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     } else {
       // If on another page, navigate to home with the section anchor
-      navigate(`/${url}`);
+      navigate(`/#${sectionId}`);
     }
     if (isMobileMenuOpen) setIsMobileMenuOpen(false);
   };
