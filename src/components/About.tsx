@@ -36,13 +36,15 @@ const About = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
               <div>
                 <h3 className="text-lg font-semibold mb-2">Education</h3>
-                <p className="text-primary/70">* Master's in Human-Centered Design and Engineering, University of Washington</p>
-                <p className="text-primary/70">* Bachelor's in English, Virginia Tech</p>
+                <p className="text-primary/70">Master's, Human-Centered Design, University of Washington</p>
+                <p className="text-primary/70">Certificate, Full Stack Web Development, University of Washington</p>
+                <p className="text-primary/70">Bachelor's, English, Virginia Tech</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">Experience</h3>
                 <p className="text-primary/70">UX Designer, Internal Revenue Service</p>
                 <p className="text-primary/70">UX Researcher, Kaiser Permanente</p>
+                 <p className="text-primary/70">Customer Care Manager, Heyo</p>
               </div>
             </div>
             
