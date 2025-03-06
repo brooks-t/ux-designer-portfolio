@@ -31,16 +31,16 @@ const Footer = () => {
             {isHomePage ? (
               <>
                 <a href="#home" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Home</a>
-                <a href="#skills" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Skills</a>
                 <a href="#projects" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Projects</a>
+                <a href="#skills" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Skills</a>
                 <a href="#about" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">About</a>
                 <a href="#contact" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Contact</a>
               </>
             ) : (
               <>
                 <Link to="/#home" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Home</Link>
-                <Link to="/#skills" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Skills</Link>
                 <Link to="/#projects" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Projects</Link>
+                <Link to="/#skills" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Skills</Link>
                 <Link to="/#about" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">About</Link>
                 <Link to="/#contact" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Contact</Link>
               </>
