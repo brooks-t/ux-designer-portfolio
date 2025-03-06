@@ -1,10 +1,11 @@
 
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const location = useLocation();
+  const navigate = useNavigate();
   const isHomePage = location.pathname === '/';
   
   const handleNavigation = (url: string, e: React.MouseEvent) => {
@@ -17,8 +18,8 @@ const Footer = () => {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     } else {
-      // If on another page, navigate to home page with anchor
-      window.location.href = `/${url}`;
+      // If on another page, navigate to home with the section anchor
+      navigate(`/${url}`);
     }
   };
   
@@ -38,12 +39,12 @@ const Footer = () => {
               brooks<span className="bg-white/90 bg-clip-text text-transparent"> tiffany</span>
             </a>
           ) : (
-            <Link 
-              to="/" 
+            <button 
+              onClick={() => navigate('/')}
               className="text-2xl font-display font-bold tracking-tight mb-8"
             >
               brooks<span className="bg-white/90 bg-clip-text text-transparent"> tiffany</span>
-            </Link>
+            </button>
           )}
           
           <div className="flex flex-wrap justify-center gap-6 mb-8">

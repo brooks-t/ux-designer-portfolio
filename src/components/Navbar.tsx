@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Home, User, BookOpen, Briefcase, Mail, Menu, X } from 'lucide-react';
 
 const Navbar = () => {
@@ -9,6 +9,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
   const isHomePage = location.pathname === '/';
 
   useEffect(() => {
@@ -52,19 +53,21 @@ const Navbar = () => {
     if (isHomePage) {
       window.scrollTo(0, 0);
     } else {
-      window.location.href = '/';
+      navigate('/');
     }
     if (isMobileMenuOpen) setIsMobileMenuOpen(false);
   };
 
   const handleNavigation = (url: string) => {
     if (isHomePage) {
+      // If on home page, scroll to section
       const element = document.querySelector(url);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     } else {
-      window.location.href = `/${url}`;
+      // If on another page, navigate to home with the section anchor
+      navigate(`/${url}`);
     }
     if (isMobileMenuOpen) setIsMobileMenuOpen(false);
   };
