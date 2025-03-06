@@ -3,11 +3,11 @@ import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { useLocation } from 'react-router-dom';
 import { Home, User, BookOpen, Briefcase, Mail, Menu, X } from 'lucide-react';
-import { NavBar } from "@/components/ui/tubelight-navbar";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const location = useLocation();
   const isHomePage = location.pathname === '/';
 
@@ -20,8 +20,20 @@ const Navbar = () => {
       }
     };
 
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleScroll();
+    handleResize();
+    
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const navItems = [
@@ -76,9 +88,23 @@ const Navbar = () => {
           </button>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
-            <NavBar items={navItems} />
-          </div>
+          {!isMobile && (
+            <nav className="hidden md:flex items-center space-x-1">
+              {navItems.map((item, index) => {
+                const Icon = item.icon;
+                return (
+                  <button
+                    key={index}
+                    onClick={() => handleNavigation(item.url)}
+                    className="px-4 py-2 rounded-md text-primary/80 hover:text-primary hover:bg-primary/5 transition-colors flex items-center gap-1.5"
+                  >
+                    <Icon className="h-4 w-4" />
+                    <span>{item.name}</span>
+                  </button>
+                );
+              })}
+            </nav>
+          )}
 
           {/* Mobile Menu Toggle */}
           <button 
