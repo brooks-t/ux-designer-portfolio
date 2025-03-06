@@ -10,8 +10,8 @@ const About = () => {
             <div className="max-w-md mx-auto lg:mx-0">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80" 
-                  alt="UX Designer" 
+                  src="/lovable-uploads/a264fdb3-2dc5-4268-92c3-6bd7e6e2f267.png" 
+                  alt="UX Designer Portrait" 
                   className="w-full h-full object-cover"
                 />
               </div>
