@@ -2,6 +2,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { Link } from 'react-router-dom';
 
 interface ProjectCardProps {
   title: string;
@@ -9,6 +10,7 @@ interface ProjectCardProps {
   category: string;
   image: string;
   index: number;
+  slug: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ 
@@ -16,7 +18,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   description, 
   category, 
   image, 
-  index 
+  index,
+  slug
 }) => {
   return (
     <div 
@@ -41,12 +44,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <h3 className="text-xl lg:text-2xl font-semibold mb-2 text-balance">{title}</h3>
         <p className="text-primary/70 mb-4 text-balance">{description}</p>
         
-        <a 
-          href="#" 
+        <Link 
+          to={`/case-study/${slug}`}
           className="inline-flex items-center text-primary font-medium transition-standard hover:translate-x-2"
         >
           View Case Study <ArrowRight className="ml-2 w-4 h-4" />
-        </a>
+        </Link>
       </div>
     </div>
   );

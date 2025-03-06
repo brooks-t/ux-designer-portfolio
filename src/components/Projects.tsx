@@ -7,19 +7,22 @@ const projectsData = [
     title: "Financial App Redesign",
     description: "Revamping the user experience for a fintech app to improve user engagement and satisfaction.",
     category: "Mobile App",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
+    slug: "financial-app-redesign"
   },
   {
     title: "E-commerce Website",
     description: "Designing an intuitive shopping experience with a focus on product discovery and checkout optimization.",
     category: "Web Design",
-    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80",
+    slug: "ecommerce-website"
   },
   {
     title: "Healthcare Patient Portal",
     description: "Creating an accessible interface for patients to manage appointments, view medical records, and communicate with providers.",
     category: "UX Research & Design",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+    slug: "healthcare-patient-portal"
   }
 ];
 
@@ -48,6 +51,7 @@ const Projects = () => {
               category={project.category}
               image={project.image}
               index={index}
+              slug={project.slug}
             />
           ))}
         </div>
