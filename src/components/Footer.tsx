@@ -7,6 +7,21 @@ const Footer = () => {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
   
+  const handleNavigation = (url: string, e: React.MouseEvent) => {
+    e.preventDefault();
+    
+    if (isHomePage) {
+      // If on home page, scroll to section
+      const element = document.querySelector(url);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // If on another page, navigate to home page with anchor
+      window.location.href = `/${url}`;
+    }
+  };
+  
   return (
     <footer className="py-12 bg-primary text-primary-foreground">
       <div className="content-container">
@@ -32,109 +47,41 @@ const Footer = () => {
           )}
           
           <div className="flex flex-wrap justify-center gap-6 mb-8">
-            {isHomePage ? (
-              <>
-                <a 
-                  href="#home" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                >
-                  Home
-                </a>
-                <a 
-                  href="#projects" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                >
-                  Projects
-                </a>
-                <a 
-                  href="#skills" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.querySelector('#skills')?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                >
-                  Skills
-                </a>
-                <a 
-                  href="#about" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                >
-                  About
-                </a>
-                <a 
-                  href="#contact" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                >
-                  Contact
-                </a>
-              </>
-            ) : (
-              <>
-                <Link 
-                  to="/" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                >
-                  Home
-                </Link>
-                <Link 
-                  to="/#projects" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = '/#projects';
-                  }}
-                >
-                  Projects
-                </Link>
-                <Link 
-                  to="/#skills" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = '/#skills';
-                  }}
-                >
-                  Skills
-                </Link>
-                <Link 
-                  to="/#about" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = '/#about';
-                  }}
-                >
-                  About
-                </Link>
-                <Link 
-                  to="/#contact" 
-                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.location.href = '/#contact';
-                  }}
-                >
-                  Contact
-                </Link>
-              </>
-            )}
+            <a 
+              href="#home" 
+              className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+              onClick={(e) => handleNavigation('#home', e)}
+            >
+              Home
+            </a>
+            <a 
+              href="#projects" 
+              className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+              onClick={(e) => handleNavigation('#projects', e)}
+            >
+              Projects
+            </a>
+            <a 
+              href="#skills" 
+              className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+              onClick={(e) => handleNavigation('#skills', e)}
+            >
+              Skills
+            </a>
+            <a 
+              href="#about" 
+              className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+              onClick={(e) => handleNavigation('#about', e)}
+            >
+              About
+            </a>
+            <a 
+              href="#contact" 
+              className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+              onClick={(e) => handleNavigation('#contact', e)}
+            >
+              Contact
+            </a>
           </div>
           
           <div className="text-sm text-primary-foreground/60">

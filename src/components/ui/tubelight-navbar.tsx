@@ -65,13 +65,26 @@ export const NavBar = ({ items, className }: NavBarProps) => {
           )
         })}
 
+        {/* Active indicator - dark line at top */}
+        {activeIndex !== null && (
+          <div
+            className="absolute top-0 h-0.5 bg-primary transition-all duration-300"
+            style={{
+              left: activeIndex * 120 + 8, // Adjust based on button width
+              width: "108px", // Adjust based on button width
+            }}
+          />
+        )}
+
         {/* Tubelight highlight effect */}
         {hoveredIndex !== null && (
           <div
-            className="absolute inset-0 z-10 rounded-full bg-primary/10 transition-all duration-300"
+            className="absolute inset-0 z-0 rounded-full bg-primary/10 transition-all duration-300"
             style={{
               left: hoveredIndex * 120 + 8, // Adjust based on button width
               width: "108px", // Adjust based on button width
+              top: "8px", // Position properly within the container
+              height: "calc(100% - 16px)", // Slightly smaller than container
             }}
           />
         )}
