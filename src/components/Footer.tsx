@@ -87,11 +87,76 @@ const Footer = () => {
               </>
             ) : (
               <>
-                <Link to="/#home" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Home</Link>
-                <Link to="/#projects" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Projects</Link>
-                <Link to="/#skills" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Skills</Link>
-                <Link to="/#about" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">About</Link>
-                <Link to="/#contact" className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard">Contact</Link>
+                <Link 
+                  to="/#home" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    if (location.pathname !== '/') {
+                      // Let the link handle navigation to home page
+                    } else {
+                      e.preventDefault();
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  Home
+                </Link>
+                <Link 
+                  to="/#projects" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    if (location.pathname !== '/') {
+                      window.location.href = '/#projects';
+                    } else {
+                      document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  Projects
+                </Link>
+                <Link 
+                  to="/#skills" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    if (location.pathname !== '/') {
+                      window.location.href = '/#skills';
+                    } else {
+                      document.querySelector('#skills')?.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  Skills
+                </Link>
+                <Link 
+                  to="/#about" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    if (location.pathname !== '/') {
+                      window.location.href = '/#about';
+                    } else {
+                      document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  About
+                </Link>
+                <Link 
+                  to="/#contact" 
+                  className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    if (location.pathname !== '/') {
+                      window.location.href = '/#contact';
+                    } else {
+                      document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  Contact
+                </Link>
               </>
             )}
           </div>
