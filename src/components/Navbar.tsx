@@ -2,18 +2,21 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 
 const navLinks = [
-  { name: 'Home', href: '#home' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Projects', href: '#projects' },
-  { name: 'About', href: '#about' },
-  { name: 'Contact', href: '#contact' },
+  { name: 'Home', href: '#home', path: '/' },
+  { name: 'Skills', href: '#skills', path: '/' },
+  { name: 'Projects', href: '#projects', path: '/' },
+  { name: 'About', href: '#about', path: '/' },
+  { name: 'Contact', href: '#contact', path: '/' },
 ];
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,23 +46,32 @@ const Navbar = () => {
     >
       <div className="content-container">
         <nav className="flex items-center justify-between">
-          <a 
-            href="#home" 
+          <Link 
+            to="/" 
             className="text-2xl font-display font-bold tracking-tight text-primary"
           >
             brooks<span className="text-gradient"> tiffany</span>
-          </a>
+          </Link>
 
           {/* Desktop menu */}
           <ul className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <li key={link.name}>
-                <a
-                  href={link.href}
-                  className="text-sm font-medium text-primary/80 hover:text-primary transition-standard relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all hover:after:w-full"
-                >
-                  {link.name}
-                </a>
+                {isHomePage ? (
+                  <a
+                    href={link.href}
+                    className="text-sm font-medium text-primary/80 hover:text-primary transition-standard relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all hover:after:w-full"
+                  >
+                    {link.name}
+                  </a>
+                ) : (
+                  <Link
+                    to={`${link.path}${link.href}`}
+                    className="text-sm font-medium text-primary/80 hover:text-primary transition-standard relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all hover:after:w-full"
+                  >
+                    {link.name}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
@@ -83,14 +95,25 @@ const Navbar = () => {
         >
           <div className="flex flex-col items-center justify-center h-full space-y-8">
             {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-2xl font-medium text-primary hover:text-gradient transition-standard"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {link.name}
-              </a>
+              isHomePage ? (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-2xl font-medium text-primary hover:text-gradient transition-standard"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {link.name}
+                </a>
+              ) : (
+                <Link
+                  key={link.name}
+                  to={`${link.path}${link.href}`}
+                  className="text-2xl font-medium text-primary hover:text-gradient transition-standard"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {link.name}
+                </Link>
+              )
             ))}
           </div>
         </div>
