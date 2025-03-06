@@ -46,7 +46,7 @@ const About = () => {
                 <h3 className="text-lg font-semibold mb-2">Experience</h3>
                 <p className="text-primary/70"><i>UX Designer, IRS</i><br></br>Designated as a "Figma Champion"</p>
                 <br></br>
-                <p className="text-primary/70"><i>>UX Researcher, Kaiser Permanente</i><br></br>Led UX as a Full Stack Designer</p>
+                <p className="text-primary/70"><i>UX Researcher, Kaiser Permanente</i><br></br>Led UX as a Full Stack Designer</p>
                 <br></br>
                 <p className="text-primary/70"><i>Customer Care Manager, Heyo</i><br></br>Fostered customer-centric culture</p>
               </div>
