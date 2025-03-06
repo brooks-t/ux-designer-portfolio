@@ -83,13 +83,11 @@ const Navbar = () => {
                     to={`/${link.href}`}
                     className="text-sm font-medium text-primary/80 hover:text-primary transition-standard relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all hover:after:w-full"
                     onClick={(e) => {
-                      // For non-home links, prevent the default behavior to control navigation
-                      if (link.name !== 'Home') {
-                        e.preventDefault();
-                        
-                        // Navigate to the home page first
-                        window.location.href = `/${link.href}`;
-                      }
+                      e.preventDefault();
+                      const section = link.href.substring(1); // Remove the # character
+                      
+                      // Navigate to home page with the specific section
+                      window.location.href = `/${link.href}`;
                     }}
                   >
                     {link.name}
@@ -136,13 +134,9 @@ const Navbar = () => {
                     // Close the mobile menu
                     setMobileMenuOpen(false);
                     
-                    // For non-home links, prevent default behavior to control navigation
-                    if (link.name !== 'Home') {
-                      e.preventDefault();
-                      
-                      // Navigate to the home page with the specific section
-                      window.location.href = `/${link.href}`;
-                    }
+                    // Navigate to the home page with the specific section
+                    e.preventDefault();
+                    window.location.href = `/${link.href}`;
                   }}
                 >
                   {link.name}

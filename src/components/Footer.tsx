@@ -88,16 +88,8 @@ const Footer = () => {
             ) : (
               <>
                 <Link 
-                  to="/#home" 
+                  to="/" 
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
-                  onClick={(e) => {
-                    if (location.pathname !== '/') {
-                      // Let the link handle navigation to home page
-                    } else {
-                      e.preventDefault();
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }
-                  }}
                 >
                   Home
                 </Link>
@@ -106,11 +98,7 @@ const Footer = () => {
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
                   onClick={(e) => {
                     e.preventDefault();
-                    if (location.pathname !== '/') {
-                      window.location.href = '/#projects';
-                    } else {
-                      document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' });
-                    }
+                    window.location.href = '/#projects';
                   }}
                 >
                   Projects
@@ -120,11 +108,7 @@ const Footer = () => {
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
                   onClick={(e) => {
                     e.preventDefault();
-                    if (location.pathname !== '/') {
-                      window.location.href = '/#skills';
-                    } else {
-                      document.querySelector('#skills')?.scrollIntoView({ behavior: 'smooth' });
-                    }
+                    window.location.href = '/#skills';
                   }}
                 >
                   Skills
@@ -134,11 +118,7 @@ const Footer = () => {
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
                   onClick={(e) => {
                     e.preventDefault();
-                    if (location.pathname !== '/') {
-                      window.location.href = '/#about';
-                    } else {
-                      document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
-                    }
+                    window.location.href = '/#about';
                   }}
                 >
                   About
@@ -148,11 +128,7 @@ const Footer = () => {
                   className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-standard"
                   onClick={(e) => {
                     e.preventDefault();
-                    if (location.pathname !== '/') {
-                      window.location.href = '/#contact';
-                    } else {
-                      document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
-                    }
+                    window.location.href = '/#contact';
                   }}
                 >
                   Contact
