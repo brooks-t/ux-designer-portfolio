@@ -27,7 +27,7 @@ const About = () => {
               About Me
             </span>
             <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-6">
-              I'm a <span className="text-gradient">UX Designer</span> with a passion for creating intuitive digital experiences
+              I'm a <span className="text-gradient">UX Designer</span> with a deep committment to creating intuitive digital experiences
             </h2>
             <p className="text-primary/70 mb-6">
               I believe in design that seamlessly blends aesthetics with functionality. My approach to UX design centers on deep user empathy, thorough research, and iterative testing to create products that are not just visually appealing but truly helpful and enjoyable to use.
