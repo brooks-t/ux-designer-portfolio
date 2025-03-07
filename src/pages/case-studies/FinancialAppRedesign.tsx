@@ -8,7 +8,7 @@ const FinancialAppRedesign = () => {
     <CaseStudyLayout
       title="IRS Free File Design Improvement"
       category="UX Design | Web App"
-      heroImage="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200&q=80"
+      heroImage="/lovable-uploads/free-file-2.png"
     >
       <div className="space-y-8">
         <section>
@@ -18,16 +18,16 @@ const FinancialAppRedesign = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
             <div className="bg-primary/5 p-4 rounded-lg">
-              <p className="font-medium">Timeline</p>
-              <p className="text-primary/70">12 weeks</p>
-            </div>
-            <div className="bg-primary/5 p-4 rounded-lg">
               <p className="font-medium">My Role</p>
               <p className="text-primary/70">Lead UX Designer</p>
             </div>
             <div className="bg-primary/5 p-4 rounded-lg">
+              <p className="font-medium">Key Responsibilities</p>
+              <p className="text-primary/70">UI/IX Design</p>
+            </div>
+            <div className="bg-primary/5 p-4 rounded-lg">
               <p className="font-medium">Tools Used</p>
-              <p className="text-primary/70">Figma, Maze, Principle</p>
+              <p className="text-primary/70">Figma, Sketch, InVision</p>
             </div>
           </div>
         </section>
