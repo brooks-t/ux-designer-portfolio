@@ -2,8 +2,12 @@
 import React from 'react';
 import CaseStudyLayout from '@/components/CaseStudyLayout';
 import { Bookmark, Users, LineChart, Lightbulb, Layout, CheckCircle } from 'lucide-react';
+import { useTheme } from '@/components/ThemeProvider';
 
 const FinancialAppRedesign = () => {
+  const { theme } = useTheme();
+  const darkMode = theme === 'dark';
+  
   return (
     <CaseStudyLayout
       title="IRS Free File Design Improvement"
@@ -91,11 +95,11 @@ const FinancialAppRedesign = () => {
               <p className="text-primary/70">Collaborated with stakeholders to understand goals and constraints</p>
             </div>
           </div>
-          <div className="bg-amber-50 border border-amber-100 rounded-lg p-5">
+          <div className={`${darkMode ? 'bg-amber-900' : 'bg-amber-50'} border ${darkMode ? 'border-amber-800' : 'border-amber-100'} rounded-lg p-5`}>
             <h3 className="font-medium flex items-center mb-2">
-              <Lightbulb className="w-5 h-5 text-amber-500 mr-2" /> Key Insights
+              <Lightbulb className={`w-5 h-5 ${darkMode ? 'text-amber-400' : 'text-amber-500'} mr-2`} /> Key Insights
             </h3>
-            <ul className="space-y-2 text-primary/70">
+            <ul className={`space-y-2 ${darkMode ? 'text-amber-100' : 'text-primary/70'}`}>
               <li>• Taxpayers were confused by inconsistent terminology and unclear tool options</li>
               <li>• Navigation issues led to confusion about filing directly with the IRS</li>
               <li>• Insufficient partner information hindered informed decision-making</li>
@@ -164,30 +168,30 @@ const FinancialAppRedesign = () => {
             The redesigned app launched recently in preparation for tax season. While the tax season is ongoing and data is being collected, we hypothesize the following results:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
-            <div className="bg-green-50 p-5 rounded-lg">
+            <div className={`${darkMode ? 'bg-green-900' : 'bg-green-50'} p-5 rounded-lg`}>
               <div className="flex items-start">
-                <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
+                <CheckCircle className={`w-6 h-6 ${darkMode ? 'text-green-400' : 'text-green-500'} mr-2`} />
                 <div>
                   <p className="font-semibold text-2xl mb-1">Clarity and language</p>
-                  <p className="text-primary/70">Improved user understanding</p>
+                  <p className={darkMode ? 'text-green-100' : 'text-primary/70'}>Improved user understanding</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 p-5 rounded-lg">
+            <div className={`${darkMode ? 'bg-green-900' : 'bg-green-50'} p-5 rounded-lg`}>
               <div className="flex items-start">
-                <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
+                <CheckCircle className={`w-6 h-6 ${darkMode ? 'text-green-400' : 'text-green-500'} mr-2`} />
                 <div>
                   <p className="font-semibold text-2xl mb-1">Simplified choices</p>
-                  <p className="text-primary/70">Reduced user frustration</p>
+                  <p className={darkMode ? 'text-green-100' : 'text-primary/70'}>Reduced user frustration</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 p-5 rounded-lg">
+            <div className={`${darkMode ? 'bg-green-900' : 'bg-green-50'} p-5 rounded-lg`}>
               <div className="flex items-start">
-                <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
+                <CheckCircle className={`w-6 h-6 ${darkMode ? 'text-green-400' : 'text-green-500'} mr-2`} />
                 <div>
                   <p className="font-semibold text-2xl mb-1">Streamlined filter</p>
-                  <p className="text-primary/70">Faster partner selection</p>
+                  <p className={darkMode ? 'text-green-100' : 'text-primary/70'}>Faster partner selection</p>
                 </div>
               </div>
             </div>

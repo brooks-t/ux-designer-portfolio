@@ -24,7 +24,7 @@ const ThemeToggle: React.FC<ThemeToggleProps> = ({ className }) => {
       {theme === "light" ? (
         <Moon className="h-5 w-5" />
       ) : (
-        <Sun className="h-5 w-5 text-yellow-300" />
+        <Sun className="h-5 w-5 text-yellow-400" />
       )}
     </button>
   );

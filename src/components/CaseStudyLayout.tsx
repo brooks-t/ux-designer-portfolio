@@ -5,6 +5,7 @@ import { ArrowLeft } from 'lucide-react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import { useScrollToTop } from '@/hooks/useScrollToTop';
+import { useTheme } from './ThemeProvider';
 
 interface CaseStudyLayoutProps {
   title: string;
@@ -21,6 +22,7 @@ const CaseStudyLayout: React.FC<CaseStudyLayoutProps> = ({
 }) => {
   // Use the scroll hook
   useScrollToTop();
+  const { theme } = useTheme();
   
   return (
     <div className="min-h-screen">
