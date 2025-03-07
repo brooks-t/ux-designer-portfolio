@@ -44,7 +44,7 @@ const FinancialAppRedesign = () => {
               </span>
               <div>
                 <p className="font-medium">Language and terminology</p>
-                <p className="text-primary/70">Particpants were confused by language and terminology used in the app</p>
+                <p className="text-primary/70">Particpants were confused by language and terminology used in the app, such as the term "offers" and the difference between "browse" and "find."</p>
               </div>
             </li>
             <li className="flex items-start">
