@@ -161,15 +161,15 @@ const FinancialAppRedesign = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
           <p className="text-primary/70 mb-6">
-            The redesigned app launched after extensive usability testing and iterative improvements. Post-launch metrics showed:
+            The redesigned app launched recently in preparation for tax season. While the tax season is ongoing and data is being collected, we anticipate the following improvements:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
             <div className="bg-green-50 p-5 rounded-lg">
               <div className="flex items-start">
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
                 <div>
-                  <p className="font-semibold text-2xl mb-1">+45%</p>
-                  <p className="text-primary/70">Increase in user retention</p>
+                  <p className="font-semibold text-2xl mb-1">Clarity and language</p>
+                  <p className="text-primary/70">Improved udnerstanding</p>
                 </div>
               </div>
             </div>
@@ -177,8 +177,8 @@ const FinancialAppRedesign = () => {
               <div className="flex items-start">
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
                 <div>
-                  <p className="font-semibold text-2xl mb-1">+68%</p>
-                  <p className="text-primary/70">Increase in feature adoption</p>
+                  <p className="font-semibold text-2xl mb-1">Simplified choices</p>
+                  <p className="text-primary/70">Reduced frustration</p>
                 </div>
               </div>
             </div>
@@ -186,8 +186,8 @@ const FinancialAppRedesign = () => {
               <div className="flex items-start">
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
                 <div>
-                  <p className="font-semibold text-2xl mb-1">4.7/5</p>
-                  <p className="text-primary/70">New customer satisfaction</p>
+                  <p className="font-semibold text-2xl mb-1">Streamlined filter</p>
+                  <p className="text-primary/70">Faster partner selection</p>
                 </div>
               </div>
             </div>
