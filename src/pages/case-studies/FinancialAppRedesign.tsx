@@ -169,7 +169,7 @@ const FinancialAppRedesign = () => {
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
                 <div>
                   <p className="font-semibold text-2xl mb-1">Clarity and language</p>
-                  <p className="text-primary/70">Improved udnerstanding</p>
+                  <p className="text-primary/70">Improved user understanding</p>
                 </div>
               </div>
             </div>
@@ -178,7 +178,7 @@ const FinancialAppRedesign = () => {
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
                 <div>
                   <p className="font-semibold text-2xl mb-1">Simplified choices</p>
-                  <p className="text-primary/70">Reduced frustration</p>
+                  <p className="text-primary/70">Reduced user frustration</p>
                 </div>
               </div>
             </div>
