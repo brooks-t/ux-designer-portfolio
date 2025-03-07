@@ -35,7 +35,7 @@ const FinancialAppRedesign = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
           <p className="text-primary/70 mb-4">
-            The existing Free File application had several usability issues:
+            The existing Free File application had several issues that confused users:
           </p>
           <ul className="space-y-3">
             <li className="flex items-start">
@@ -53,7 +53,7 @@ const FinancialAppRedesign = () => {
               </span>
               <div>
                 <p className="font-medium">Navigation and page titles</p>
-                <p className="text-primary/70">Taxpayers were confused by navigation and page titles, which implied filing taxes directly with the IRS rather than finding partner tax software.</p>
+                <p className="text-primary/70">Taxpayers were disoriented by navigation and page titles, which implied filing taxes directly with the IRS rather than finding partner tax software.</p>
               </div>
             </li>
             <li className="flex items-start">
@@ -61,8 +61,8 @@ const FinancialAppRedesign = () => {
                 <LineChart className="w-4 h-4 text-red-500" />
               </span>
               <div>
-                <p className="font-medium">Declining satisfaction scores</p>
-                <p className="text-primary/70">Customer satisfaction had dropped to 3.2/5 in the past year</p>
+                <p className="font-medium">AGI explanation</p>
+                <p className="text-primary/70">Adjusted Gross Income (AGI) needed to be better explained throughout the app, including on the landing page and in the "Find a trusted partner" tool.</p>
               </div>
             </li>
           </ul>
