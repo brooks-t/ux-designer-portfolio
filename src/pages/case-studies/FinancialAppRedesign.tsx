@@ -117,7 +117,7 @@ const FinancialAppRedesign = () => {
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/free-file-app-main.png" 
+                  src="/lovable-uploads/app-main-border.png" 
                   alt="updated free file main page" 
                   className="w-full h-full object-cover"
                 />
@@ -134,7 +134,7 @@ const FinancialAppRedesign = () => {
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
                   src="/lovable-uploads/browse-all.png" 
-                  alt="Transaction history" 
+                  alt="updated browse all page" 
                   className="w-full h-full object-cover"
                 />
               </div>
