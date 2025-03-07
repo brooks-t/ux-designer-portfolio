@@ -6,14 +6,14 @@ const projectsData = [
   {
     title: "IRS Free File",
     description: "Enhancing the user experience for a tax guidance application to increase user confidence and improve understanding.",
-    category: "Web App",
+    category: "UX Design | Web App",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
     slug: "financial-app-redesign"
   },
   {
-    title: "Healthcare Patient Portal",
-    description: "Creating an accessible interface for patients to manage appointments, view medical records, and communicate with providers.",
-    category: "UX Research & Design",
+    title: "Smoking Cessation App",
+    description: "Designing an intervention to help ambivalent smokers quit and make a huge difference in global public health. ",
+    category: "UX Research & Design | Mobile App",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
     slug: "healthcare-patient-portal"
   }
