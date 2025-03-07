@@ -4,9 +4,9 @@ import ProjectCard from './ProjectCard';
 
 const projectsData = [
   {
-    title: "Financial App Redesign",
-    description: "Revamping the user experience for a fintech app to improve user engagement and satisfaction.",
-    category: "Mobile App",
+    title: "IRS Free File",
+    description: "Enhancing the user experience for a tax guidance application to increase user confidence and improve understanding.",
+    category: "Web App",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
     slug: "financial-app-redesign"
   },
