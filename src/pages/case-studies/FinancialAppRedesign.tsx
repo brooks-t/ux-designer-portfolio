@@ -149,7 +149,7 @@ const FinancialAppRedesign = () => {
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=800&q=80" 
+                  src="/lovable-uploads/filter-results.png" 
                   alt="Budgeting tools" 
                   className="w-full h-full object-cover"
                 />
