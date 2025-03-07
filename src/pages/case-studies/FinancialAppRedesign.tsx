@@ -161,7 +161,7 @@ const FinancialAppRedesign = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
           <p className="text-primary/70 mb-6">
-            The redesigned app launched recently in preparation for tax season. While the tax season is ongoing and data is being collected, we anticipate the following improvements:
+            The redesigned app launched recently in preparation for tax season. While the tax season is ongoing and data is being collected, we hypothesize the following results:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
             <div className="bg-green-50 p-5 rounded-lg">
@@ -194,8 +194,8 @@ const FinancialAppRedesign = () => {
           </div>
           <div className="border-t border-primary/10 pt-6">
             <blockquote className="italic text-primary/80 pl-4 border-l-2 border-primary/20">
-              "The new app has transformed how I manage my finances. It's intuitive, beautiful, and actually makes me want to check my accounts regularly."
-              <footer className="mt-2 font-medium text-primary not-italic">— App Store Review</footer>
+              "The updated Free File application made it much easier for me to find the right tax software."
+              <footer className="mt-2 font-medium text-primary not-italic">— Usability test quote</footer>
             </blockquote>
           </div>
         </section>
