@@ -1,10 +1,9 @@
-
 import React from 'react';
 import CaseStudyLayout from '@/components/CaseStudyLayout';
 import { Bookmark, Users, LineChart, Lightbulb, Layout, CheckCircle } from 'lucide-react';
 import { useTheme } from '@/components/ThemeProvider';
 
-const FinancialAppRedesign = () => {
+const FreeFile = () => {
   const { theme } = useTheme();
   const darkMode = theme === 'dark';
   
@@ -208,4 +207,4 @@ const FinancialAppRedesign = () => {
   );
 };
 
-export default FinancialAppRedesign;
+export default FreeFile;

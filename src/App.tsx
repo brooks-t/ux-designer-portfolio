@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import FinancialAppRedesign from "./pages/case-studies/FinancialAppRedesign";
+import FreeFile from "./pages/case-studies/FreeFile";
 import EcommerceWebsite from "./pages/case-studies/EcommerceWebsite";
 import HealthcarePatientPortal from "./pages/case-studies/HealthcarePatientPortal";
 import { ThemeProvider } from "./components/ThemeProvider";
@@ -22,7 +22,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/case-study/financial-app-redesign" element={<FinancialAppRedesign />} />
+            <Route path="/case-study/financial-app-redesign" element={<FreeFile />} />
             <Route path="/case-study/ecommerce-website" element={<EcommerceWebsite />} />
             <Route path="/case-study/healthcare-patient-portal" element={<HealthcarePatientPortal />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
