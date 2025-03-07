@@ -35,7 +35,7 @@ const FinancialAppRedesign = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
           <p className="text-primary/70 mb-4">
-            The existing Free File application had several issues that confused users:
+            Taxpayers face confusion and frustration when trying to navigate the complex landscape of free tax preparation software options:
           </p>
           <ul className="space-y-3">
             <li className="flex items-start">
