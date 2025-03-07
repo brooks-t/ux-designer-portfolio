@@ -133,7 +133,7 @@ const FinancialAppRedesign = () => {
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" 
+                  src="/lovable-uploads/browse-all.png" 
                   alt="Transaction history" 
                   className="w-full h-full object-cover"
                 />
