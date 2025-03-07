@@ -129,7 +129,7 @@ const FinancialAppRedesign = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Enhanced Partner Information Display
               </h3>
               <p className="text-primary/70 mb-4">
-                Created a more comprehensive display of partner information with clear eligibility details.
+                Created a more comprehensive and organized display of partner information with clear eligibility details.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
@@ -145,7 +145,7 @@ const FinancialAppRedesign = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Simplified Filtering and Decision Process
               </h3>
               <p className="text-primary/70 mb-4">
-                Streamlined the filtering process and reduced the number of decisions needed from the user.
+                Streamlined the filtering process and reduced the number of decisions that the user needed to make while going through the app.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
