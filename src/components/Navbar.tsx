@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Home, User, BookOpen, Briefcase, Mail, Menu, X } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -122,21 +123,25 @@ const Navbar = () => {
                   </button>
                 );
               })}
+              <ThemeToggle className="ml-2" />
             </nav>
           )}
 
-          {/* Mobile Menu Toggle */}
-          <button 
-            className="md:hidden p-2 rounded-full bg-primary/10 text-primary"
-            onClick={toggleMobileMenu}
-            aria-label="Toggle menu"
-          >
-            {isMobileMenuOpen ? (
-              <X className="h-5 w-5" />
-            ) : (
-              <Menu className="h-5 w-5" />
-            )}
-          </button>
+          <div className="flex items-center space-x-2 md:hidden">
+            <ThemeToggle />
+            {/* Mobile Menu Toggle */}
+            <button 
+              className="p-2 rounded-full bg-primary/10 text-primary"
+              onClick={toggleMobileMenu}
+              aria-label="Toggle menu"
+            >
+              {isMobileMenuOpen ? (
+                <X className="h-5 w-5" />
+              ) : (
+                <Menu className="h-5 w-5" />
+              )}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu Dropdown */}

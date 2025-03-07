@@ -38,7 +38,7 @@ const CaseStudyLayout: React.FC<CaseStudyLayoutProps> = ({
         </div>
         
         <div className="content-container">
-          <div className="max-w-3xl mx-auto -mt-20 bg-white rounded-2xl p-8 shadow-sm border border-primary/5 relative">
+          <div className="max-w-3xl mx-auto -mt-20 bg-card text-card-foreground rounded-2xl p-8 shadow-sm border border-primary/5 relative">
             <div className="flex flex-col space-y-4">
               <Link 
                 to="/#projects" 
