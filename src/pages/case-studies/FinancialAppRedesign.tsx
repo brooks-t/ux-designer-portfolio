@@ -6,16 +6,15 @@ import { Bookmark, Users, LineChart, Lightbulb, Layout, CheckCircle } from 'luci
 const FinancialAppRedesign = () => {
   return (
     <CaseStudyLayout
-      title="Financial App Redesign"
-      category="Mobile App"
+      title="IRS Free File Design Improvement"
+      category="UX Design | Web App"
       heroImage="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200&q=80"
     >
       <div className="space-y-8">
         <section>
           <h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
           <p className="text-primary/70 mb-4">
-            The financial app redesign project aimed to transform an outdated banking application into a modern, 
-            user-friendly platform that enhances customer engagement and satisfaction while improving key performance metrics.
+            The Free File project aimed to improve the user experience of the IRS Free File application to help taxpayers confidently select free tax preparation software.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
             <div className="bg-primary/5 p-4 rounded-lg">
