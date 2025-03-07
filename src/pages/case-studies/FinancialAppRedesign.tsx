@@ -71,7 +71,7 @@ const FinancialAppRedesign = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Research & Discovery</h2>
           <p className="text-primary/70 mb-6">
-            The team underwent a comprehensive research phase to understand user needs and pain points:
+            We underwent a comprehensive research phase to understand user needs and pain points:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div className="border border-primary/10 rounded-lg p-5">
@@ -110,10 +110,10 @@ const FinancialAppRedesign = () => {
           <div className="space-y-6">
             <div>
               <h3 className="font-medium flex items-center mb-3">
-                <Layout className="w-5 h-5 text-primary mr-2" /> Redesigned Dashboard
+                <Layout className="w-5 h-5 text-primary mr-2" /> Redesigned Navigation and Page Titles
               </h3>
               <p className="text-primary/70 mb-4">
-                Created a new dashboard with clear, scannable financial information and personalized insights at a glance.
+                Simplified navigation and implemented clear and direct language to accurately reflect Free File's purpose.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
@@ -126,10 +126,10 @@ const FinancialAppRedesign = () => {
             
             <div>
               <h3 className="font-medium flex items-center mb-3">
-                <Layout className="w-5 h-5 text-primary mr-2" /> Simplified Transaction History
+                <Layout className="w-5 h-5 text-primary mr-2" /> Enhanced Partner Information Display
               </h3>
               <p className="text-primary/70 mb-4">
-                Reimagined the transaction list with powerful filters, search, and categorization to help users find what they need.
+                Created a more comprehensive display of partner information with clear eligibility details.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
@@ -142,10 +142,10 @@ const FinancialAppRedesign = () => {
             
             <div>
               <h3 className="font-medium flex items-center mb-3">
-                <Layout className="w-5 h-5 text-primary mr-2" /> Intelligent Budgeting Tools
+                <Layout className="w-5 h-5 text-primary mr-2" /> Simplified Filtering and Decision Process
               </h3>
               <p className="text-primary/70 mb-4">
-                Developed intuitive budgeting tools with automated categorization and visual spending breakdowns.
+                Streamlined the filtering process and reduced the number of decisions needed from the user.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
