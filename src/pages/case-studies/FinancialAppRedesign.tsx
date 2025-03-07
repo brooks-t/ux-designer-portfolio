@@ -96,10 +96,11 @@ const FinancialAppRedesign = () => {
               <Lightbulb className="w-5 h-5 text-amber-500 mr-2" /> Key Insights
             </h3>
             <ul className="space-y-2 text-primary/70">
-              <li>• Users found the account overview confusing and data visualization unclear</li>
-              <li>• Transaction history was difficult to search and filter</li>
-              <li>• Budget tools were hidden in submenus and rarely discovered</li>
-              <li>• Users wanted personalized insights about their spending habits</li>
+              <li>• Taxpayers were confused by inconsistent terminology and unclear tool options</li>
+              <li>• Navigation issues led to confusion about filing directly with the IRS</li>
+              <li>• Insufficient partner information hindered informed decision-making</li>
+              <li>• The number of choices and decision steps overwhelmed users</li>
+              <li>• AGI estimation and filtering posed significant challenges</li>
             </ul>
           </div>
         </section>
