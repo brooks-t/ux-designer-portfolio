@@ -71,24 +71,24 @@ const FinancialAppRedesign = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Research & Discovery</h2>
           <p className="text-primary/70 mb-6">
-            I led a comprehensive research phase to understand user needs and pain points:
+            The team underwent a comprehensive research phase to understand user needs and pain points:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div className="border border-primary/10 rounded-lg p-5">
-              <h3 className="font-medium mb-2">User Interviews</h3>
-              <p className="text-primary/70">Conducted 25 in-depth interviews with users across different demographics</p>
+              <h3 className="font-medium mb-2">Heuristic Analysis</h3>
+              <p className="text-primary/70">Experts reviewed both desktop and mobile designs</p>
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
               <h3 className="font-medium mb-2">Competitive Analysis</h3>
-              <p className="text-primary/70">Analyzed 8 competing financial apps to identify best practices and opportunities</p>
-            </div>
-            <div className="border border-primary/10 rounded-lg p-5">
-              <h3 className="font-medium mb-2">Analytics Review</h3>
-              <p className="text-primary/70">Examined app usage data to identify drop-off points and user flows</p>
+              <p className="text-primary/70">Evaluated competitor tax preparation software and guidance tools</p>
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
               <h3 className="font-medium mb-2">Usability Testing</h3>
-              <p className="text-primary/70">Conducted 15 usability tests on the existing app to document pain points</p>
+              <p className="text-primary/70">Compared usability of prototype to existing Free File app</p>
+            </div>
+            <div className="border border-primary/10 rounded-lg p-5">
+              <h3 className="font-medium mb-2">Stakeholder Collaboration</h3>
+              <p className="text-primary/70">Collaborated with stakeholders to understand goals and constraints</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-100 rounded-lg p-5">
