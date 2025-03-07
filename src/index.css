@@ -149,3 +149,12 @@
   transform: translateY(-10px);
   transition: opacity 300ms, transform 300ms;
 }
+
+/* Dark mode card overrides */
+.dark .bg-white {
+  @apply bg-background text-foreground;
+}
+
+.dark .text-primary\/70 {
+  @apply text-gray-300;
+}

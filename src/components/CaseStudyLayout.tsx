@@ -42,17 +42,17 @@ const CaseStudyLayout: React.FC<CaseStudyLayoutProps> = ({
             <div className="flex flex-col space-y-4">
               <Link 
                 to="/#projects" 
-                className="inline-flex items-center text-primary/70 font-medium hover:text-primary transition-standard w-fit"
+                className="inline-flex items-center text-primary/70 hover:text-primary transition-standard w-fit"
               >
                 <ArrowLeft className="mr-2 w-4 h-4" /> Back to Projects
               </Link>
               
-              <span className="inline-block py-1 px-3 text-xs font-medium border border-primary/10 rounded-full bg-primary/5 w-fit">
+              <span className="inline-block py-1 px-3 text-xs font-medium border border-primary/10 rounded-full bg-primary/5 w-fit text-foreground">
                 {category}
               </span>
             </div>
             
-            <h1 className="text-3xl md:text-4xl font-display font-bold tracking-tight mt-4 mb-6">
+            <h1 className="text-3xl md:text-4xl font-display font-bold tracking-tight mt-4 mb-6 text-foreground">
               {title}
             </h1>
             

@@ -23,7 +23,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div 
-      className="group relative bg-white rounded-2xl overflow-hidden shadow-sm border border-primary/5 transition-standard hover:shadow-xl"
+      className="group relative bg-card rounded-2xl overflow-hidden shadow-sm border border-primary/5 transition-standard hover:shadow-xl"
     >
       <div className="aspect-[16/9] overflow-hidden">
         <img 
@@ -35,11 +35,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       </div>
       
       <div className="p-6 lg:p-8">
-        <span className="inline-block py-1 px-3 mb-3 text-xs font-medium border border-primary/10 rounded-full bg-primary/5">
+        <span className="inline-block py-1 px-3 mb-3 text-xs font-medium border border-primary/10 rounded-full bg-primary/5 text-foreground">
           {category}
         </span>
-        <h3 className="text-xl lg:text-2xl font-semibold mb-2 text-balance">{title}</h3>
-        <p className="text-primary/70 mb-4 text-balance">{description}</p>
+        <h3 className="text-xl lg:text-2xl font-semibold mb-2 text-balance text-foreground">{title}</h3>
+        <p className="text-muted-foreground mb-4 text-balance">{description}</p>
         
         <Link 
           to={`/case-study/${slug}`}

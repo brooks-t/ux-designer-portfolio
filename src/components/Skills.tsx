@@ -46,7 +46,7 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-4">
             My Design <span className="text-gradient">Toolkit</span>
           </h2>
-          <p className="text-primary/70">
+          <p className="text-muted-foreground">
             I leverage a combination of design thinking, technical skills, and collaborative approaches to create exceptional user experiences.
           </p>
         </div>
@@ -55,12 +55,12 @@ const Skills = () => {
           {skillsData.map((skill, index) => (
             <div 
               key={index}
-              className="bg-white rounded-2xl p-8 shadow-sm border border-primary/5 transition-standard hover:shadow-md hover:-translate-y-1"
+              className="bg-card text-card-foreground rounded-2xl p-8 shadow-sm border border-primary/5 transition-standard hover:shadow-md hover:-translate-y-1"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="mb-4 text-primary">{skill.icon}</div>
               <h3 className="text-xl font-semibold mb-2">{skill.title}</h3>
-              <p className="text-primary/70">{skill.description}</p>
+              <p className="text-muted-foreground">{skill.description}</p>
             </div>
           ))}
         </div>
