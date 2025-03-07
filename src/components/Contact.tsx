@@ -32,16 +32,6 @@ const Contact = () => {
                   <p className="font-medium">brooks.t.tiffany@gmail.com</p>
                 </div>
               </a>
-              
-              <a href="tel:+11234567890" className="flex items-center group">
-                <div className="h-10 w-10 rounded-full bg-primary/5 flex items-center justify-center mr-3 group-hover:bg-primary/10 transition-standard">
-                  <Phone className="h-5 w-5 text-primary" />
-                </div>
-                <div>
-                  <p className="text-sm text-primary/70">Phone</p>
-                  <p className="font-medium">+1 (540) 223-8561</p>
-                </div>
-              </a>
             </div>
             
             <div className="mt-8">
