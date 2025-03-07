@@ -35,7 +35,7 @@ const FinancialAppRedesign = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
           <p className="text-primary/70 mb-4">
-            The existing financial application suffered from several issues:
+            The existing Free File application had several usability issues:
           </p>
           <ul className="space-y-3">
             <li className="flex items-start">
@@ -44,7 +44,7 @@ const FinancialAppRedesign = () => {
               </span>
               <div>
                 <p className="font-medium">Language and terminology</p>
-                <p className="text-primary/70">Particpants were confused by language and terminology used in the app"</p>
+                <p className="text-primary/70">Particpants were confused by language and terminology used in the app</p>
               </div>
             </li>
             <li className="flex items-start">
@@ -52,8 +52,8 @@ const FinancialAppRedesign = () => {
                 <Bookmark className="w-4 h-4 text-red-500" />
               </span>
               <div>
-                <p className="font-medium">Low feature adoption</p>
-                <p className="text-primary/70">Core features like budgeting tools were used by less than 15% of users</p>
+                <p className="font-medium">Navigation and page titles</p>
+                <p className="text-primary/70">Taxpayers were confused by navigation and page titles, which implied filing taxes directly with the IRS rather than finding partner tax software.</p>
               </div>
             </li>
             <li className="flex items-start">
