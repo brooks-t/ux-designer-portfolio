@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 const projectsData = [
   {
     title: "IRS Free File",
-    description: "Enhancing the user experience for a tax guidance application to increase user confidence and improve understanding.",
+    description: "Enhancing the user experience for a tax guidance app to improve user confidence and understanding.",
     category: "UX Design | Web App",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
     slug: "financial-app-redesign"
