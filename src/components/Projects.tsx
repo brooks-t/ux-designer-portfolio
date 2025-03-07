@@ -7,7 +7,7 @@ const projectsData = [
     title: "IRS Free File",
     description: "Enhancing the user experience to improve confidence and understanding when deciding on tax prep software.",
     category: "UX Design | Web App",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
+    image: "/lovable-uploads/IRS-free-file-696x391.png",
     slug: "financial-app-redesign"
   },
   {
