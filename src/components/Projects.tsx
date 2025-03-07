@@ -14,7 +14,7 @@ const projectsData = [
     title: "Smoking Cessation App",
     description: "Designed to help ambivalent smokers quit and make a significant impact on global public health. ",
     category: "UX Research & Design | Mobile App",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
+    image: "/lovable-uploads/gems.jpg",
     slug: "healthcare-patient-portal"
   }
   // E-commerce Website card removed but code kept for future use
