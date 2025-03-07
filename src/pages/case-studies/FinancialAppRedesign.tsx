@@ -117,8 +117,8 @@ const FinancialAppRedesign = () => {
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" 
-                  alt="Redesigned dashboard" 
+                  src="/lovable-uploads/free-file-app-main.png" 
+                  alt="updated free file main page" 
                   className="w-full h-full object-cover"
                 />
               </div>
