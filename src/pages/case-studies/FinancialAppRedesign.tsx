@@ -8,7 +8,7 @@ const FinancialAppRedesign = () => {
     <CaseStudyLayout
       title="IRS Free File Design Improvement"
       category="UX Design | Web App"
-      heroImage="/lovable-uploads/free-file-2.png"
+      heroImage="/lovable-uploads/free-file-hero.png"
     >
       <div className="space-y-8">
         <section>
