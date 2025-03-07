@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
         
         <a 
-          href="#skills" 
+          href="#projects" 
           className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-fade-in"
           style={{ animationDelay: '1s' }}
         >
