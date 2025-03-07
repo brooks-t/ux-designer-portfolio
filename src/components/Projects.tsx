@@ -5,14 +5,14 @@ import ProjectCard from './ProjectCard';
 const projectsData = [
   {
     title: "IRS Free File",
-    description: "Enhancing the user experience for a tax guidance app to improve user confidence and understanding.",
+    description: "Enhancing the user experience to improve confidence and understanding when deciding on tax prep software.",
     category: "UX Design | Web App",
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&q=80",
     slug: "financial-app-redesign"
   },
   {
     title: "Smoking Cessation App",
-    description: "Designing an intervention to help ambivalent smokers quit and make a huge difference in global public health. ",
+    description: "Designed to help ambivalent smokers quit and make a significant impact on global public health. ",
     category: "UX Research & Design | Mobile App",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80",
     slug: "healthcare-patient-portal"
@@ -35,13 +35,13 @@ const Projects = () => {
       <div className="content-container">
         <div className="text-center max-w-xl mx-auto mb-16">
           <span className="inline-block py-1 px-3 mb-3 text-sm font-medium border border-primary/10 rounded-full bg-primary/5">
-            Featured Work
+            Projects
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-4">
             Recent <span className="text-gradient">Projects</span>
           </h2>
           <p className="text-primary/70">
-            A showcase of my recent design work, case studies, and creative explorations.
+            A showcase of my recent design work and case studies.
           </p>
         </div>
         
