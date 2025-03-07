@@ -43,8 +43,8 @@ const FinancialAppRedesign = () => {
                 <Users className="w-4 h-4 text-red-500" />
               </span>
               <div>
-                <p className="font-medium">Poor user retention</p>
-                <p className="text-primary/70">Only 23% of users remained active after the first month</p>
+                <p className="font-medium">Language and terminology</p>
+                <p className="text-primary/70">Particpants were confused by language and terminology used in the app"</p>
               </div>
             </li>
             <li className="flex items-start">
