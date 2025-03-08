@@ -6,9 +6,9 @@ import { Heart, Shield, UsersRound, Lightbulb, Layout, CheckCircle } from 'lucid
 const HealthcarePatientPortal = () => {
   return (
     <CaseStudyLayout
-      title="Healthcare Patient Portal"
+      title="Smoking Cessation App (GEMS)"
       category="UX Research & Design"
-      heroImage="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+      heroImage="/lovable-uploads/gems-1.png"
     >
       <div className="space-y-8">
         <section>
