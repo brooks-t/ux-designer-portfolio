@@ -8,7 +8,7 @@ const HealthcarePatientPortal = () => {
     <CaseStudyLayout
       title="Smoking Cessation App (GEMS)"
       category="UX Research & Design"
-      heroImage="/lovable-uploads/gems-1.png"
+      heroImage="/lovable-uploads/gems-hero.png"
     >
       <div className="space-y-8">
         <section>
