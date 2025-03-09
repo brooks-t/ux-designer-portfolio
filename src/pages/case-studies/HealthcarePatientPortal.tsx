@@ -14,22 +14,20 @@ const HealthcarePatientPortal = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
           <p className="text-primary/70 mb-4">
-            I designed an accessible, patient-centered portal for a regional healthcare provider, 
-            allowing patients to easily manage their healthcare journey—from scheduling appointments 
-            to reviewing test results and communicating with providers.
+            The GEMS project aimed to design and evaluate a mobile health intervention for smokers ambivalent about quitting, using personal experiments to enhance motivation and ability to quit.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-            <div className="bg-primary/5 p-4 rounded-lg">
-              <p className="font-medium">Timeline</p>
-              <p className="text-primary/70">22 weeks</p>
-            </div>
             <div className="bg-primary/5 p-4 rounded-lg">
               <p className="font-medium">My Role</p>
               <p className="text-primary/70">Lead UX Researcher & Designer</p>
             </div>
             <div className="bg-primary/5 p-4 rounded-lg">
+              <p className="font-medium">Key Responsibilities</p>
+              <p className="text-primary/70">User Research, UI/UX Design, Protoyping and Testing</p>
+            </div>
+            <div className="bg-primary/5 p-4 rounded-lg">
               <p className="font-medium">Tools Used</p>
-              <p className="text-primary/70">Figma, Miro, UserZoom</p>
+              <p className="text-primary/70">Adobe XD, Illustrator, InVision</p>
             </div>
           </div>
         </section>
