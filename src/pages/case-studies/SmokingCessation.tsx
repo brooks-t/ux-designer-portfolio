@@ -1,8 +1,12 @@
 import React from 'react';
 import CaseStudyLayout from '@/components/CaseStudyLayout';
 import { Heart, Shield, UsersRound, Lightbulb, Layout, CheckCircle, ScrollText } from 'lucide-react';
+import { useTheme } from '@/components/ThemeProvider';
 
 const SmokingCessation = () => {
+  const { theme } = useTheme();
+  const darkMode = theme === 'dark';
+  
   return (
     <CaseStudyLayout
       title="Smoking Cessation App (GEMS)"
@@ -90,11 +94,11 @@ const SmokingCessation = () => {
               <p className="text-primary/70">Tested multiple prototypes both in the lab and in the field</p>
             </div>
           </div>
-          <div className="bg-amber-50 border border-amber-100 rounded-lg p-5">
+          <div className={`${darkMode ? 'bg-amber-900' : 'bg-amber-50'} border ${darkMode ? 'border-amber-800' : 'border-amber-100'} rounded-lg p-5`}>
             <h3 className="font-medium flex items-center mb-2">
-              <Lightbulb className="w-5 h-5 text-amber-500 mr-2" /> Key Research Insights
+              <Lightbulb className={`w-5 h-5 ${darkMode ? 'text-amber-400' : 'text-amber-500'} mr-2`} /> Key Research Insights
             </h3>
-            <ul className="space-y-2 text-primary/70">
+            <ul className={`space-y-2 ${darkMode ? 'text-amber-100' : 'text-primary/70'}`}>
               <li>• Ambivalent smokers are receptive to mHealth interventions</li>
               <li>• Personal experiments are a promising approach to enhance motivation and ability to quit smoking</li>
               <li>• Interventions should be flexible and responsive to changes in motivation</li>
@@ -162,30 +166,30 @@ const SmokingCessation = () => {
             The participants found the prototype highly acceptable and were interested in the program:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
-            <div className="bg-green-50 p-5 rounded-lg">
+            <div className={`${darkMode ? 'bg-green-900' : 'bg-green-50'} p-5 rounded-lg`}>
               <div className="flex items-start">
-                <CheckCircle className="w-8 h-8 text-green-500 mr-2 flex-shrink-0" />
+                <CheckCircle className={`w-8 h-8 ${darkMode ? 'text-green-400' : 'text-green-500'} mr-2 flex-shrink-0`} />
                 <div>
                   <p className="font-semibold text-2xl mb-1">92%</p>
-                  <p className="text-primary/70">Of participants were more interested in quitting or cutting back after the program</p>
+                  <p className={darkMode ? 'text-green-100' : 'text-primary/70'}>Of participants were more interested in quitting or cutting back after the program</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 p-5 rounded-lg">
+            <div className={`${darkMode ? 'bg-green-900' : 'bg-green-50'} p-5 rounded-lg`}>
               <div className="flex items-start">
-                <CheckCircle className="w-8 h-8 text-green-500 mr-2 flex-shrink-0" />
+                <CheckCircle className={`w-8 h-8 ${darkMode ? 'text-green-400' : 'text-green-500'} mr-2 flex-shrink-0`} />
                 <div>
                   <p className="font-semibold text-2xl mb-1">100%</p>
-                  <p className="text-primary/70">Of participants completed all seven experiments showing high engagement</p>
+                  <p className={darkMode ? 'text-green-100' : 'text-primary/70'}>Of participants completed all seven experiments showing high engagement</p>
                 </div>
               </div>
             </div>
-            <div className="bg-green-50 p-5 rounded-lg">
+            <div className={`${darkMode ? 'bg-green-900' : 'bg-green-50'} p-5 rounded-lg`}>
               <div className="flex items-start">
-                <CheckCircle className="w-8 h-8 text-green-500 mr-2 flex-shrink-0" />
+                <CheckCircle className={`w-8 h-8 ${darkMode ? 'text-green-400' : 'text-green-500'} mr-2 flex-shrink-0`} />
                 <div>
                   <p className="font-semibold text-2xl mb-1">4.1/5</p>
-                  <p className="text-primary/70">Usefulness rating and all experiments received a net positive for helpfulness.</p>
+                  <p className={darkMode ? 'text-green-100' : 'text-primary/70'}>Usefulness rating and all experiments received a net positive for helpfulness.</p>
                 </div>
               </div>
             </div>
