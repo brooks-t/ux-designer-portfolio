@@ -202,31 +202,18 @@ const HealthcarePatientPortal = () => {
             <div className="flex items-start p-4 bg-primary/5 rounded-lg">
               <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
               <div>
-                <p className="font-medium">WCAG 2.1 AA Compliance</p>
-                <p className="text-primary/70 text-sm">All screens were tested and certified compliant</p>
+                <p className="font-medium">Development of a Mobile Health Intervention with Personal Experiments for Smokers Who Are Ambivalent About Quitting: Formative Design and Testing</p>
+                <p className="text-primary/70 text-sm">JMIR Formative Research Vol 4, No 8 (2020)</p>
               </div>
             </div>
             <div className="flex items-start p-4 bg-primary/5 rounded-lg">
               <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
               <div>
-                <p className="font-medium">Screen Reader Optimization</p>
-                <p className="text-primary/70 text-sm">Tested with JAWS, NVDA, and VoiceOver</p>
+                <p className="font-medium">Feasibility, Acceptability, and Potential Impact of a Novel mHealth App for Smokers Ambivalent About Quitting: Randomized Pilot Study</p>
+                <p className="text-primary/70 text-sm">JMIR mHealth and uHealth Vol 11 (2023)</p>
               </div>
             </div>
-            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
-              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
-              <div>
-                <p className="font-medium">Keyboard Navigation</p>
-                <p className="text-primary/70 text-sm">Full functionality without requiring mouse input</p>
-              </div>
-            </div>
-            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
-              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
-              <div>
-                <p className="font-medium">Color Contrast Verification</p>
-                <p className="text-primary/70 text-sm">All text meets AAA contrast requirements</p>
-              </div>
-            </div>
+           
           </div>
         </section>
         
