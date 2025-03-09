@@ -196,21 +196,21 @@ const HealthcarePatientPortal = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Peer-reviewed Publications</h2>
           <p className="text-primary/70 mb-6">
-            Accessibility was a core focus throughout the design process:
+            Since I came on board, the GEMS project has resulted in two peer-reviewed published papers in the Journal of Medical Internet Research (JMIR). I am a co-author on the 2020 paper and acknowledged on the 2023 paper (linked below).
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex items-start p-4 bg-primary/5 rounded-lg">
               <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
               <div>
                 <p className="font-medium">Development of a Mobile Health Intervention with Personal Experiments for Smokers Who Are Ambivalent About Quitting: Formative Design and Testing</p>
-                <p className="text-primary/70 text-sm">JMIR Formative Research Vol 4, No 8 (2020)</p>
+                <p className="text-primary/70 text-sm"><a href="https://formative.jmir.org/2020/8/e21784/">JMIR Formative Research Vol 4, No 8 (2020)</a></p>
               </div>
             </div>
             <div className="flex items-start p-4 bg-primary/5 rounded-lg">
               <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
               <div>
                 <p className="font-medium">Feasibility, Acceptability, and Potential Impact of a Novel mHealth App for Smokers Ambivalent About Quitting: Randomized Pilot Study</p>
-                <p className="text-primary/70 text-sm">JMIR mHealth and uHealth Vol 11 (2023)</p>
+                <p className="text-primary/70 text-sm"><a href="https://mhealth.jmir.org/2023/1/e46155">JMIR mHealth and uHealth Vol 11 (2023)</a></p>
               </div>
             </div>
            
