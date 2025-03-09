@@ -135,7 +135,7 @@ const SmokingCessation = () => {
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1557825835-a526494be845?auto=format&fit=crop&w=800&q=80" 
+                  src="/lovable-uploads/experiments-2.png" 
                   alt="Appointment scheduling" 
                   className="w-full h-full object-cover"
                 />
