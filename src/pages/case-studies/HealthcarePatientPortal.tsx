@@ -191,12 +191,6 @@ const HealthcarePatientPortal = () => {
               </div>
             </div>
           </div>
-          <div className="border-t border-primary/10 pt-6">
-            <blockquote className="italic text-primary/80 pl-4 border-l-2 border-primary/20">
-              "The new patient portal has been transformative for our practice. Our staff spends less time on the phone and more time with patients, while patients feel more empowered in managing their health."
-              <footer className="mt-2 font-medium text-primary not-italic">— Dr. Sarah Chen, Medical Director</footer>
-            </blockquote>
-          </div>
         </section>
 
         <section>
