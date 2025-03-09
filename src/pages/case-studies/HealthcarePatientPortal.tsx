@@ -35,7 +35,7 @@ const HealthcarePatientPortal = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
           <p className="text-primary/70 mb-4">
-            The healthcare provider faced significant challenges with their existing patient portal:
+            We needed to figure out how to effectively implement and evaluate an intervention for an ambivalent audience:
           </p>
           <ul className="space-y-3">
             <li className="flex items-start">
@@ -43,8 +43,8 @@ const HealthcarePatientPortal = () => {
                 <UsersRound className="w-4 h-4 text-red-500" />
               </span>
               <div>
-                <p className="font-medium">Low adoption rate (only 28% of patients)</p>
-                <p className="text-primary/70">Patients preferred calling the office rather than using the portal</p>
+                <p className="font-medium">Identifying ambivalent smoker's needs</p>
+                <p className="text-primary/70">The majority of smokers want to quit but aren't ready for long-term abstinence. Existing treatments don't cater to their ambivalence</p>
               </div>
             </li>
             <li className="flex items-start">
@@ -52,8 +52,8 @@ const HealthcarePatientPortal = () => {
                 <Shield className="w-4 h-4 text-red-500" />
               </span>
               <div>
-                <p className="font-medium">Accessibility issues</p>
-                <p className="text-primary/70">The existing portal failed WCAG compliance tests</p>
+                <p className="font-medium">Catering to their specific needs</p>
+                <p className="text-primary/70">Designing interventions that don't require a commitment to quit but explore their willingness to quit while assisting with gradual behavior change</p>
               </div>
             </li>
             <li className="flex items-start">
@@ -61,8 +61,8 @@ const HealthcarePatientPortal = () => {
                 <Heart className="w-4 h-4 text-red-500" />
               </span>
               <div>
-                <p className="font-medium">Patient confusion about health information</p>
-                <p className="text-primary/70">Medical test results were presented in technical jargon without context</p>
+                <p className="font-medium">Measuring usefulness, difficulty and satisfaction</p>
+                <p className="text-primary/70">Capturing and analyzing data from users with a combination of qualitative and quantitative methods</p>
               </div>
             </li>
           </ul>
