@@ -3,7 +3,7 @@ import React from 'react';
 import CaseStudyLayout from '@/components/CaseStudyLayout';
 import { Heart, Shield, UsersRound, Lightbulb, Layout, CheckCircle } from 'lucide-react';
 
-const HealthcarePatientPortal = () => {
+const SmokingCessation = () => {
   return (
     <CaseStudyLayout
       title="Smoking Cessation App (GEMS)"
@@ -222,4 +222,4 @@ const HealthcarePatientPortal = () => {
   );
 };
 
-export default HealthcarePatientPortal;
+export default SmokingCessation;

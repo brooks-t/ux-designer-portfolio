@@ -8,7 +8,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import FreeFile from "./pages/case-studies/FreeFile";
 import EcommerceWebsite from "./pages/case-studies/EcommerceWebsite";
-import HealthcarePatientPortal from "./pages/case-studies/HealthcarePatientPortal";
+import SmokingCessation from "./pages/case-studies/SmokingCessation";
 import { ThemeProvider } from "./components/ThemeProvider";
 
 const queryClient = new QueryClient();
@@ -24,9 +24,10 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/case-study/free-file" element={<FreeFile />} />
             <Route path="/case-study/ecommerce-website" element={<EcommerceWebsite />} />
-            <Route path="/case-study/healthcare-patient-portal" element={<HealthcarePatientPortal />} />
-            {/* Redirect from old URL to maintain backward compatibility */}
+            <Route path="/case-study/smoking-cessation" element={<SmokingCessation />} />
+            {/* Redirect from old URLs to maintain backward compatibility */}
             <Route path="/case-study/financial-app-redesign" element={<FreeFile />} />
+            <Route path="/case-study/healthcare-patient-portal" element={<SmokingCessation />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
