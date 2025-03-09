@@ -158,43 +158,6 @@ const HealthcarePatientPortal = () => {
         </section>
         
         <section>
-          <h2 className="text-2xl font-semibold mb-4">Accessibility Considerations</h2>
-          <p className="text-primary/70 mb-6">
-            Accessibility was a core focus throughout the design process:
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
-              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
-              <div>
-                <p className="font-medium">WCAG 2.1 AA Compliance</p>
-                <p className="text-primary/70 text-sm">All screens were tested and certified compliant</p>
-              </div>
-            </div>
-            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
-              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
-              <div>
-                <p className="font-medium">Screen Reader Optimization</p>
-                <p className="text-primary/70 text-sm">Tested with JAWS, NVDA, and VoiceOver</p>
-              </div>
-            </div>
-            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
-              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
-              <div>
-                <p className="font-medium">Keyboard Navigation</p>
-                <p className="text-primary/70 text-sm">Full functionality without requiring mouse input</p>
-              </div>
-            </div>
-            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
-              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
-              <div>
-                <p className="font-medium">Color Contrast Verification</p>
-                <p className="text-primary/70 text-sm">All text meets AAA contrast requirements</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        
-        <section>
           <h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
           <p className="text-primary/70 mb-6">
             The redesigned patient portal has had a significant positive impact:
@@ -235,6 +198,44 @@ const HealthcarePatientPortal = () => {
             </blockquote>
           </div>
         </section>
+
+        <section>
+          <h2 className="text-2xl font-semibold mb-4">Peer-reviewed Publications</h2>
+          <p className="text-primary/70 mb-6">
+            Accessibility was a core focus throughout the design process:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
+              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
+              <div>
+                <p className="font-medium">WCAG 2.1 AA Compliance</p>
+                <p className="text-primary/70 text-sm">All screens were tested and certified compliant</p>
+              </div>
+            </div>
+            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
+              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
+              <div>
+                <p className="font-medium">Screen Reader Optimization</p>
+                <p className="text-primary/70 text-sm">Tested with JAWS, NVDA, and VoiceOver</p>
+              </div>
+            </div>
+            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
+              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
+              <div>
+                <p className="font-medium">Keyboard Navigation</p>
+                <p className="text-primary/70 text-sm">Full functionality without requiring mouse input</p>
+              </div>
+            </div>
+            <div className="flex items-start p-4 bg-primary/5 rounded-lg">
+              <Shield className="w-5 h-5 text-primary mr-3 mt-0.5" />
+              <div>
+                <p className="font-medium">Color Contrast Verification</p>
+                <p className="text-primary/70 text-sm">All text meets AAA contrast requirements</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
       </div>
     </CaseStudyLayout>
   );
