@@ -119,7 +119,7 @@ const SmokingCessation = () => {
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80" 
+                  src="/lovable-uploads/experiments-1.png" 
                   alt="Healthcare dashboard" 
                   className="w-full h-full object-cover"
                 />
