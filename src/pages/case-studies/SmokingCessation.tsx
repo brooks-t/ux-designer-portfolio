@@ -1,6 +1,6 @@
 import React from 'react';
 import CaseStudyLayout from '@/components/CaseStudyLayout';
-import { Heart, Shield, UsersRound, Lightbulb, Layout, CheckCircle } from 'lucide-react';
+import { Heart, Shield, UsersRound, Lightbulb, Layout, CheckCircle, ScrollText } from 'lucide-react';
 
 const SmokingCessation = () => {
   return (
@@ -199,17 +199,25 @@ const SmokingCessation = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex items-start p-4 bg-primary/5 rounded-lg">
-              <Shield className="w-8 h-8 text-primary mr-3 mt-0.5 flex-shrink-0" />
+              <ScrollText className="w-8 h-8 text-primary mr-3 mt-0.5 flex-shrink-0" />
               <div>
                 <p className="font-medium">Development of a Mobile Health Intervention with Personal Experiments for Smokers Who Are Ambivalent About Quitting: Formative Design and Testing</p>
-                <p className="text-primary/70 text-sm"><a href="https://formative.jmir.org/2020/8/e21784/">JMIR Formative Research Vol 4, No 8 (2020)</a></p>
+                <p className="text-primary/70 text-sm">
+                  <a href="https://formative.jmir.org/2020/8/e21784/" className="text-blue-600 underline hover:text-blue-800">
+                    JMIR Formative Research Vol 4, No 8 (2020)
+                  </a>
+                </p>
               </div>
             </div>
             <div className="flex items-start p-4 bg-primary/5 rounded-lg">
-              <Shield className="w-8 h-8 text-primary mr-3 mt-0.5 flex-shrink-0" />
+              <ScrollText className="w-8 h-8 text-primary mr-3 mt-0.5 flex-shrink-0" />
               <div>
                 <p className="font-medium">Feasibility, Acceptability, and Potential Impact of a Novel mHealth App for Smokers Ambivalent About Quitting: Randomized Pilot Study</p>
-                <p className="text-primary/70 text-sm"><a href="https://mhealth.jmir.org/2023/1/e46155">JMIR mHealth and uHealth Vol 11 (2023)</a></p>
+                <p className="text-primary/70 text-sm">
+                  <a href="https://mhealth.jmir.org/2023/1/e46155" className="text-blue-600 underline hover:text-blue-800">
+                    JMIR mHealth and uHealth Vol 11 (2023)
+                  </a>
+                </p>
               </div>
             </div>
            
