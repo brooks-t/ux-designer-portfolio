@@ -11,7 +11,7 @@ const SmokingCessation = () => {
     <CaseStudyLayout
       title="Smoking Cessation App (GEMS)"
       category="UX Research & Design"
-      heroImage="/lovable-uploads/gems-hero.png"
+      heroImage="/lovable-uploads/gems-new-hero.png"
     >
       <div className="space-y-8">
         <section>
