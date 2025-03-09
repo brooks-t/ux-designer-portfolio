@@ -131,7 +131,7 @@ const SmokingCessation = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Created Multiple Prototypes
               </h3>
               <p className="text-primary/70 mb-4">
-                Designed and tested multiple prototypes with varying degrees of fidelity through an iterative process. These prototypes included an initial program orientation and seven personal experiments..
+                Designed and tested multiple prototypes with varying degrees of fidelity through an iterative process. These prototypes included an initial program orientation and seven personal experiments.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
