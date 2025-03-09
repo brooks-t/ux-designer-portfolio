@@ -1,4 +1,3 @@
-
 import React from 'react';
 import CaseStudyLayout from '@/components/CaseStudyLayout';
 import { Heart, Shield, UsersRound, Lightbulb, Layout, CheckCircle } from 'lucide-react';
@@ -165,7 +164,7 @@ const SmokingCessation = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
             <div className="bg-green-50 p-5 rounded-lg">
               <div className="flex items-start">
-                <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
+                <CheckCircle className="w-8 h-8 text-green-500 mr-2 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-2xl mb-1">92%</p>
                   <p className="text-primary/70">Of participants were more interested in quitting or cutting back after the program</p>
@@ -174,7 +173,7 @@ const SmokingCessation = () => {
             </div>
             <div className="bg-green-50 p-5 rounded-lg">
               <div className="flex items-start">
-                <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
+                <CheckCircle className="w-8 h-8 text-green-500 mr-2 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-2xl mb-1">100%</p>
                   <p className="text-primary/70">Of participants completed all seven experiments showing high engagement</p>
@@ -183,7 +182,7 @@ const SmokingCessation = () => {
             </div>
             <div className="bg-green-50 p-5 rounded-lg">
               <div className="flex items-start">
-                <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
+                <CheckCircle className="w-8 h-8 text-green-500 mr-2 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-2xl mb-1">4.1/5</p>
                   <p className="text-primary/70">Usefulness rating and all experiments received a net positive for helpfulness.</p>
