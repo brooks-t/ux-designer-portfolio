@@ -44,6 +44,7 @@ const Contact = () => {
                 >
                   <Linkedin className="h-5 w-5 text-primary" />
                 </a>
+                {/* SAVING GITHUB LINK FOR LATER
                 <a 
                   href="#" 
                   className="h-10 w-10 rounded-full bg-primary/5 flex items-center justify-center hover:bg-primary/10 transition-standard"
@@ -51,6 +52,7 @@ const Contact = () => {
                 >
                   <Github className="h-5 w-5 text-primary" />
                 </a>
+                */}
               </div>
             </div>
           </div>
