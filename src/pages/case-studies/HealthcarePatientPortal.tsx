@@ -160,15 +160,15 @@ const HealthcarePatientPortal = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
           <p className="text-primary/70 mb-6">
-            The redesigned patient portal has had a significant positive impact:
+            The participants found the prototype highly acceptable and were interested in the program:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
             <div className="bg-green-50 p-5 rounded-lg">
               <div className="flex items-start">
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
                 <div>
-                  <p className="font-semibold text-2xl mb-1">76%</p>
-                  <p className="text-primary/70">Patient adoption rate (up from 28%)</p>
+                  <p className="font-semibold text-2xl mb-1">92%</p>
+                  <p className="text-primary/70">Of participants were more interested in quitting or cutting back after the program</p>
                 </div>
               </div>
             </div>
@@ -176,8 +176,8 @@ const HealthcarePatientPortal = () => {
               <div className="flex items-start">
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
                 <div>
-                  <p className="font-semibold text-2xl mb-1">-32%</p>
-                  <p className="text-primary/70">Reduction in support calls</p>
+                  <p className="font-semibold text-2xl mb-1">100%</p>
+                  <p className="text-primary/70">Of participants completed all seven experiments showing high engagement</p>
                 </div>
               </div>
             </div>
@@ -185,8 +185,8 @@ const HealthcarePatientPortal = () => {
               <div className="flex items-start">
                 <CheckCircle className="w-6 h-6 text-green-500 mr-2" />
                 <div>
-                  <p className="font-semibold text-2xl mb-1">91%</p>
-                  <p className="text-primary/70">Patient satisfaction rating</p>
+                  <p className="font-semibold text-2xl mb-1">4.1/5</p>
+                  <p className="text-primary/70">Usefulness rating and all experiments received a net positive for helpfulness.</p>
                 </div>
               </div>
             </div>
