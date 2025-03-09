@@ -71,24 +71,24 @@ const HealthcarePatientPortal = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Research Approach</h2>
           <p className="text-primary/70 mb-6">
-            I conducted comprehensive research to understand diverse patient needs:
+            We conducted a thorough and iterative research phase:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div className="border border-primary/10 rounded-lg p-5">
-              <h3 className="font-medium mb-2">Patient Interviews</h3>
-              <p className="text-primary/70">30 in-depth interviews across diverse age groups and abilities</p>
+              <h3 className="font-medium mb-2">Literature Review</h3>
+              <p className="text-primary/70">Examined existing research on smoking cessation and interventions</p>
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
-              <h3 className="font-medium mb-2">Healthcare Provider Insights</h3>
-              <p className="text-primary/70">Shadowed 8 healthcare professionals to understand workflow</p>
+              <h3 className="font-medium mb-2">Competitive Analysis</h3>
+              <p className="text-primary/70">Reviewed existing smoking cessations apps features and functionaliy </p>
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
-              <h3 className="font-medium mb-2">Accessibility Audit</h3>
-              <p className="text-primary/70">Comprehensive WCAG 2.1 AA compliance assessment</p>
+              <h3 className="font-medium mb-2">User Interviews</h3>
+              <p className="text-primary/70">Conducted interviews to refine program content and gather feedback on the concept of personal experiments</p>
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
-              <h3 className="font-medium mb-2">Support Call Analysis</h3>
-              <p className="text-primary/70">Analyzed common support issues from call center data</p>
+              <h3 className="font-medium mb-2">Usability Tests</h3>
+              <p className="text-primary/70">Tested multiple prototypes both in the lab and in the field</p>
             </div>
           </div>
           <div className="bg-amber-50 border border-amber-100 rounded-lg p-5">
