@@ -128,7 +128,7 @@ const HealthcarePatientPortal = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Created Multiple Prototypes
               </h3>
               <p className="text-primary/70 mb-4">
-                Designed and tested multiple prototypes of varying degrees of fidelity through an iterative process. These prototypes included an initial program orientation and seven personal experiments..
+                Designed and tested multiple prototypes with varying degrees of fidelity through an iterative process. These prototypes included an initial program orientation and seven personal experiments..
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
@@ -144,7 +144,7 @@ const HealthcarePatientPortal = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Addressed User Feedback
               </h3>
               <p className="text-primary/70 mb-4">
-                Refined the intervention based on user interviews, usability tests and pilot study results.
+                Refined the intervention based on user interviews, usability tests and expert data analysis, iterating on the designs and content multiple times before arriving a final design that was developed and tested in a pilot study. .
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
