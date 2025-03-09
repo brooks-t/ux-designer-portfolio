@@ -164,7 +164,7 @@ const FreeFile = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
           <p className="text-primary/70 mb-6">
-            The redesigned app launched recently in preparation for tax season. While the tax season is ongoing and data is being collected, we hypothesize the following results:
+            The <a href="https://apps.irs.gov/app/freeFile/" className="text-blue-600 underline hover:text-blue-800">updated app launched recently</a> in preparation for tax season. While the tax season is ongoing and data is being collected, we hypothesize the following results:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
             <div className={`${darkMode ? 'bg-green-900' : 'bg-green-50'} p-5 rounded-lg`}>
