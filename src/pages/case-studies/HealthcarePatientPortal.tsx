@@ -93,13 +93,13 @@ const HealthcarePatientPortal = () => {
           </div>
           <div className="bg-amber-50 border border-amber-100 rounded-lg p-5">
             <h3 className="font-medium flex items-center mb-2">
-              <Lightbulb className="w-5 h-5 text-amber-500 mr-2" /> Key Research Findings
+              <Lightbulb className="w-5 h-5 text-amber-500 mr-2" /> Key Research Insights
             </h3>
             <ul className="space-y-2 text-primary/70">
-              <li>• Older patients (65+) found the login process confusing and often locked themselves out</li>
-              <li>• Patients were overwhelmed by medical terminology in test results</li>
-              <li>• Many used workarounds for appointment booking due to complexity</li>
-              <li>• Screen reader users found the interface nearly impossible to navigate</li>
+              <li>• Ambivalent smokers are receptive to mHealth interventions</li>
+              <li>• Personal experiments are a promising approach to enhance motivation and ability to quit</li>
+              <li>• Interventions should be flexible and responsive to changes in motivation</li>
+              <li>• Existing apps do not cater to ambivalents smokers or leverage personal experiments as a feature</li>
             </ul>
           </div>
         </section>
