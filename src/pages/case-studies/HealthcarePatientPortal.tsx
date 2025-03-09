@@ -84,7 +84,7 @@ const HealthcarePatientPortal = () => {
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
               <h3 className="font-medium mb-2">User Interviews</h3>
-              <p className="text-primary/70">Conducted interviews to refine program content and gather feedback on the concept of personal experiments</p>
+              <p className="text-primary/70">Refined content and gathered feedback on the concept of personal experiments</p>
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
               <h3 className="font-medium mb-2">Usability Tests</h3>
