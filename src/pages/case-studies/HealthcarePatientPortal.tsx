@@ -97,7 +97,7 @@ const HealthcarePatientPortal = () => {
             </h3>
             <ul className="space-y-2 text-primary/70">
               <li>• Ambivalent smokers are receptive to mHealth interventions</li>
-              <li>• Personal experiments are a promising approach to enhance motivation and ability to quit</li>
+              <li>• Personal experiments are a promising approach to enhance motivation and ability to quit smoking</li>
               <li>• Interventions should be flexible and responsive to changes in motivation</li>
               <li>• Existing apps do not cater to ambivalents smokers or leverage personal experiments as a feature</li>
             </ul>
