@@ -109,10 +109,10 @@ const HealthcarePatientPortal = () => {
           <div className="space-y-6">
             <div>
               <h3 className="font-medium flex items-center mb-3">
-                <Layout className="w-5 h-5 text-primary mr-2" /> Simplified Dashboard
+                <Layout className="w-5 h-5 text-primary mr-2" /> Designed a Series of "Personal Experiments"
               </h3>
               <p className="text-primary/70 mb-4">
-                Created an intuitive dashboard with clear information hierarchy and quick access to common tasks.
+                These cognitive and behavioral tasks, designed to boost readiness for change, were distilled from a much larger list of experimetns through rigorous research and debate.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
@@ -125,10 +125,10 @@ const HealthcarePatientPortal = () => {
             
             <div>
               <h3 className="font-medium flex items-center mb-3">
-                <Layout className="w-5 h-5 text-primary mr-2" /> Accessible Appointment Scheduling
+                <Layout className="w-5 h-5 text-primary mr-2" /> Created Multiple Prototypes
               </h3>
               <p className="text-primary/70 mb-4">
-                Redesigned the appointment booking flow with fewer steps and clearer language.
+                Designed and tested multiple prototypes of varying degrees of fidelity through an iterative process. These prototypes included an initial program orientation and seven personal experiments..
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
@@ -141,10 +141,10 @@ const HealthcarePatientPortal = () => {
             
             <div>
               <h3 className="font-medium flex items-center mb-3">
-                <Layout className="w-5 h-5 text-primary mr-2" /> Plain-Language Test Results
+                <Layout className="w-5 h-5 text-primary mr-2" /> Addressed User Feedback
               </h3>
               <p className="text-primary/70 mb-4">
-                Developed a system that presents medical results with plain-language explanations and visual indicators.
+                Refined the intervention based on user interviews, usability tests and pilot study results.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
