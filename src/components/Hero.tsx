@@ -1,12 +1,17 @@
 
-import React from 'react';
+import React, { useRef } from 'react';
 import { ArrowDown } from 'lucide-react';
+import { useBubbleCursor } from '@/hooks/useBubbleCursor';
 
 const Hero = () => {
+  const heroRef = useRef<HTMLDivElement>(null);
+  useBubbleCursor(heroRef);
+
   return (
     <section 
       id="home" 
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
+      ref={heroRef}
     >
       <div className="absolute inset-0 -z-10">
         <div className="absolute left-1/3 top-1/4 w-72 h-72 bg-primary/5 rounded-full filter blur-3xl"></div>
