@@ -147,7 +147,7 @@ const SmokingCessation = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Addressed User Feedback
               </h3>
               <p className="text-primary/70 mb-4">
-                Collected and addressed user feedback on the designs and prototypes though usability tests and field tests. During the field test, we used live web forms overlayed onto the prototype to collect user feedback and measure several metrics which were then used to further improve our designs.
+                Collected and addressed user feedback on the prototypes through usability tests and field tests. During the field test, we used live web forms overlayed onto the prototype to collect user feedback and measure several metrics which were then used to further improve our designs.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
