@@ -115,7 +115,7 @@ const SmokingCessation = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Adapted a Series of "Personal Experiments" for Mobile
               </h3>
               <p className="text-primary/70 mb-4">
-                These cognitive and behavioral tasks, intended to boost readiness for change, were adapted into a user-friendly mobile design.
+                Distilled a list cognitive and behavioral tasks down into seven experiments, intended to boost readiness for change. These experiments, along with an initial onboarding sequence, were then adapted into a user-friendly mobile app design.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
@@ -131,7 +131,7 @@ const SmokingCessation = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Created Multiple Prototypes
               </h3>
               <p className="text-primary/70 mb-4">
-                Designed and tested multiple prototypes with increasing degrees of fidelity through an iterative process. These protoypes included initial onboarding and seven experiments. One of the prototypes that I am particularly proud of was able to be field tested with me as the "Wizard of Oz" making things happen on the backend.
+                Built and tested multiple prototypes with increasing degrees of fidelity through an iterative process. The prototype I am most proud of was field tested with me acting as the "Wizard of Oz" on the back-end to simulate a real-world functioning mobile app.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
