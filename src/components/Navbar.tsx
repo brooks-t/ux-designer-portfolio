@@ -104,7 +104,7 @@ const Navbar = () => {
             className="text-2xl font-display font-bold tracking-tight text-primary"
             onClick={handleLogoClick}
           >
-            brooks<span className="text-gradient"> tiffany</span>
+            brooks<span className="text-gradient">tiffany</span>
           </button>
 
           {/* Desktop Navigation */}
