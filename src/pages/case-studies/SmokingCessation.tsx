@@ -112,10 +112,10 @@ const SmokingCessation = () => {
           <div className="space-y-6">
             <div>
               <h3 className="font-medium flex items-center mb-3">
-                <Layout className="w-5 h-5 text-primary mr-2" /> Adapted a Series of "Personal Experiments" for mobile
+                <Layout className="w-5 h-5 text-primary mr-2" /> Adapted a Series of "Personal Experiments" for Mobile
               </h3>
               <p className="text-primary/70 mb-4">
-                These cognitive and behavioral tasks, intended to boost readiness for change, were adapted in a user-friendly mobile design.
+                These cognitive and behavioral tasks, intended to boost readiness for change, were adapted into a user-friendly mobile design.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
