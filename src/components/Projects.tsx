@@ -11,8 +11,8 @@ const projectsData = [
     slug: "free-file"
   },
   {
-    title: "Smoking Cessation App",
-    description: "Designed to help ambivalent smokers quit and make a significant impact on global public health. ",
+    title: "Kaiser Permanente Gems App",
+    description: "Designed to help ambivalent smokers quit and make a significant impact on global public health.",
     category: "UX Research & Design | Mobile App",
     image: "/lovable-uploads/gems-new-1.png",
     slug: "smoking-cessation"
