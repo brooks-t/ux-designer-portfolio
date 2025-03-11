@@ -22,7 +22,7 @@ const SmokingCessation = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
             <div className="bg-primary/5 p-4 rounded-lg">
               <p className="font-medium">My Role</p>
-              <p className="text-primary/70">Lead UX Researcher & Designer</p>
+              <p className="text-primary/70">UX Research Lead/UX Design Lead</p>
             </div>
             <div className="bg-primary/5 p-4 rounded-lg">
               <p className="font-medium">Key Responsibilities</p>
