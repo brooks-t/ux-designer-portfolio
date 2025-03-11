@@ -38,14 +38,14 @@ const Footer = () => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
             >
-              brooks<span className={theme === 'dark' ? 'bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent' : 'bg-white/90 bg-clip-text text-transparent'}>tiffany</span>
+              brooks<span className="text-gradient">tiffany</span>
             </a>
           ) : (
             <button 
               onClick={() => navigate('/')}
               className="text-2xl font-display font-bold tracking-tight mb-8"
             >
-              brooks<span className={theme === 'dark' ? 'bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent' : 'bg-white/90 bg-clip-text text-transparent'}>tiffany</span>
+              brooks<span className="text-gradient">tiffany</span>
             </button>
           )}
           
