@@ -115,7 +115,7 @@ const SmokingCessation = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Adapted a Series of "Personal Experiments" for Mobile
               </h3>
               <p className="text-primary/70 mb-4">
-                Distilled a list of cognitive and behavioral tasks down into seven experiments, intended to boost readiness for change. These experiments, along with an initial onboarding sequence, were then adapted into a user-friendly mobile app design.
+                Distilled a list of cognitive and behavioral tasks down into seven experiments intended to boost readiness for change. These experiments, along with an initial onboarding sequence, were then adapted into a user-friendly mobile app design.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
