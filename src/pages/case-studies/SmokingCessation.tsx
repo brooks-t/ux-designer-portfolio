@@ -199,7 +199,7 @@ const SmokingCessation = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Peer-reviewed Publications</h2>
           <p className="text-primary/70 mb-6">
-            Since I came on board, the GEMS project has resulted in two peer-reviewed published papers in the Journal of Medical Internet Research (JMIR). I am a co-author on the 2020 paper and acknowledged on the 2023 paper (linked below).
+            Since I came on board, the GEMS project has resulted in two peer-reviewed published papers in the Journal of Medical Internet Research (JMIR). I am a co-author on the 2020 paper and acknowledged in the 2023 paper (linked below).
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex items-start p-4 bg-primary/5 rounded-lg">
