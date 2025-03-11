@@ -119,7 +119,7 @@ const SmokingCessation = () => {
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/experiments-1.png" 
+                  src="/lovable-uploads/experiments-2.png" 
                   alt="Healthcare dashboard" 
                   className="w-full h-full object-cover"
                 />
@@ -131,11 +131,11 @@ const SmokingCessation = () => {
                 <Layout className="w-5 h-5 text-primary mr-2" /> Created Multiple Prototypes
               </h3>
               <p className="text-primary/70 mb-4">
-                Designed and tested multiple prototypes with varying degrees of fidelity through an iterative process. These prototypes included an initial program orientation and seven personal experiments.
+                Designed and tested multiple prototypes with increasing degrees of fidelity through an iterative process. These protoypes included initial onboarding and seven experiments. One of the prototypes that I am particularly proud of was able to be field tested with me as the "Wizard of Oz" making things happen on the backend.
               </p>
               <div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/experiments-2.png" 
+                  src="/lovable-uploads/experiments-1.png" 
                   alt="Appointment scheduling" 
                   className="w-full h-full object-cover"
                 />
