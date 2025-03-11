@@ -65,7 +65,7 @@ const SmokingCessation = () => {
               </span>
               <div>
                 <p className="font-medium">Measuring usefulness, difficulty and satisfaction</p>
-                <p className="text-primary/70">Capturing and analyzing data from users with a combination of qualitative and quantitative methods</p>
+                <p className="text-primary/70">Capturing and analyzing data from users with a combination of qualitative and quantitative methods through a user-centered lens</p>
               </div>
             </li>
           </ul>
@@ -91,7 +91,7 @@ const SmokingCessation = () => {
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
               <h3 className="font-medium mb-2">Usability Tests</h3>
-              <p className="text-primary/70">Tested multiple prototypes both in the lab and in the field</p>
+              <p className="text-primary/70">Tested multiple prototypes to include a field test using the "wizard of oz" method</p>
             </div>
           </div>
           <div className={`${darkMode ? 'bg-amber-900' : 'bg-amber-50'} border ${darkMode ? 'border-amber-800' : 'border-amber-100'} rounded-lg p-5`}>
