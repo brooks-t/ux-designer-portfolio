@@ -38,7 +38,7 @@ const SmokingCessation = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
           <p className="text-primary/70 mb-4">
-            We needed to figure out how to effectively implement and evaluate an intervention for an ambivalent audience:
+            How might we effectively implement and evaluate an intervention for an ambivalent audience?
           </p>
           <ul className="space-y-3">
             <li className="flex items-start">
@@ -74,7 +74,7 @@ const SmokingCessation = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Research Approach</h2>
           <p className="text-primary/70 mb-6">
-            We conducted a thorough and iterative research phase:
+           I help the team conduct a thorough and iterative research phase with a user-centered focus. 
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <div className="border border-primary/10 rounded-lg p-5">
