@@ -83,7 +83,7 @@ const SmokingCessation = () => {
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
               <h3 className="font-medium mb-2">Competitive Analysis</h3>
-              <p className="text-primary/70">Reviewed existing smoking cessations apps features and functionaliy </p>
+              <p className="text-primary/70">Reviewed existing smoking cessation apps' features and functionaliy</p>
             </div>
             <div className="border border-primary/10 rounded-lg p-5">
               <h3 className="font-medium mb-2">User Interviews</h3>
