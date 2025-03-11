@@ -17,7 +17,7 @@ const SmokingCessation = () => {
         <section>
           <h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
           <p className="text-primary/70 mb-4">
-            The GEMS project aimed to design and evaluate a mobile health intervention for smokers ambivalent about quitting, using personal experiments to enhance motivation and ability to quit.
+            The GEMS project sought to design and evaluate a mobile health intervention for smokers ambivalent about quitting. It aimed to do this through the use of personal experiments specifically developed to enhance motivation and ability to quit.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
             <div className="bg-primary/5 p-4 rounded-lg">
