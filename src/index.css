@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
@@ -112,9 +111,12 @@
   .center-absolute {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
   }
+
+  .scroll-down-container {
+    @apply w-full flex justify-center mt-16 sm:mt-20 md:mt-24;
+  }
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -127,7 +129,6 @@
   @apply bg-primary/10 hover:bg-primary/20 rounded-full transition-all duration-300;
 }
 
-/* Page transition */
 .page-enter {
   opacity: 0;
   transform: translateY(10px);
@@ -150,7 +151,6 @@
   transition: opacity 300ms, transform 300ms;
 }
 
-/* Dark mode card overrides */
 .dark .bg-white {
   @apply bg-background text-foreground;
 }
