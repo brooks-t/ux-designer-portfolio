@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="absolute right-1/4 bottom-1/3 w-96 h-96 bg-primary/5 rounded-full filter blur-3xl"></div>
       </div>
       
-      <div className="content-container">
+      <div className="content-container relative">
         <div className="flex flex-col items-center text-center animate-fade-up">
           <span className="inline-block py-1 px-3 mb-8 text-sm font-medium border border-primary/10 rounded-full bg-primary/5">
             UX Designer & Problem Solver
@@ -49,14 +49,17 @@ const Hero = () => {
           </div>
         </div>
         
-        <a 
-          href="#projects" 
-          className="absolute bottom-12 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-fade-in"
-          style={{ animationDelay: '1s' }}
-        >
-          <span className="text-sm text-primary/60 mb-2">Scroll Down</span>
-          <ArrowDown className="animate-bounce text-primary/60" size={20} />
-        </a>
+        {/* Improved scroll down indicator positioning */}
+        <div className="w-full flex justify-center">
+          <a 
+            href="#projects" 
+            className="absolute bottom-12 md:bottom-16 animate-fade-in flex flex-col items-center"
+            style={{ animationDelay: '1s' }}
+          >
+            <span className="text-sm text-primary/60 mb-2">Scroll Down</span>
+            <ArrowDown className="animate-bounce text-primary/60" size={20} />
+          </a>
+        </div>
       </div>
     </section>
   );
