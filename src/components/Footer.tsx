@@ -96,7 +96,7 @@ const Footer = () => {
           </div>
           
           <div className={`text-sm ${theme === 'dark' ? 'text-secondary-foreground/60' : 'text-primary-foreground/60'}`}>
-            &copy; {currentYear} UX Designer Portfolio. All rights reserved.
+            &copy; {currentYear} Brooks Tiffany. All rights reserved.
           </div>
           
           {lastUpdated && (
