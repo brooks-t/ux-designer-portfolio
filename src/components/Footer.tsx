@@ -1,7 +1,8 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTheme } from './ThemeProvider';
+import { getBuildTime, formatLastUpdated } from '../utils/dateUtils';
 
 const Footer = () => {
   const { theme } = useTheme();
@@ -9,6 +10,13 @@ const Footer = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const isHomePage = location.pathname === '/';
+  const [lastUpdated, setLastUpdated] = useState<string>('');
+  
+  useEffect(() => {
+    // Get and format the last updated date
+    const buildTime = getBuildTime();
+    setLastUpdated(formatLastUpdated(buildTime));
+  }, []);
   
   const handleNavigation = (sectionId: string, e: React.MouseEvent) => {
     e.preventDefault();
@@ -90,6 +98,12 @@ const Footer = () => {
           <div className={`text-sm ${theme === 'dark' ? 'text-secondary-foreground/60' : 'text-primary-foreground/60'}`}>
             &copy; {currentYear} UX Designer Portfolio. All rights reserved.
           </div>
+          
+          {lastUpdated && (
+            <div className={`text-xs mt-2 ${theme === 'dark' ? 'text-secondary-foreground/50' : 'text-primary-foreground/50'}`}>
+              This website was last updated at {lastUpdated}
+            </div>
+          )}
         </div>
       </div>
     </footer>

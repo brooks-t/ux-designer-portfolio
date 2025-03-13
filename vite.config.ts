@@ -22,6 +22,10 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  define: {
+    // Set build time during the build process
+    'import.meta.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString()),
+  },
   // Add this to generate a proper 404.html file during build
   build: {
     rollupOptions: {
