@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { FileText } from 'lucide-react';
 
 const About = () => {
   return (
@@ -52,12 +53,23 @@ const About = () => {
               </div>
             </div>
             
-            <a 
-              href="#contact" 
-              className="bg-primary text-primary-foreground rounded-full px-8 py-3 font-medium transition-standard hover:shadow-lg hover:-translate-y-1 inline-block"
-            >
-              Get In Touch
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a 
+                href="#contact" 
+                className="bg-primary text-primary-foreground rounded-full px-8 py-3 font-medium transition-standard hover:shadow-lg hover:-translate-y-1 inline-flex items-center justify-center"
+              >
+                Get In Touch
+              </a>
+              <a 
+                href="/lovable-uploads/resume-bt_2025-03-13.pdf" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="bg-transparent text-primary border border-primary/20 rounded-full px-8 py-3 font-medium transition-standard hover:border-primary/60 hover:-translate-y-1 inline-flex items-center justify-center gap-2"
+              >
+                <FileText size={18} />
+                View Resume
+              </a>
+            </div>
           </div>
         </div>
       </div>

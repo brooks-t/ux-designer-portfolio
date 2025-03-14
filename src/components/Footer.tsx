@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTheme } from './ThemeProvider';
 import { getBuildTime, formatLastUpdated } from '../utils/dateUtils';
+import { FileText } from 'lucide-react';
 
 const Footer = () => {
   const { theme } = useTheme();
@@ -18,8 +19,13 @@ const Footer = () => {
     setLastUpdated(formatLastUpdated(buildTime));
   }, []);
   
-  const handleNavigation = (sectionId: string, e: React.MouseEvent) => {
+  const handleNavigation = (sectionId: string, e: React.MouseEvent, isExternal = false) => {
     e.preventDefault();
+    
+    if (isExternal) {
+      window.open(sectionId, '_blank');
+      return;
+    }
     
     if (isHomePage) {
       // If on home page, scroll to section
@@ -92,6 +98,14 @@ const Footer = () => {
               onClick={(e) => handleNavigation('contact', e)}
             >
               Contact
+            </a>
+            <a 
+              href="/lovable-uploads/resume-bt_2025-03-13.pdf" 
+              className={`text-sm ${theme === 'dark' ? 'text-secondary-foreground/80 hover:text-secondary-foreground' : 'text-primary-foreground/80 hover:text-primary-foreground'} transition-standard flex items-center gap-1`}
+              onClick={(e) => handleNavigation('/lovable-uploads/resume-bt_2025-03-13.pdf', e, true)}
+            >
+              <FileText className="h-3 w-3" />
+              Resume
             </a>
           </div>
           
