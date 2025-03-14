@@ -6,14 +6,14 @@ const projectsData = [
   {
     title: "IRS Free File",
     description: "Enhancing the user experience to improve confidence and understanding when deciding on tax prep software.",
-    category: "UX Design | Web App",
+    category: "UX Design | GovTech | Web App",
     image: "/lovable-uploads/free-file-0.png",
     slug: "free-file"
   },
   {
     title: "Kaiser Permanente Gems App",
     description: "Designed to help ambivalent smokers quit and make a significant impact on global public health.",
-    category: "UX Research & Design | Mobile App",
+    category: "UX Research & Design | HealthTech | Mobile App",
     image: "/lovable-uploads/gems-new-1.png",
     slug: "smoking-cessation"
   }
