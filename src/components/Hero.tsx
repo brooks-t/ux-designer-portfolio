@@ -25,7 +25,7 @@ const Hero = () => {
 
 					<h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold tracking-tight max-w-4xl mb-6 text-balance">
 						I craft thoughtful,
-						<span className="text-gradient">human-centered</span>
+						<span className="text-gradient"> human-centered </span>
 						digital experiences
 					</h1>
 
