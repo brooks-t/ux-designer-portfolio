@@ -24,14 +24,13 @@ const Hero = () => {
 					</h2>
 
 					<h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold tracking-tight max-w-4xl mb-6 text-balance">
-						I create thoughtful digital
+						I craft thoughtful, human-centered digital
 						<span className="text-gradient"> experiences</span>
 					</h1>
 
 					<p className="text-lg md:text-xl text-primary/70 max-w-2xl mb-12 text-balance">
-						I'm a UX Designer and Researcher who crafts intuitive digital
-						products that balance form and function, focusing on creating
-						meaningful connections between people and technology.
+						UX Designer & Researcher focused on creating intuitive products that
+						blend user insights, systems thinking, and AI-driven strategies.
 					</p>
 
 					<div className="flex flex-col sm:flex-row gap-4">
