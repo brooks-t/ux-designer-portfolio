@@ -20,7 +20,7 @@ const Hero = () => {
 			<div className="content-container flex flex-col justify-between relative py-8 md:py-12">
 				<div className="flex flex-col items-center text-center animate-fade-up">
 					<h2 className="text-2xl md:text-3xl font-display tracking-tight mb-12">
-						Hi there, I'm <span className="text-gradient">Brooks.</span>
+						Hi, I'm <span className="text-gradient">Brooks.</span>
 					</h2>
 
 					<h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold tracking-tight max-w-4xl mb-6 text-balance">
