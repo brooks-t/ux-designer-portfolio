@@ -24,8 +24,9 @@ const Hero = () => {
 					</h2>
 
 					<h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold tracking-tight max-w-4xl mb-6 text-balance">
-						I craft thoughtful, human-centered digital
-						<span className="text-gradient"> experiences</span>
+						I craft thoughtful,
+						<span className="text-gradient">human-centered</span>
+						digital experiences
 					</h1>
 
 					<p className="text-lg md:text-xl text-primary/70 max-w-2xl mb-12 text-balance">
