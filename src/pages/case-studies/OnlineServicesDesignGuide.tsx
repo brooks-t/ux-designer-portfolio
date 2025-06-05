@@ -47,18 +47,20 @@ const OnlineServicesDesignGuide = () => {
 						<br></br>
 						<a
 							href="https://www.figma.com/design/9sdxBVuSNWvTbR6D80PgqU/Hi-Fi-IRS-ODG-UI-Kit-4.3.1?node-id=46-646&t=tYiL1ke2pHHZbyDk-1"
-							className="text-primary hover:opacity-80 underline font-medium"
+							className="text-blue-600 hover:text-blue-800 underline font-bold"
 						>
 							Here's a view-only link to the Design Guide (password protected).
 						</a>
 						<br></br>
-						Please contact me for the password if you would like to review the
-						work and are interested in hiring me 😎
+						Please contact me if you would like to review the work and are
+						interested in hiring me 😎
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-medium">My Role</p>
-							<p className="text-primary/70">Lead Designer</p>
+							<p className="text-primary/70">
+								Migration Lead Designer, Figma Champion
+							</p>
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-medium">Key Responsibilities</p>
