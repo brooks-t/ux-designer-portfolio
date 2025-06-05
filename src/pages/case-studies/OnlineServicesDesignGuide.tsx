@@ -53,7 +53,7 @@ const OnlineServicesDesignGuide = () => {
 						</a>
 						<br></br>
 						Please contact me for the password if you would like to review the
-						work and are looking to hire me 😎
+						work and are interested in hiring me 😎
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
@@ -63,7 +63,7 @@ const OnlineServicesDesignGuide = () => {
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-medium">Key Responsibilities</p>
 							<p className="text-primary/70">
-								Design System Migration and Improvement
+								Design System Migration, Adoption & Improvement
 							</p>
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
