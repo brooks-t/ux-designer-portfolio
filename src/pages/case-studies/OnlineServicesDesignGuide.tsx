@@ -63,7 +63,7 @@ const OnlineServicesDesignGuide = () => {
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-medium">Key Responsibilities</p>
 							<p className="text-primary/70">
-								Design System Migration, Adoption & Improvement
+								Design System Migration, Improvement & Adoption
 							</p>
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
