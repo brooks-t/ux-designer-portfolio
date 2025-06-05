@@ -1,3 +1,4 @@
+
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
@@ -16,7 +17,7 @@ const projectsData = [
 			"Modernizing a legacy web application to better serve employers applying for an EIN.",
 		category: "UX Design | GovTech | Web App | Prototype",
 		image: "/lovable-uploads/ein-landing-page.png",
-		slug: "smoking-cessation",
+		slug: "employer-identification-number",
 	},
 	{
 		title: "Online Services Design Guide ",
@@ -24,7 +25,7 @@ const projectsData = [
 			"The IRS Online Services Design Guide complete with UI Kit, templates, styles and specs.",
 		category: "UX Design | GovTech | Design System | UI Kit",
 		image: "/lovable-uploads/odg-ui-kit.png",
-		slug: "free-file",
+		slug: "online-services-design-guide",
 	},
 	{
 		title: "Kaiser Permanente Gems App",

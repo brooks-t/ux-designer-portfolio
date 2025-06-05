@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,6 +8,8 @@ import NotFound from "./pages/NotFound";
 import FreeFile from "./pages/case-studies/FreeFile";
 import EcommerceWebsite from "./pages/case-studies/EcommerceWebsite";
 import SmokingCessation from "./pages/case-studies/SmokingCessation";
+import EmployerIdentificationNumber from "./pages/case-studies/EmployerIdentificationNumber";
+import OnlineServicesDesignGuide from "./pages/case-studies/OnlineServicesDesignGuide";
 import { ThemeProvider } from "./components/ThemeProvider";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,8 @@ const App = () => (
             <Route path="/case-study/free-file" element={<FreeFile />} />
             <Route path="/case-study/ecommerce-website" element={<EcommerceWebsite />} />
             <Route path="/case-study/smoking-cessation" element={<SmokingCessation />} />
+            <Route path="/case-study/employer-identification-number" element={<EmployerIdentificationNumber />} />
+            <Route path="/case-study/online-services-design-guide" element={<OnlineServicesDesignGuide />} />
             {/* Redirect from old URLs to maintain backward compatibility */}
             <Route path="/case-study/financial-app-redesign" element={<Navigate to="/case-study/free-file" replace />} />
             <Route path="/case-study/healthcare-patient-portal" element={<Navigate to="/case-study/smoking-cessation" replace />} />
