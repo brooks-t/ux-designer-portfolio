@@ -165,9 +165,9 @@ const EmployerIdentificationNumber = () => {
 								Redesigned the application process with a clear step-by-step
 								flow and progress indicators.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
+							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden">
 								<img
-									src="/lovable-uploads/ein-landing-page.png"
+									src="/lovable-uploads/mod-ein-new-steps.png"
 									alt="EIN application landing page redesign"
 									className="w-full h-full object-cover"
 								/>
@@ -181,11 +181,18 @@ const EmployerIdentificationNumber = () => {
 							</h3>
 							<p className="text-primary/70 mb-4">
 								Created intuitive form layouts with clear labels, helpful
-								tooltips, and real-time validation.
+								tooltips, and improved error handling.
 							</p>
+							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden">
+								<img
+									src="/lovable-uploads/mod-ein-error-help.png"
+									alt="EIN application landing page redesign"
+									className="w-full h-full object-cover"
+								/>
+							</div>
 						</div>
 
-						<div>
+						{/* <div>
 							<h3 className="font-medium flex items-center mb-3">
 								<Layout className="w-5 h-5 text-primary mr-2" /> Mobile-First
 								Approach
@@ -194,14 +201,15 @@ const EmployerIdentificationNumber = () => {
 								Designed responsive layouts that work seamlessly across all
 								device sizes.
 							</p>
-						</div>
+						</div> */}
 					</div>
 				</section>
 
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
 					<p className="text-primary/70 mb-6">
-						The modernized EIN application system delivered significant
+						The modernized EIN application has not yet gone live yet, however,
+						based on testing we expect the system to deliver significant
 						improvements in user experience and operational efficiency:
 					</p>
 					<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
