@@ -34,7 +34,7 @@ const EmployerIdentificationNumber = () => {
 						project and oversaw its transformation into a modernized, IRS
 						design-guide standardized, Section 508 compliant web application. I
 						also shepherded this project's seamless migration from
-						Sketch/InVision to Figma, ensuring the project stayed on schedule.
+						Sketch/InVision to Figma and avoided any work stoppages.
 						<br></br>
 						<br></br>
 						During handoff to the development team, I worked very closely with
@@ -47,11 +47,11 @@ const EmployerIdentificationNumber = () => {
 							href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&viewport=-224%2C1784%2C0.3&t=fgvKy8YNmb1vkGZp-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
 							className="text-blue-600 hover:text-blue-800 underline font-bold"
 						>
-							Here's a link to the interactive prototype (password protected).
+							Link to the interactive prototype (password protected).
 						</a>
 						<br></br>
-						Please contact me if you would like to review my work and are
-						interested in hiring me 😎
+						Please get in touch for the password if you're interested in hiring
+						me.
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
@@ -118,37 +118,11 @@ const EmployerIdentificationNumber = () => {
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">Research & Discovery</h2>
 					<p className="text-primary/70 mb-6">
-						We conducted comprehensive research to understand user needs and
-						identify pain points in the EIN application process:
+						After a comprehensive research phase with user interviews, usability
+						testing and stakeholder collaboration, our team discovered several
+						key insights:
 					</p>
-					<div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-						<div className="border border-primary/10 rounded-lg p-5">
-							<h3 className="font-medium mb-2">User Interviews</h3>
-							<p className="text-primary/70">
-								Conducted interviews with small business owners and tax
-								professionals
-							</p>
-						</div>
-						<div className="border border-primary/10 rounded-lg p-5">
-							<h3 className="font-medium mb-2">Analytics Review</h3>
-							<p className="text-primary/70">
-								Analyzed existing system usage data and drop-off points
-							</p>
-						</div>
-						<div className="border border-primary/10 rounded-lg p-5">
-							<h3 className="font-medium mb-2">Usability Testing</h3>
-							<p className="text-primary/70">
-								Tested current system with representative users
-							</p>
-						</div>
-						<div className="border border-primary/10 rounded-lg p-5">
-							<h3 className="font-medium mb-2">Stakeholder Workshops</h3>
-							<p className="text-primary/70">
-								Collaborated with IRS stakeholders to understand business
-								requirements
-							</p>
-						</div>
-					</div>
+
 					<div
 						className={`${darkMode ? "bg-amber-900" : "bg-amber-50"} border ${
 							darkMode ? "border-amber-800" : "border-amber-100"
@@ -301,10 +275,17 @@ const EmployerIdentificationNumber = () => {
 					</div>
 					<div className="border-t border-primary/10 pt-6">
 						<blockquote className="italic text-primary/80 pl-4 border-l-2 border-primary/20">
-							"The new EIN application process is so much clearer and easier to
-							navigate."
+							"You have exceeded expectations in your support of unauthenticated
+							apps and the IRS.gov website. I’ve watched you work closely with
+							an array of stakeholders, asking the right questions, delivering
+							excellent UX solutions, and diving into complex technical
+							workflows on short notice. I especially appreciate your work to
+							date on Free File and Mod EIN, as those are major projects that
+							require an ongoing effort to support on top of a full plate of
+							daily duties. This is a relatively new area of the portfolio where
+							you’ve made major contributions to help stand it up."
 							<footer className="mt-2 font-medium text-primary not-italic">
-								— Small Business Owner
+								— Patrick Prugh | Design Team Supervisor @ IRS
 							</footer>
 						</blockquote>
 					</div>
