@@ -21,49 +21,50 @@ const EmployerIdentificationNumber = () => {
 			heroImage="/lovable-uploads/ein-landing-page.png"
 		>
 			<div className="space-y-8">
-				<section>
+				<section className="space-y-4 text-primary/70">
 					<h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
-					<p className="text-primary/70 mb-4">
+					<p>
 						The EIN modernization project focused on improving the user
 						experience for employers applying for an Employer Identification
 						Number through the IRS online system. The legacy system was outdated
 						and long overdue for an overhaul.
-						<br></br>
-						<br></br>
+					</p>
+					<p>
 						Shortly after joining the IRS, I took over as lead designer for this
 						project and oversaw its transformation into a modernized, IRS
 						design-guide standardized, Section 508 compliant web application. I
 						also shepherded this project's seamless migration from
 						Sketch/InVision to Figma and avoided any work stoppages.
-						<br></br>
-						<br></br>
+					</p>
+					<p>
 						During handoff to the development team, I worked very closely with
 						developers to communicate the designs and resolve any issues that
 						arose, ensuring the project stayed on schedule under a tight
 						deadline.
-						<br></br>
-						<br></br>
+					</p>
+					<p>
 						<a
 							href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&viewport=-224%2C1784%2C0.3&t=fgvKy8YNmb1vkGZp-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
 							className="text-blue-600 hover:text-blue-800 underline font-bold"
 						>
 							Link to the interactive prototype (password protected).
 						</a>
-						<br></br>
-						Please get in touch for the password if you're interested in hiring
-						me.
+					</p>
+					<p>
+						I will provide the password on job applications and to interested
+						employers.
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
-							<p className="font-medium">My Role</p>
+							<p className="font-bold">My Role</p>
 							<p className="text-primary/70">Lead UX Designer</p>
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
-							<p className="font-medium">Key Responsibilities</p>
+							<p className="font-bold">Key Responsibilities</p>
 							<p className="text-primary/70">UI/UX Design & Prototyping</p>
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
-							<p className="font-medium">Tools Used</p>
+							<p className="font-bold">Tools Used</p>
 							<p className="text-primary/70">Figma, Sketch, InVision</p>
 						</div>
 					</div>
