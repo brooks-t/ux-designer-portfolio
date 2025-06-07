@@ -23,53 +23,54 @@ const OnlineServicesDesignGuide = () => {
 			heroImage="/lovable-uploads/odg-ui-kit.png"
 		>
 			<div className="space-y-8">
-				<section>
+				<section className="space-y-4 text-primary/70">
 					<h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
-					<p className="text-primary/70 mb-4">
+					<p>
 						When our team found out that we needed to switch from Sketch &
 						Invision to Figma under a tight deadline, I volunteered to spearhead
 						the migration.
-						<br></br>
-						<br></br>
+					</p>
+					<p>
 						To no surprise, I found out that even though Figma offers a feature
 						to import Sketch files, those files did not translate well and were
 						not truly compatible. As a result, the entire design guide needed to
 						built from scratch to leverage the full power of Figma.
-						<br></br>
-						<br></br>
+					</p>
+					<p>
 						Leading the charge, I quickly built the majority of the design
 						guide, incorporating key Figma feature improvements such as
 						autolayout and variants to ensure our UX team had a minimum viable
 						product to work with and avoid any work stoppages. Since then,
 						several other designers have contributed to and improved upon the
 						initial version that I created.
-						<br></br>
-						<br></br>
+					</p>
+					<p>
 						<a
 							href="https://www.figma.com/design/9sdxBVuSNWvTbR6D80PgqU/Hi-Fi-IRS-ODG-UI-Kit-4.3.1?node-id=46-646&t=tYiL1ke2pHHZbyDk-1"
 							className="text-blue-600 hover:text-blue-800 underline font-bold"
 						>
 							Here's a view-only link to the Design Guide (password protected).
 						</a>
-						<br></br>
-						Please contact me if you would like to review the work and are
-						interested in hiring me 😎
+					</p>
+					<p>
+						I will provide the password on job applications and to interested
+						employers.
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
-							<p className="font-medium">My Role</p>
+							<p className="font-bold">My Role</p>
 							<p className="text-primary/70">
 								Migration Lead Designer, Figma Champion
 							</p>
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
-							<p className="font-medium">Key Responsibilities</p>
+							<p className="font-bold">Key Responsibilities</p>
 							<p className="text-primary/70">
 								Design System Migration, Improvement & Adoption
 							</p>
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
-							<p className="font-medium">Tools Used</p>
+							<p className="font-bold">Tools Used</p>
 							<p className="text-primary/70">Figma, Sketch, InVision</p>
 						</div>
 					</div>
