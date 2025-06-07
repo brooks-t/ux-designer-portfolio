@@ -15,6 +15,15 @@ const NotFound = () => {
     );
   }, [location.pathname]);
 
+  const handleGoBack = () => {
+    if (window.history.length > 1) {
+      window.history.back();
+    } else {
+      // Fallback to home if no history
+      window.location.href = '/';
+    }
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-background">
       <div className="text-center p-8 max-w-md">
@@ -31,7 +40,7 @@ const NotFound = () => {
             <Home className="mr-2 w-4 h-4" /> Go Home
           </Link>
           <button
-            onClick={() => window.history.back()}
+            onClick={handleGoBack}
             className="inline-flex items-center justify-center bg-transparent text-primary border border-primary/20 rounded-full px-6 py-3 font-medium transition-standard hover:border-primary/60 hover:-translate-y-1"
           >
             <ArrowLeft className="mr-2 w-4 h-4" /> Go Back
