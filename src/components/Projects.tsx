@@ -1,4 +1,3 @@
-
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
@@ -8,7 +7,7 @@ const projectsData = [
 		description:
 			"Enhancing the user experience to improve confidence and understanding when deciding on tax prep software.",
 		category: "UX Design | GovTech | Web App | Case Study",
-		image: "/lovable-uploads/free-file-0.png",
+		image: "/lovable-uploads/free-file-default.png",
 		slug: "free-file",
 	},
 	{
@@ -16,7 +15,7 @@ const projectsData = [
 		description:
 			"Modernizing a legacy web application to better serve employers applying for an EIN.",
 		category: "UX Design | GovTech | Web App | Prototype",
-		image: "/lovable-uploads/ein-landing-page.png",
+		image: "/lovable-uploads/mod-ein-default.png",
 		slug: "employer-identification-number",
 	},
 	{
@@ -24,7 +23,7 @@ const projectsData = [
 		description:
 			"The IRS Online Services Design Guide complete with UI Kit, templates, styles and specs.",
 		category: "UX Design | GovTech | Design System | UI Kit",
-		image: "/lovable-uploads/odg-ui-kit.png",
+		image: "/lovable-uploads/ols-design-guide.png",
 		slug: "online-services-design-guide",
 	},
 	{
