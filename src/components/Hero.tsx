@@ -30,8 +30,8 @@ const Hero = () => {
 					</h1>
 
 					<p className="text-lg md:text-xl text-primary/70 max-w-2xl mb-12 text-balance">
-						UX Designer & Researcher focused on creating intuitive products that
-						blend user insights, systems thinking, and AI-driven strategies.
+						UX Designer focused on creating intuitive products that blend user
+						insights, systems thinking, and AI-driven strategies.
 					</p>
 
 					<div className="flex flex-col sm:flex-row gap-4">
