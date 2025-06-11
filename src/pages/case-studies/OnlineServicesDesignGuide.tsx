@@ -11,6 +11,7 @@ import {
 	Code,
 } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const OnlineServicesDesignGuide = () => {
 	const { theme } = useTheme();
@@ -52,10 +53,7 @@ const OnlineServicesDesignGuide = () => {
 							Here's a view-only link to the Design Guide (password protected).
 						</a>
 					</p>
-					<p>
-						I will provide the password on job applications and to interested
-						employers.
-					</p>
+					<p>Note: Password will be provided to interested employers.</p>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-bold">My Role</p>
@@ -93,13 +91,24 @@ const OnlineServicesDesignGuide = () => {
 								accessible digital experiences across all of IRS online
 								services.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
-								<img
-									src="/lovable-uploads/odg-ui-kit.png"
-									alt="Design system foundation elements"
-									className="w-full h-full object-cover"
-								/>
-							</div>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+										<img
+											src="/lovable-uploads/odg-preview.png"
+											alt="Design system foundation elements"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/ols-design-guide.png"
+										alt="Design system foundation elements"
+										className="w-full h-auto rounded-lg"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 
 						<div>
