@@ -34,7 +34,7 @@ const OnlineServicesDesignGuide = () => {
 						To no surprise, I found out that even though Figma offers a feature
 						to import Sketch files, those files did not translate well and were
 						not truly compatible. As a result, the entire design guide needed to
-						built from scratch to leverage the full power of Figma.
+						be built from scratch to leverage the full power of Figma.
 					</p>
 					<p>
 						Leading the charge, I quickly built the majority of the design

@@ -15,7 +15,7 @@ const About = () => {
 									className="w-full h-full object-cover"
 								/>
 							</div>
-							<div className="absolute -bottom-6 -right-6 bg-white glass-effect p-4 rounded-xl shadow-sm">
+							<div className="absolute -bottom-6 right-12 bg-white glass-effect p-4 rounded-xl shadow-sm">
 								<p className="text-2xl font-bold">7+</p>
 								<p className="text-sm text-primary/70">Years of Experience</p>
 							</div>
