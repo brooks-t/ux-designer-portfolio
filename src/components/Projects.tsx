@@ -23,7 +23,7 @@ const projectsData = [
 		description:
 			"The IRS Online Services Design Guide complete with UI Kit, templates, styles and specs.",
 		category: "UX Design | GovTech | Design System | UI Kit",
-		image: "/lovable-uploads/ols-design-guide.png",
+		image: "/lovable-uploads/odg-preview.png",
 		slug: "online-services-design-guide",
 	},
 	{
