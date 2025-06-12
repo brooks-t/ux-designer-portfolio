@@ -24,14 +24,20 @@ const Hero = () => {
 					</h2>
 
 					<h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold tracking-tight max-w-4xl mb-6 text-balance">
-						I craft thoughtful,
-						<span className="text-gradient"> human-centered </span>
-						digital experiences
+						I build impactful,
+						<br></br>
+						<span className="text-gradient">user-centric experiences</span>
+						<br></br>
+						for millions of people
 					</h1>
 
 					<p className="text-lg md:text-xl text-primary/70 max-w-2xl mb-12 text-balance">
-						UX Designer focused on creating intuitive products that blend user
-						insights, systems thinking, and AI-driven strategies.
+						As a UX Designer with 7+ years of expertise in the government and
+						healthcare sectors, I specialize in transforming complex systems
+						into intuitive, accessible, and user-centric products. I leverage a
+						blend of deep user research, systems thinking, and AI-driven
+						strategies to deliver solutions that meet both user needs and
+						business goals.
 					</p>
 
 					<div className="flex flex-col sm:flex-row gap-4">
