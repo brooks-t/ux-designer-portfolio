@@ -27,56 +27,77 @@ const About = () => {
 							About Me
 						</span>
 						<h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-6">
-							I'm a <span className="text-gradient">UX Designer</span> with a
-							deep committment to creating intuitive digital experiences
+							A results-driven{" "}
+							<span className="text-gradient">UX Designer,</span> creating
+							impactful digital experiences for millions of users.
 						</h2>
 						<p className="text-primary/70 mb-6">
-							I believe in design that seamlessly blends aesthetics with
-							functionality. My approach to UX design centers on deep user
-							empathy, thorough research, and iterative testing to create
-							products that are not just visually appealing but truly helpful
-							and enjoyable to use.
+							With 7+ years of expertise in the government and healthcare
+							sectors, my approach is rooted in transforming complex challenges
+							into intuitive, accessible solutions. I believe in a process
+							centered on deep user empathy, data-driven research, and iterative
+							testing to build products that are not just functional, but
+							essential.
 						</p>
 
 						<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
 							<div>
 								<h3 className="text-lg font-semibold mb-2">Education</h3>
 								<p className="text-primary/70">
-									<i>Master of Science</i>
+									<i className="text-gradient font-semibold">
+										Master of Science
+									</i>
 									<br></br>Human-Centered Design
 									<br></br>University of Washington
 								</p>
 								<br></br>
 								<p className="text-primary/70">
-									<i>Certificate</i>
+									<i className="text-gradient font-semibold">Certificate</i>
 									<br></br>Full Stack Web Development
 									<br></br>University of Washington
 								</p>
 								<br></br>
 								<p className="text-primary/70">
-									<i>Bachelor of Arts</i>
+									<i className="text-gradient font-semibold">
+										Bachelor of Arts
+									</i>
 									<br></br>English
 									<br></br>Virginia Tech
+								</p>
+								<br></br>
+								<p className="text-primary/70">
+									<i className="text-gradient font-semibold">Associates</i>
+									<br></br>Applied Science
+									<br></br>United States Air Force
 								</p>
 							</div>
 							<div>
 								<h3 className="text-lg font-semibold mb-2">Experience</h3>
 								<p className="text-primary/70">
-									<i>UX Designer | IRS</i>
-									<br></br>Led UX Design on multiple projects. Designated Figma
-									Champion.
+									<i className="text-gradient font-semibold">
+										UX Designer | IRS
+									</i>
+									<br></br>Led UX design modernization for critical IRS programs
+									like Free File and EIN, enhancing the digital experience for
+									millions of taxpayers.
 								</p>
 								<br></br>
 								<p className="text-primary/70">
-									<i>UX Researcher | Kaiser Permanente</i>
-									<br></br>Led both UX Research and Design efforts across
-									multiple projects.
+									<i className="text-gradient font-semibold">
+										UX Researcher | Kaiser Permanente
+									</i>
+									<br></br>Spearheaded end-to-end UX for a mobile health app,
+									from initial concept and research to interactive prototype and
+									developer handoff.
 								</p>
 								<br></br>
 								<p className="text-primary/70">
-									<i>Customer Care Manager | Heyo</i>
-									<br></br>Fostered customer-centric culture. Liaison for
-									development team.
+									<i className="text-gradient font-semibold">
+										Customer Care Manager | Heyo
+									</i>
+									<br></br>Managed the customer care team, acting as a key
+									liaison between users and developers to advocate for product
+									improvements.
 								</p>
 							</div>
 						</div>
