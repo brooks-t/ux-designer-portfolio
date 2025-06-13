@@ -11,7 +11,7 @@ const projectsData = [
 		slug: "free-file",
 	},
 	{
-		title: "Employer Identification Number",
+		title: "IRS Employer Identification Number",
 		description:
 			"Redesigning a critical legacy system to provide a modern, accessible, and streamlined EIN application process for employers.",
 		category: ["UX Design", "GovTech", "Web App", "Prototype"],
@@ -19,7 +19,7 @@ const projectsData = [
 		slug: "employer-identification-number",
 	},
 	{
-		title: "Online Services Design Guide ",
+		title: "IRS Design Guide ",
 		description:
 			"Leading the migration and build of a comprehensive design system in Figma to unify and accelerate design across the IRS.",
 		category: ["UX Design", "GovTech", "Design System", "UI Kit"],
