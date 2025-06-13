@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 interface ProjectCardProps {
 	title: string;
 	description: string;
-	category: string;
+	category: string[];
 	image: string;
 	index: number;
 	slug: string;
@@ -33,9 +33,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 				</div>
 
 				<div className="p-6 lg:p-8">
-					<span className="inline-block py-1 px-3 mb-3 text-xs font-medium border border-primary/10 rounded-full bg-primary/5 text-foreground">
-						{category}
-					</span>
+					<div className="flex flex-wrap gap-2 mb-3">
+						{category.map((tag) => (
+							<span
+								key={tag}
+								className="inline-block py-1 px-3 text-xs font-medium border border-primary/10 rounded-full bg-primary/5 text-foreground"
+							>
+								{tag}
+							</span>
+						))}
+					</div>
 					<h3 className="text-xl lg:text-2xl font-semibold mb-2 text-balance text-foreground">
 						{title}
 					</h3>

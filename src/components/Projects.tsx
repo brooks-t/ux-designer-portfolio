@@ -5,32 +5,37 @@ const projectsData = [
 	{
 		title: "IRS Free File",
 		description:
-			"Enhancing the user experience to improve confidence and understanding when deciding on tax prep software.",
-		category: "UX Design | GovTech | Web App | Case Study",
+			"Simplifying the path to free tax software for millions of taxpayers to improve clarity and confidence in selecting the right product.",
+		category: ["UX Design", "GovTech", "Web App", "Case Study"],
 		image: "/lovable-uploads/free-file-default.png",
 		slug: "free-file",
 	},
 	{
 		title: "Employer Identification Number",
 		description:
-			"Modernizing a legacy web application to better serve employers applying for an EIN.",
-		category: "UX Design | GovTech | Web App | Prototype",
+			"Redesigning a critical legacy system to provide a modern, accessible, and streamlined EIN application process for employers.",
+		category: ["UX Design", "GovTech", "Web App", "Prototype"],
 		image: "/lovable-uploads/mod-ein-default.png",
 		slug: "employer-identification-number",
 	},
 	{
 		title: "Online Services Design Guide ",
 		description:
-			"The IRS Online Services Design Guide complete with UI Kit, templates, styles and specs.",
-		category: "UX Design | GovTech | Design System | UI Kit",
+			"Leading the migration and build of a comprehensive design system in Figma to unify and accelerate design across the IRS.",
+		category: ["UX Design", "GovTech", "Design System", "UI Kit"],
 		image: "/lovable-uploads/ols-design-guide.png",
 		slug: "online-services-design-guide",
 	},
 	{
 		title: "Kaiser Permanente Gems App",
 		description:
-			"Designed to help ambivalent smokers quit and make a significant impact on global public health.",
-		category: "UX Research & Design | HealthTech | Mobile App | Case Study",
+			"Spearheading the UX research and design of a mobile app that uses behavioral experiments to motivate ambivalent smokers to quit.",
+		category: [
+			"UX Research & Design",
+			"HealthTech",
+			"Mobile App",
+			"Case Study",
+		],
 		image: "/lovable-uploads/gems-new-1.png",
 		slug: "smoking-cessation",
 	},
@@ -45,10 +50,11 @@ const Projects = () => {
 						Projects
 					</span>
 					<h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-4">
-						Recent <span className="text-gradient">Projects</span>
+						Featured <span className="text-gradient">Projects</span>
 					</h2>
 					<p className="text-primary/70">
-						A showcase of my recent design work and case studies.
+						A selection of projects where I've crafted user-centric solutions
+						for complex challenges in government and healthcare.
 					</p>
 				</div>
 
