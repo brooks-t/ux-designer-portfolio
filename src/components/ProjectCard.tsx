@@ -52,7 +52,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
 					<Link
 						to={`/case-study/${slug}`}
-						className="inline-flex items-center text-primary font-medium transition-standard hover:translate-x-2"
+						className="inline-flex items-center text-blue-600 dark:text-blue-400 font-medium transition-standard hover:translate-x-2"
 					>
 						View Project <ArrowRight className="ml-2 w-4 h-4" />
 					</Link>

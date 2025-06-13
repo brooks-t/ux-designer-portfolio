@@ -30,12 +30,7 @@ const projectsData = [
 		title: "Kaiser Permanente Gems App",
 		description:
 			"Spearheading the UX research and design of a mobile app that uses behavioral experiments to motivate ambivalent smokers to quit.",
-		category: [
-			"UX Research & Design",
-			"HealthTech",
-			"Mobile App",
-			"Case Study",
-		],
+		category: ["UX Research", "UX Design", "HealthTech", "Mobile App"],
 		image: "/lovable-uploads/gems-new-1.png",
 		slug: "smoking-cessation",
 	},
