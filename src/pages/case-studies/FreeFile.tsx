@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const FreeFile = () => {
 	const { theme } = useTheme();
@@ -216,13 +217,24 @@ const FreeFile = () => {
 								"Browse vs. Find" page and creating a single, clear path for all
 								users.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden shadow-lg">
-								<img
-									src="/lovable-uploads/app-main-border.png"
-									alt="Redesigned Free File main page with a single call to action"
-									className="w-full h-full object-cover"
-								/>
-							</div>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+										<img
+											src="/lovable-uploads/free-file-single.png"
+											alt="Redesigned Free File main page with a single call to action"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/free-file-single.png"
+										alt="Redesigned Free File main page with a single call to action"
+										className="w-full h-full object-cover"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 
 						<div>
@@ -237,13 +249,24 @@ const FreeFile = () => {
 								information and makes space for future additions like user
 								ratings and state filing costs.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden shadow-lg">
-								<img
-									src="/lovable-uploads/browse-all.png"
-									alt="Enhanced partner information cards"
-									className="w-full h-full object-cover"
-								/>
-							</div>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+										<img
+											src="/lovable-uploads/free-file-browse.png"
+											alt="Enhanced partner information cards"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/free-file-browse.png"
+										alt="Enhanced partner information cards"
+										className="w-full h-full object-cover"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 
 						<div>
@@ -257,13 +280,24 @@ const FreeFile = () => {
 								replaced with a more intuitive, grouped filtering interaction
 								that reduces cognitive load.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden shadow-lg">
-								<img
-									src="/lovable-uploads/filter-results.png"
-									alt="Simplified filtering and results page"
-									className="w-full h-full object-cover"
-								/>
-							</div>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+										<img
+											src="/lovable-uploads/free-file-AGI.png"
+											alt="Simplified filtering and results page"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/free-file-AGI.png"
+										alt="Simplified filtering and results page"
+										className="w-full h-full object-cover"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 					</div>
 				</section>
