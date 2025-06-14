@@ -219,7 +219,7 @@ const FreeFile = () => {
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
-									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
 											src="/lovable-uploads/free-file-single.png"
 											alt="Redesigned Free File main page with a single call to action"
@@ -251,7 +251,7 @@ const FreeFile = () => {
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
-									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
 											src="/lovable-uploads/free-file-browse.png"
 											alt="Enhanced partner information cards"
@@ -282,7 +282,7 @@ const FreeFile = () => {
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
-									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
 											src="/lovable-uploads/free-file-AGI.png"
 											alt="Simplified filtering and results page"
