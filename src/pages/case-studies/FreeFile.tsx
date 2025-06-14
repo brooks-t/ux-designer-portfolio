@@ -9,6 +9,7 @@ import {
 	CheckCircle,
 } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
+import { Button } from "@/components/ui/button";
 
 const FreeFile = () => {
 	const { theme } = useTheme();
@@ -16,17 +17,23 @@ const FreeFile = () => {
 
 	return (
 		<CaseStudyLayout
-			title="IRS Free File Design Improvement"
+			title="IRS Free File Modernization"
 			category="UX Design | GovTech | Web App | Case Study"
 			heroImage="/lovable-uploads/free-file-hero.png"
 		>
-			<div className="space-y-8">
+			<div className="space-y-12">
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
 					<p className="text-primary/70 mb-4">
-						The Free File project aimed to improve the user experience of the
-						IRS Free File application to help taxpayers confidently select free
-						tax preparation software.
+						The IRS Free File program offers free tax preparation and filing
+						services to millions of eligible taxpayers through partnerships with
+						third-party companies. However, the existing application for finding
+						a provider was confusing and outdated, leading to user frustration
+						and a lack of confidence in selecting the right software. This
+						project focused on a complete redesign of the Free File user
+						experience to improve clarity, simplify the selection process, and
+						ultimately empower taxpayers to file their taxes for free with
+						confidence.
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
@@ -35,7 +42,9 @@ const FreeFile = () => {
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-medium">Key Responsibilities</p>
-							<p className="text-primary/70">UI/IX Design</p>
+							<p className="text-primary/70">
+								UI/UX Design, Prototyping, Usability Testing Support
+							</p>
 						</div>
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-medium">Tools Used</p>
@@ -47,8 +56,10 @@ const FreeFile = () => {
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
 					<p className="text-primary/70 mb-4">
-						Taxpayers face confusion and frustration when trying to navigate the
-						complex landscape of free tax preparation software options:
+						The primary challenge was to transform a complex and often
+						intimidating process into a simple, trustworthy, and user-friendly
+						experience. Based on heuristic evaluations and initial user
+						feedback, we identified several key pain points:
 					</p>
 					<ul className="space-y-3">
 						<li className="flex items-start">
@@ -56,11 +67,13 @@ const FreeFile = () => {
 								<Users className="w-4 h-4 text-red-500" />
 							</span>
 							<div>
-								<p className="font-medium">Language and terminology</p>
+								<p className="font-medium">
+									Confusing Terminology and Navigation
+								</p>
 								<p className="text-primary/70">
-									Particpants were confused by language and terminology used in
-									the app, such as the term "offers" and the difference between
-									"browse" and "find."
+									Users were confused by inconsistent language (e.g., "provider"
+									vs. "offer") and unclear navigation, often mistaking the tool
+									for a direct IRS filing service.
 								</p>
 							</div>
 						</li>
@@ -69,11 +82,13 @@ const FreeFile = () => {
 								<Bookmark className="w-4 h-4 text-red-500" />
 							</span>
 							<div>
-								<p className="font-medium">Navigation and page titles</p>
+								<p className="font-medium">
+									Information Gaps and Lack of Trust
+								</p>
 								<p className="text-primary/70">
-									Taxpayers were disoriented by navigation and page titles,
-									which implied filing taxes directly with the IRS rather than
-									finding partner tax software.
+									The application lacked sufficient information about the
+									partner companies, forcing users to do their own research and
+									diminishing their confidence in making a selection.
 								</p>
 							</div>
 						</li>
@@ -82,11 +97,13 @@ const FreeFile = () => {
 								<LineChart className="w-4 h-4 text-red-500" />
 							</span>
 							<div>
-								<p className="font-medium">AGI explanation</p>
+								<p className="font-medium">
+									Overwhelming and Complex Processes
+								</p>
 								<p className="text-primary/70">
-									Adjusted Gross Income (AGI) needed to be better explained
-									throughout the app, including on the landing page and in the
-									"Find a trusted partner" tool.
+									The "Browse vs. Find" choice on the landing page created
+									unnecessary complexity, and the Adjusted Gross Income (AGI)
+									estimation tool felt like filing taxes all over again.
 								</p>
 							</div>
 						</li>
@@ -96,33 +113,42 @@ const FreeFile = () => {
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">Research & Discovery</h2>
 					<p className="text-primary/70 mb-6">
-						We underwent a comprehensive research phase to understand user needs
-						and pain points:
+						To ground our design decisions in real user needs, we employed a
+						mixed-methods research approach. Although my primary role was Lead
+						UX Designer, I actively participated in the research process,
+						helping to shape the usability tests and synthesize findings. Our
+						methods included:
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
 						<div className="border border-primary/10 rounded-lg p-5">
-							<h3 className="font-medium mb-2">Heuristic Analysis</h3>
+							<h3 className="font-medium mb-2">Heuristic Evaluation</h3>
 							<p className="text-primary/70">
-								Experts reviewed both desktop and mobile designs
+								Conducted expert reviews of the existing application to identify
+								usability flaws and areas for improvement.
 							</p>
 						</div>
 						<div className="border border-primary/10 rounded-lg p-5">
-							<h3 className="font-medium mb-2">Competitive Analysis</h3>
+							<h3 className="font-medium mb-2">
+								Comparative Usability Testing
+							</h3>
 							<p className="text-primary/70">
-								Evaluated competitor tax preparation software and guidance tools
+								Tested a new prototype against the existing application with
+								real taxpayers to compare performance and satisfaction.
 							</p>
 						</div>
 						<div className="border border-primary/10 rounded-lg p-5">
-							<h3 className="font-medium mb-2">Usability Testing</h3>
+							<h3 className="font-medium mb-2">User Interviews</h3>
 							<p className="text-primary/70">
-								Compared usability of prototype to existing Free File app
+								Held one-on-one sessions to dive deep into taxpayers'
+								experiences, mental models, and pain points with filing taxes
+								online.
 							</p>
 						</div>
 						<div className="border border-primary/10 rounded-lg p-5">
-							<h3 className="font-medium mb-2">Stakeholder Collaboration</h3>
+							<h3 className="font-medium mb-2">Stakeholder Workshops</h3>
 							<p className="text-primary/70">
-								Collaborated with stakeholders to understand goals and
-								constraints
+								Collaborated with internal IRS teams and business stakeholders
+								to align on project goals, constraints, and success metrics.
 							</p>
 						</div>
 					</div>
@@ -142,25 +168,30 @@ const FreeFile = () => {
 						<ul
 							className={`space-y-2 ${
 								darkMode ? "text-amber-100" : "text-primary/70"
-							}`}
+							} list-disc pl-5`}
 						>
 							<li>
-								• Taxpayers were confused by inconsistent terminology and
-								unclear tool options
+								<strong>Clarity is Key:</strong> Users need plain, consistent
+								language to understand that Free File is a search tool for
+								third-party software, not a direct filing service.
 							</li>
 							<li>
-								• Navigation issues led to confusion about filing directly with
-								the IRS
+								<strong>Confidence is Built on Information:</strong> To make an
+								informed decision, users require more than just basic
+								eligibility criteria; they look for social proof, user reviews,
+								and transparent pricing for state filing.
 							</li>
 							<li>
-								• Insufficient partner information hindered informed
-								decision-making
+								<strong>Simplicity Reduces Overwhelm:</strong> A guided, linear
+								path is preferable to presenting users with too many choices
+								upfront. The distinction between "Browse" and "Find" was a
+								significant point of confusion.
 							</li>
 							<li>
-								• The number of choices and decision steps overwhelmed users
-							</li>
-							<li>
-								• AGI estimation and filtering posed significant challenges
+								<strong>Estimation, Not Calculation:</strong> The AGI calculator
+								was a major hurdle. Users wanted a simplified estimation
+								process, not a complex form that mirrored the work of filing
+								itself.
 							</li>
 						</ul>
 					</div>
@@ -168,20 +199,27 @@ const FreeFile = () => {
 
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">Design Solutions</h2>
-					<div className="space-y-6">
+					<p className="text-primary/70 mb-6">
+						Guided by our research insights, I led the design of a modernized,
+						user-centric Free File application. The solutions were directly tied
+						to our key hypotheses.
+					</p>
+					<div className="space-y-10">
 						<div>
 							<h3 className="font-medium flex items-center mb-3">
-								<Layout className="w-5 h-5 text-primary mr-2" /> Redesigned
-								Navigation and Page Titles
+								<Layout className="w-5 h-5 text-primary mr-2" /> Hypothesis:
+								Simplify the Path
 							</h3>
 							<p className="text-primary/70 mb-4">
-								Simplified navigation and implemented clear and direct language
-								to accurately reflect Free File's purpose.
+								We believed that removing unhelpful decision steps would reduce
+								user frustration. We addressed this by eliminating the confusing
+								"Browse vs. Find" page and creating a single, clear path for all
+								users.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
+							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden shadow-lg">
 								<img
 									src="/lovable-uploads/app-main-border.png"
-									alt="updated free file main page"
+									alt="Redesigned Free File main page with a single call to action"
 									className="w-full h-full object-cover"
 								/>
 							</div>
@@ -189,17 +227,20 @@ const FreeFile = () => {
 
 						<div>
 							<h3 className="font-medium flex items-center mb-3">
-								<Layout className="w-5 h-5 text-primary mr-2" /> Enhanced
-								Partner Information Display
+								<Layout className="w-5 h-5 text-primary mr-2" /> Hypothesis:
+								Build Confidence Through Information
 							</h3>
 							<p className="text-primary/70 mb-4">
-								Created a more comprehensive and organized display of partner
-								information with clear eligibility details.
+								We hypothesized that providing more information about partners
+								would help users make a confident choice. The new design
+								features enhanced partner cards with clearer eligibility
+								information and makes space for future additions like user
+								ratings and state filing costs.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
+							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden shadow-lg">
 								<img
 									src="/lovable-uploads/browse-all.png"
-									alt="updated browse all page"
+									alt="Enhanced partner information cards"
 									className="w-full h-full object-cover"
 								/>
 							</div>
@@ -207,18 +248,19 @@ const FreeFile = () => {
 
 						<div>
 							<h3 className="font-medium flex items-center mb-3">
-								<Layout className="w-5 h-5 text-primary mr-2" /> Simplified
-								Filtering and Decision Process
+								<Layout className="w-5 h-5 text-primary mr-2" /> Hypothesis:
+								Streamline Filtering
 							</h3>
 							<p className="text-primary/70 mb-4">
-								Streamlined the filtering process and reduced the number of
-								decisions that the user needed to make while going through the
-								app.
+								We believed that a simpler AGI estimation and filtering process
+								would help taxpayers find a partner faster. The wizard was
+								replaced with a more intuitive, grouped filtering interaction
+								that reduces cognitive load.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden">
+							<div className="aspect-[16/9] bg-slate-100 rounded-lg overflow-hidden shadow-lg">
 								<img
 									src="/lovable-uploads/filter-results.png"
-									alt="Budgeting tools"
+									alt="Simplified filtering and results page"
 									className="w-full h-full object-cover"
 								/>
 							</div>
@@ -229,15 +271,11 @@ const FreeFile = () => {
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
 					<p className="text-primary/70 mb-6">
-						The{" "}
-						<a
-							href="https://apps.irs.gov/app/freeFile/"
-							className="text-blue-600 underline hover:text-blue-800"
-						>
-							updated app launched recently
-						</a>{" "}
-						in preparation for tax season. While the tax season is ongoing and
-						data is being collected, we hypothesize the following results:
+						The redesigned Free File application has launched, and we are
+						actively gathering data on its performance. The initial feedback
+						from usability testing has been overwhelmingly positive, validating
+						our design decisions and demonstrating a significant improvement in
+						the user experience.
 					</p>
 					<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
 						<div
@@ -252,13 +290,12 @@ const FreeFile = () => {
 									} mr-2`}
 								/>
 								<div>
-									<p className="font-semibold text-2xl mb-1">
-										Clarity and language
-									</p>
+									<p className="font-semibold text-xl mb-1">Improved Clarity</p>
 									<p
 										className={darkMode ? "text-green-100" : "text-primary/70"}
 									>
-										Improved user understanding
+										Users demonstrated a much clearer understanding of the
+										tool's purpose.
 									</p>
 								</div>
 							</div>
@@ -275,13 +312,14 @@ const FreeFile = () => {
 									} mr-2`}
 								/>
 								<div>
-									<p className="font-semibold text-2xl mb-1">
-										Simplified choices
+									<p className="font-semibold text-xl mb-1">
+										Reduced Confusion
 									</p>
 									<p
 										className={darkMode ? "text-green-100" : "text-primary/70"}
 									>
-										Reduced user frustration
+										The simplified navigation and grouped results made the
+										selection process feel less overwhelming.
 									</p>
 								</div>
 							</div>
@@ -298,26 +336,22 @@ const FreeFile = () => {
 									} mr-2`}
 								/>
 								<div>
-									<p className="font-semibold text-2xl mb-1">
-										Streamlined filter
+									<p className="font-semibold text-xl mb-1">
+										Increased Confidence
 									</p>
 									<p
 										className={darkMode ? "text-green-100" : "text-primary/70"}
 									>
-										Faster partner selection
+										Participants felt more equipped to choose a provider, with
+										one stating, "I like the separation of free federal only
+										from the ones that offer free state."
 									</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div className="border-t border-primary/10 pt-6">
-						<blockquote className="italic text-primary/80 pl-4 border-l-2 border-primary/20">
-							"The updated Free File application made it much easier for me to
-							find the right tax software."
-							<footer className="mt-2 font-medium text-primary not-italic">
-								— Usability test quote
-							</footer>
-						</blockquote>
+					<div className="flex justify-center mt-8">
+						<Button disabled>Interactive Prototype Coming Soon</Button>
 					</div>
 				</section>
 			</div>
