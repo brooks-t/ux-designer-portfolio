@@ -166,7 +166,7 @@ const EmployerIdentificationNumber = () => {
 								Redesigned the application process with a clear step-by-step
 								flow and progress indicators.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden">
+							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden border">
 								<img
 									src="/lovable-uploads/mod-ein-new-steps.png"
 									alt="EIN application landing page redesign"
@@ -184,9 +184,26 @@ const EmployerIdentificationNumber = () => {
 								Created intuitive form layouts with clear labels, helpful
 								tooltips, and improved error handling.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden">
+							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden border">
 								<img
 									src="/lovable-uploads/mod-ein-error-help.png"
+									alt="EIN application landing page redesign"
+									className="w-full h-full object-cover"
+								/>
+							</div>
+						</div>
+
+						<div>
+							<h3 className="font-medium flex items-center mb-3">
+								<Layout className="w-5 h-5 text-primary mr-2" /> Improved
+								Assistance
+							</h3>
+							<p className="text-primary/70 mb-4">
+								Added dynamic assistance based on user responses.
+							</p>
+							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden border">
+								<img
+									src="/lovable-uploads/mod-ein-help.png"
 									alt="EIN application landing page redesign"
 									className="w-full h-full object-cover"
 								/>
