@@ -43,7 +43,7 @@ const CaseStudyLayout: React.FC<CaseStudyLayoutProps> = ({
 						<div className="flex flex-col space-y-4">
 							<Link
 								to="/#projects"
-								className="inline-flex items-center text-primary/70 hover:text-primary transition-standard w-fit"
+								className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-primary transition-standard w-fit"
 							>
 								<ArrowLeft className="mr-2 w-4 h-4" /> Back to Projects
 							</Link>

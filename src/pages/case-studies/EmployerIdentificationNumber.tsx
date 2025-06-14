@@ -17,7 +17,7 @@ const EmployerIdentificationNumber = () => {
 	return (
 		<CaseStudyLayout
 			title="Employer Identification Number Modernization"
-			category="UX Design | GovTech | Web App | Prototype"
+			category={["UX Design", "GovTech", "Web App", "Case Study"]}
 			heroImage="/lovable-uploads/ein-landing-page.png"
 		>
 			<div className="space-y-8">

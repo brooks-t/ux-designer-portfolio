@@ -18,7 +18,7 @@ const SmokingCessation = () => {
 	return (
 		<CaseStudyLayout
 			title="Smoking Cessation App (GEMS)"
-			category="UX Research & Design | HealthTech | Mobile App | Case Study"
+			category={["UX Research", "UI Design", "HealthTech", "Mobile App"]}
 			heroImage="/lovable-uploads/gems-new-hero.png"
 		>
 			<div className="space-y-8">

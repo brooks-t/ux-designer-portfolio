@@ -20,7 +20,7 @@ const OnlineServicesDesignGuide = () => {
 	return (
 		<CaseStudyLayout
 			title="IRS Online Services Design Guide"
-			category="UX Design | GovTech | Design System | UI Kit"
+			category={["UX Design", "GovTech", "Design System", "UI Kit"]}
 			heroImage="/lovable-uploads/odg-ui-kit.png"
 		>
 			<div className="space-y-8">
