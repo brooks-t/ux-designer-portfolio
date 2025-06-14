@@ -18,8 +18,8 @@ const FreeFile = () => {
 	return (
 		<CaseStudyLayout
 			title="IRS Free File Modernization"
-			category="UX Design | GovTech | Web App | Case Study"
-			heroImage="/lovable-uploads/free-file-hero.png"
+			category={["UX Design", "GovTech", "Web App", "Case Study"]}
+			heroImage="/lovable-uploads/free-file-default.png"
 		>
 			<div className="space-y-12">
 				<section>
