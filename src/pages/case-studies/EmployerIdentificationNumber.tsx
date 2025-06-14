@@ -18,7 +18,7 @@ const EmployerIdentificationNumber = () => {
 		<CaseStudyLayout
 			title="Employer Identification Number Modernization"
 			category={["UX Design", "GovTech", "Web App", "Case Study"]}
-			heroImage="/lovable-uploads/ein-landing-page.png"
+			heroImage="/lovable-uploads/mod-ein-default.png"
 		>
 			<div className="space-y-8">
 				<section className="space-y-4 text-primary/70">

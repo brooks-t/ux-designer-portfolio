@@ -21,7 +21,7 @@ const OnlineServicesDesignGuide = () => {
 		<CaseStudyLayout
 			title="IRS Online Services Design Guide"
 			category={["UX Design", "GovTech", "Design System", "UI Kit"]}
-			heroImage="/lovable-uploads/odg-ui-kit.png"
+			heroImage="/lovable-uploads/ols-design-guide.png"
 		>
 			<div className="space-y-8">
 				<section className="space-y-4 text-primary/70">
