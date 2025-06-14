@@ -103,7 +103,7 @@ const OnlineServicesDesignGuide = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/ols-design-guide.png"
+										src="/lovable-uploads/odg-preview.png"
 										alt="Design system foundation elements"
 										className="w-full h-auto rounded-lg"
 									/>
