@@ -9,6 +9,7 @@ import {
 	CheckCircle,
 } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const EmployerIdentificationNumber = () => {
 	const { theme } = useTheme();
@@ -166,13 +167,24 @@ const EmployerIdentificationNumber = () => {
 								Redesigned the application process with a clear step-by-step
 								flow and progress indicators.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden border">
-								<img
-									src="/lovable-uploads/mod-ein-new-steps.png"
-									alt="EIN application landing page redesign"
-									className="w-full h-full object-cover"
-								/>
-							</div>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+										<img
+											src="/lovable-uploads/mod-ein-new-steps.png"
+											alt="EIN application landing page redesign"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/mod-ein-new-steps.png"
+										alt="EIN application landing page redesign"
+										className="w-full h-full object-cover"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 
 						<div>
@@ -184,13 +196,24 @@ const EmployerIdentificationNumber = () => {
 								Created intuitive form layouts with clear labels, helpful
 								tooltips, and improved error handling.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden border">
-								<img
-									src="/lovable-uploads/mod-ein-error-help.png"
-									alt="EIN application landing page redesign"
-									className="w-full h-full object-cover"
-								/>
-							</div>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+										<img
+											src="/lovable-uploads/mod-ein-error-help.png"
+											alt="EIN application landing page redesign"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/mod-ein-error-help.png"
+										alt="EIN application landing page redesign"
+										className="w-full h-full object-cover"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 
 						<div>
@@ -201,13 +224,24 @@ const EmployerIdentificationNumber = () => {
 							<p className="text-primary/70 mb-4">
 								Added dynamic assistance based on user responses.
 							</p>
-							<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-xl overflow-hidden border">
-								<img
-									src="/lovable-uploads/mod-ein-help.png"
-									alt="EIN application landing page redesign"
-									className="w-full h-full object-cover"
-								/>
-							</div>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+										<img
+											src="/lovable-uploads/mod-ein-help.png"
+											alt="EIN application landing page redesign"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/mod-ein-help.png"
+										alt="EIN application landing page redesign"
+										className="w-full h-full object-cover"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 
 						{/* <div>
