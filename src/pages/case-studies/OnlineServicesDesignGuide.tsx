@@ -9,6 +9,9 @@ import {
 	CheckCircle,
 	Palette,
 	Code,
+	PenSquare,
+	Navigation,
+	Component,
 } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
@@ -84,63 +87,143 @@ const OnlineServicesDesignGuide = () => {
 
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">
-						Design System Components
+						A Closer Look at the Design System
 					</h2>
-					<div className="space-y-6">
+					<p className="text-primary/70 mb-6">
+						The design guide is more than a UI kit; it's a comprehensive
+						resource for creating cohesive, accessible, and user-friendly
+						digital products for the IRS. Here’s a breakdown of its core
+						elements.
+					</p>
+					<div className="space-y-10">
+						{/* Foundation: Colors & Typography */}
 						<div>
 							<h3 className="font-medium flex items-center mb-3">
-								<Palette className="w-5 h-5 text-primary mr-2" /> Foundation
-								Elements
+								<Palette className="w-5 h-5 text-primary mr-2" /> Foundation:
+								Colors & Typography
 							</h3>
 							<p className="text-primary/70 mb-4">
-								The IRS Online Services Design Guide is a comprehensive design
-								system that provides guidelines, components, typography, color
-								palettes, specs, and templates for creating consistent and
-								accessible digital experiences across all of IRS online
-								services.
+								A solid foundation is key to brand consistency. The design guide
+								establishes a clear color palette, including theme and alert
+								colors, and a typographic scale for headings and body text to
+								ensure a unified look and feel across all applications.
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
-									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/odg-preview.png"
-											alt="Design system foundation elements"
+											src="/lovable-uploads/odg-styles.png"
+											alt="Color palette and typography from the design system"
 											className="w-full h-full object-cover"
 										/>
 									</div>
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/odg-preview.png"
-										alt="Design system foundation elements"
+										src="/lovable-uploads/odg-styles.png"
+										alt="Color palette and typography from the design system"
 										className="w-full h-auto rounded-lg"
 									/>
 								</DialogContent>
 							</Dialog>
 						</div>
 
+						{/* Components: Forms & Inputs */}
 						<div>
 							<h3 className="font-medium flex items-center mb-3">
-								<Layout className="w-5 h-5 text-primary mr-2" /> Component
-								Library
+								<PenSquare className="w-5 h-5 text-primary mr-2" /> Components:
+								Forms & Inputs
 							</h3>
 							<p className="text-primary/70 mb-4">
-								Developed a comprehensive library of reusable UI components
-								including forms, navigation, buttons, cards, and data
-								visualization elements.
+								Forms are a critical part of the user experience. The design
+								system includes detailed specifications for various form
+								elements like text fields , calendar pickers, and more, with
+								defined states for default, error, and focus conditions.
 							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
+										<img
+											src="/lovable-uploads/odg-forms.png"
+											alt="Form components from the design system"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/odg-forms.png"
+										alt="Form components from the design system"
+										className="w-full h-auto rounded-lg"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 
+						{/* Components: Buttons & Indicators */}
 						<div>
 							<h3 className="font-medium flex items-center mb-3">
-								<Code className="w-5 h-5 text-primary mr-2" /> Templates &
-								Patterns
+								<Component className="w-5 h-5 text-primary mr-2" /> Components:
+								Buttons & Indicators
 							</h3>
 							<p className="text-primary/70 mb-4">
-								Created page templates and interaction patterns for common use
-								cases across IRS digital services, allowing designers to quickly
-								get projects off the ground and ideate.
+								The guide features a wide range of interactive components.
+								Buttons have variants for different use cases, such as filled
+								and outlined, and include specifications for states like hover,
+								active, and disabled. Step indicators provide clear guidance
+								through multi-step processes for both desktop and mobile views.
 							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
+										<img
+											src="/lovable-uploads/odg-components.png"
+											alt="Button and step indicator components"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/odg-components.png"
+										alt="Button and step indicator components"
+										className="w-full h-auto rounded-lg"
+									/>
+								</DialogContent>
+							</Dialog>
+						</div>
+
+						{/* Structure: Navigation */}
+						<div>
+							<h3 className="font-medium flex items-center mb-3">
+								<Navigation className="w-5 h-5 text-primary mr-2" /> Structure:
+								Navigation
+							</h3>
+							<p className="text-primary/70 mb-4">
+								To ensure a consistent user journey, the design system defines
+								global navigation elements. This includes the unauthenticated
+								header for public-facing pages and detailed side navigation
+								menus with specs for different levels and states (active,
+								hover).
+							</p>
+							<Dialog>
+								<DialogTrigger asChild>
+									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
+										<img
+											src="/lovable-uploads/odg-navigation.png"
+											alt="Navigation components from the design system"
+											className="w-full h-full object-cover"
+										/>
+									</div>
+								</DialogTrigger>
+								<DialogContent className="max-w-6xl p-2">
+									<img
+										src="/lovable-uploads/odg-navigation.png"
+										alt="Navigation components from the design system"
+										className="w-full h-auto rounded-lg"
+									/>
+								</DialogContent>
+							</Dialog>
 						</div>
 					</div>
 				</section>
@@ -171,8 +254,8 @@ const OnlineServicesDesignGuide = () => {
 									<p
 										className={darkMode ? "text-green-100" : "text-primary/70"}
 									>
-										Consistent design across all platforms with USWDS
-										compatibility
+										Ensured consistent design across all platforms with USWDS
+										compatibility.
 									</p>
 								</div>
 							</div>
@@ -225,7 +308,9 @@ const OnlineServicesDesignGuide = () => {
 							</div>
 						</div>
 					</div>
+
 					<div className="border-t border-primary/10 pt-6">
+						<h2 className="text-2xl font-semibold mb-4">Testimonial</h2>
 						<blockquote className="italic text-primary/80 pl-4 border-l-2 border-primary/20">
 							"Last year we had to make a sudden and surprise move from a Sketch
 							/ InVision software combo to Figma with a staff that was mostly
