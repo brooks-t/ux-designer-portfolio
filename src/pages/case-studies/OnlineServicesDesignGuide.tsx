@@ -313,22 +313,39 @@ const OnlineServicesDesignGuide = () => {
 					</div>
 
 					<div className="border-t border-primary/10 pt-6">
-						<h2 className="text-2xl font-semibold mb-4">Testimonial</h2>
-						<blockquote className="italic text-primary/80 pl-4 border-l-2 border-primary/20">
-							"Last year we had to make a sudden and surprise move from a Sketch
-							/ InVision software combo to Figma with a staff that was mostly
-							unfamiliar with the new software. Brooks immediately volunteered
-							to help however he could in the transition. On a rushed timeline,
-							he converted our design standard into a new Figma based design
-							system, transferred over projects from our portfolio, hosted a
-							weekly office hours where others could bring their problems to
-							him, and taught himself whatever he didn’t know to put him in a
-							place to help others. The management team was so impressed, it led
-							to him being nominated for a Special Act Award in his first year."
-							<footer className="mt-2 font-medium text-primary not-italic">
-								— Patrick Prugh, UX Design Team Supervisor @ IRS
-							</footer>
-						</blockquote>
+						<div className="mt-2 rounded-lg border bg-primary/5 p-6">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								className="h-8 w-8 text-primary/20 mb-4"
+							>
+								<path d="M3 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2H4c-1.25 0-2 .75-2 2v6c0 7 4 8 7 8Z" />
+								<path d="M14 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2h-4c-1.25 0-2 .75-2 2v6c0 7 4 8 7 8Z" />
+							</svg>
+							<blockquote className="italic text-primary/80 text-base">
+								"Last year we had to make a sudden and surprise move from a
+								Sketch / InVision software combo to Figma with a staff that was
+								mostly unfamiliar with the new software. Brooks immediately
+								volunteered to help however he could in the transition. On a
+								rushed timeline, he converted our design standard into a new
+								Figma based design system, transferred over projects from our
+								portfolio, hosted a weekly office hours where others could bring
+								their problems to him, and taught himself whatever he didn’t
+								know to put him in a place to help others. The management team
+								was so impressed, it led to him being nominated for a Special
+								Act Award in his first year."
+								<footer className="mt-4 font-medium text-primary not-italic">
+									— Patrick Prugh, UX Design Team Supervisor @ IRS
+								</footer>
+							</blockquote>
+						</div>
 						<div className="flex justify-center mt-8">
 							<Button asChild>
 								<a
