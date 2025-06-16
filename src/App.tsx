@@ -1,5 +1,3 @@
-// src/App.tsx
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -23,13 +21,10 @@ import EmployerIdentificationNumber from "./pages/case-studies/EmployerIdentific
 import OnlineServicesDesignGuide from "./pages/case-studies/OnlineServicesDesignGuide";
 import { ThemeProvider } from "./components/ThemeProvider";
 
-// --- Add Your Measurement ID Here ---
-const GA_MEASUREMENT_ID = "G-M8F554D057"; // <-- Replace with your Measurement ID
+const GA_MEASUREMENT_ID = "G-M8F554D057";
 
-// Initialize Google Analytics
-if (GA_MEASUREMENT_ID && GA_MEASUREMENT_ID !== "G-M8F554D057") {
-	ReactGA.initialize(GA_MEASUREMENT_ID);
-}
+// Initialize Google Analytics directly
+ReactGA.initialize(GA_MEASUREMENT_ID);
 
 const queryClient = new QueryClient();
 
@@ -38,19 +33,17 @@ const usePageTracking = () => {
 	const location = useLocation();
 
 	useEffect(() => {
-		if (GA_MEASUREMENT_ID && GA_MEASUREMENT_ID !== "G-M8F554D057") {
-			// Send a pageview event
-			ReactGA.send({
-				hitType: "pageview",
-				page: location.pathname + location.search,
-			});
-		}
+		// Send a pageview event on route change
+		ReactGA.send({
+			hitType: "pageview",
+			page: location.pathname + location.search,
+		});
 	}, [location]);
 };
 
 // --- Main App Component ---
 const AppContent = () => {
-	usePageTracking(); // This custom hook will run on every route change
+	usePageTracking();
 
 	return (
 		<Routes>
