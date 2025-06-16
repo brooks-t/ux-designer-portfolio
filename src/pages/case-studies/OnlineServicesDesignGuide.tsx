@@ -27,33 +27,22 @@ const OnlineServicesDesignGuide = () => {
 				<section className="space-y-4 text-primary/70">
 					<h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
 					<p>
-						When our team found out that we needed to switch from Sketch &
-						Invision to Figma under a tight deadline, I volunteered to spearhead
-						the migration.
-					</p>
-					<p>
-						To no surprise, I found out that even though Figma offers a feature
-						to import Sketch files, those files did not translate well and were
-						not truly compatible. As a result, the entire design guide needed to
-						be built from scratch to leverage the full power of Figma.
-					</p>
-					<p>
-						Leading the charge, I quickly built the majority of the design
-						guide, incorporating key Figma feature improvements such as
-						autolayout and variants to ensure our UX team had a minimum viable
-						product to work with and avoid any work stoppages. Since then,
-						several other designers have contributed to and improved upon the
-						initial version that I created.
+						The IRS Online Services Design Guide is a comprehensive design
+						system that provides guidelines, components, typography, color
+						palettes, specs, and templates for creating consistent and
+						accessible digital experiences across all of IRS online services.
 					</p>
 					<p>
 						<a
 							href="https://www.figma.com/design/9sdxBVuSNWvTbR6D80PgqU/Hi-Fi-IRS-ODG-UI-Kit-4.3.1?node-id=46-646&t=tYiL1ke2pHHZbyDk-1"
 							className="text-blue-600 hover:text-blue-800 underline font-bold"
 						>
-							Here's a view-only link to the Design Guide (password protected).
+							View the IRS Design Guide File (password protected).
 						</a>
 					</p>
 					<p>Note: Password will be provided to interested employers.</p>
+
+					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-bold">My Role</p>
@@ -72,6 +61,25 @@ const OnlineServicesDesignGuide = () => {
 							<p className="text-primary/70">Figma, Sketch, InVision</p>
 						</div>
 					</div>
+					<p>
+						When our team found out that we needed to switch from Sketch &
+						Invision to Figma under a tight deadline, I volunteered to spearhead
+						the migration.
+					</p>
+					<p>
+						To no surprise, I found out that even though Figma offers a feature
+						to import Sketch files, those files did not translate well and were
+						not truly compatible. As a result, the entire design guide needed to
+						be built from scratch to leverage the full power of Figma.
+					</p>
+					<p>
+						Leading the charge, I quickly built the majority of the design
+						guide, incorporating key Figma feature improvements such as
+						autolayout and variants to ensure our UX team had a minimum viable
+						product to work with and avoid any work stoppages. Since then,
+						several other designers have contributed to and improved upon the
+						initial version that I created.
+					</p>
 				</section>
 
 				<section>
