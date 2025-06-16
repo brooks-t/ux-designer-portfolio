@@ -3,12 +3,12 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
 	{
-		title: "IRS Free File",
+		title: "IRS Design Guide ",
 		description:
-			"Simplifying the path to free tax software for millions of taxpayers to improve clarity and confidence in selecting the right product.",
-		category: ["UX Design", "GovTech", "Web App", "Case Study"],
-		image: "/lovable-uploads/free-file-default.png",
-		slug: "free-file",
+			"Leading the migration and build of a comprehensive design system in Figma to unify and accelerate design across the IRS.",
+		category: ["UX Design", "GovTech", "Design System", "UI Kit"],
+		image: "/lovable-uploads/ols-design-guide.png",
+		slug: "online-services-design-guide",
 	},
 	{
 		title: "IRS Employer Identification Number",
@@ -19,12 +19,12 @@ const projectsData = [
 		slug: "employer-identification-number",
 	},
 	{
-		title: "IRS Design Guide ",
+		title: "IRS Free File",
 		description:
-			"Leading the migration and build of a comprehensive design system in Figma to unify and accelerate design across the IRS.",
-		category: ["UX Design", "GovTech", "Design System", "UI Kit"],
-		image: "/lovable-uploads/ols-design-guide.png",
-		slug: "online-services-design-guide",
+			"Simplifying the path to free tax software for millions of taxpayers to improve clarity and confidence in selecting the right product.",
+		category: ["UX Design", "GovTech", "Web App", "Case Study"],
+		image: "/lovable-uploads/free-file-default.png",
+		slug: "free-file",
 	},
 	{
 		title: "Kaiser Permanente Gems App",
