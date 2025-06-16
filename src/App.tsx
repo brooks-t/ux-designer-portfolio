@@ -1,8 +1,19 @@
+// src/App.tsx
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import {
+	BrowserRouter,
+	Routes,
+	Route,
+	Navigate,
+	useLocation,
+} from "react-router-dom";
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
+
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import FreeFile from "./pages/case-studies/FreeFile";
@@ -12,32 +23,82 @@ import EmployerIdentificationNumber from "./pages/case-studies/EmployerIdentific
 import OnlineServicesDesignGuide from "./pages/case-studies/OnlineServicesDesignGuide";
 import { ThemeProvider } from "./components/ThemeProvider";
 
+// --- Add Your Measurement ID Here ---
+const GA_MEASUREMENT_ID = "G-M8F554D057"; // <-- Replace with your Measurement ID
+
+// Initialize Google Analytics
+if (GA_MEASUREMENT_ID && GA_MEASUREMENT_ID !== "G-M8F554D057") {
+	ReactGA.initialize(GA_MEASUREMENT_ID);
+}
+
 const queryClient = new QueryClient();
 
+// --- Helper Component to Track Page Views ---
+const usePageTracking = () => {
+	const location = useLocation();
+
+	useEffect(() => {
+		if (GA_MEASUREMENT_ID && GA_MEASUREMENT_ID !== "G-M8F554D057") {
+			// Send a pageview event
+			ReactGA.send({
+				hitType: "pageview",
+				page: location.pathname + location.search,
+			});
+		}
+	}, [location]);
+};
+
+// --- Main App Component ---
+const AppContent = () => {
+	usePageTracking(); // This custom hook will run on every route change
+
+	return (
+		<Routes>
+			<Route path="/" element={<Index />} />
+			<Route path="/case-study/free-file" element={<FreeFile />} />
+			<Route
+				path="/case-study/ecommerce-website"
+				element={<EcommerceWebsite />}
+			/>
+			<Route
+				path="/case-study/smoking-cessation"
+				element={<SmokingCessation />}
+			/>
+			<Route
+				path="/case-study/employer-identification-number"
+				element={<EmployerIdentificationNumber />}
+			/>
+			<Route
+				path="/case-study/online-services-design-guide"
+				element={<OnlineServicesDesignGuide />}
+			/>
+			{/* Redirect from old URLs to maintain backward compatibility */}
+			<Route
+				path="/case-study/financial-app-redesign"
+				element={<Navigate to="/case-study/free-file" replace />}
+			/>
+			<Route
+				path="/case-study/healthcare-patient-portal"
+				element={<Navigate to="/case-study/smoking-cessation" replace />}
+			/>
+			{/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+			<Route path="*" element={<NotFound />} />
+		</Routes>
+	);
+};
+
 const App = () => (
-  <ThemeProvider defaultTheme="light">
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/case-study/free-file" element={<FreeFile />} />
-            <Route path="/case-study/ecommerce-website" element={<EcommerceWebsite />} />
-            <Route path="/case-study/smoking-cessation" element={<SmokingCessation />} />
-            <Route path="/case-study/employer-identification-number" element={<EmployerIdentificationNumber />} />
-            <Route path="/case-study/online-services-design-guide" element={<OnlineServicesDesignGuide />} />
-            {/* Redirect from old URLs to maintain backward compatibility */}
-            <Route path="/case-study/financial-app-redesign" element={<Navigate to="/case-study/free-file" replace />} />
-            <Route path="/case-study/healthcare-patient-portal" element={<Navigate to="/case-study/smoking-cessation" replace />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
-      </TooltipProvider>
-    </QueryClientProvider>
-  </ThemeProvider>
+	<ThemeProvider defaultTheme="light">
+		<QueryClientProvider client={queryClient}>
+			<TooltipProvider>
+				<Toaster />
+				<Sonner />
+				<BrowserRouter>
+					<AppContent />
+				</BrowserRouter>
+			</TooltipProvider>
+		</QueryClientProvider>
+	</ThemeProvider>
 );
 
 export default App;
