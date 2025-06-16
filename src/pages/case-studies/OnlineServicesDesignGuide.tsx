@@ -1,5 +1,7 @@
 import React from "react";
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import {
 	Bookmark,
 	Users,
@@ -15,6 +17,7 @@ import {
 } from "lucide-react";
 import { useTheme } from "@/components/ThemeProvider";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
 
 const OnlineServicesDesignGuide = () => {
 	const { theme } = useTheme();
@@ -326,6 +329,25 @@ const OnlineServicesDesignGuide = () => {
 								— Patrick Prugh, UX Design Team Supervisor @ IRS
 							</footer>
 						</blockquote>
+						<div className="flex justify-center mt-8">
+							<Button asChild>
+								<a
+									href="https://www.figma.com/design/9sdxBVuSNWvTbR6D80PgqU/Hi-Fi-IRS-ODG-UI-Kit-4.3.1?node-id=46-646&t=tYiL1ke2pHHZbyDk-1"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									View Design Guide in Figma
+								</a>
+							</Button>
+						</div>
+						<div className="mt-12 flex justify-start">
+							<Link
+								to="/#projects"
+								className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-primary transition-standard w-fit"
+							>
+								<ArrowLeft className="mr-2 w-4 h-4" /> Back to Projects
+							</Link>
+						</div>
 					</div>
 				</section>
 			</div>
