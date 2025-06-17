@@ -340,6 +340,7 @@ const EmployerIdentificationNumber = () => {
 				</section>
 
 				<section>
+					{/* RESULTS & IMPACT */}
 					<h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
 					<p className="text-primary/70 mb-6">
 						The modernized EIN application has not yet gone live due to ongoing
@@ -424,6 +425,7 @@ const EmployerIdentificationNumber = () => {
 					</div>
 
 					<div className="border-t border-primary/10 pt-6">
+						{/* PATRICK PRUGH TESTIMONIAL */}
 						<div className="mt-2 rounded-lg border bg-primary/5 p-6">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"

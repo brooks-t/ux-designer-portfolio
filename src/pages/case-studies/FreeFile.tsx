@@ -1,5 +1,7 @@
 import React from "react";
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import {
 	Bookmark,
 	Users,
@@ -36,6 +38,7 @@ const FreeFile = () => {
 						ultimately empower taxpayers to file their taxes for free with
 						confidence.
 					</p>
+					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-medium">My Role</p>
@@ -384,8 +387,48 @@ const FreeFile = () => {
 							</div>
 						</div>
 					</div>
+					{/* PATRICK PRUGH TESTIMONIAL */}
+					<div className="mt-2 rounded-lg border bg-primary/5 p-6">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							strokeWidth="2"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							className="h-8 w-8 text-primary/20 mb-4"
+						>
+							<path d="M3 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2H4c-1.25 0-2 .75-2 2v6c0 7 4 8 7 8Z" />
+							<path d="M14 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2h-4c-1.25 0-2 .75-2 2v6c0 7 4 8 7 8Z" />
+						</svg>
+						<blockquote className="italic text-primary/80 text-base">
+							"You have exceeded expectations in your support of unauthenticated
+							apps and the IRS.gov website. I’ve watched you work closely with
+							an array of stakeholders, asking the right questions, delivering
+							excellent UX solutions, and diving into complex technical
+							workflows on short notice. I especially appreciate your work to
+							date on Free File and Mod EIN, as those are major projects that
+							require an ongoing effort to support on top of a full plate of
+							daily duties. This is a relatively new area of the portfolio where
+							you’ve made major contributions to help stand it up."
+							<footer className="mt-4 font-medium text-primary not-italic">
+								— Patrick Prugh, UX Design Team Supervisor @ IRS
+							</footer>
+						</blockquote>
+					</div>
 					<div className="flex justify-center mt-8">
 						<Button disabled>Interactive Prototype Coming Soon</Button>
+					</div>
+					<div className="mt-12 flex justify-start">
+						<Link
+							to="/#projects"
+							className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-primary transition-standard w-fit"
+						>
+							<ArrowLeft className="mr-2 w-4 h-4" /> Back to Projects
+						</Link>
 					</div>
 				</section>
 			</div>
