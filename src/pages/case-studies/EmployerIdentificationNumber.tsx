@@ -41,7 +41,7 @@ const EmployerIdentificationNumber = () => {
 							href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&viewport=-224%2C1784%2C0.3&t=fgvKy8YNmb1vkGZp-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
 							className="text-blue-600 hover:text-blue-800 underline font-bold"
 						>
-							View the EIN interactive prototype (password protected).
+							View EIN Figma prototype (password protected).
 						</a>
 					</p>
 					<p>Note: Password will be provided to interested employers.</p>
@@ -465,7 +465,7 @@ const EmployerIdentificationNumber = () => {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									View EIN Interactive Prototype
+									View EIN Figma Prototype
 								</a>
 							</Button>
 						</div>

@@ -43,7 +43,7 @@ const OnlineServicesDesignGuide = () => {
 							href="https://www.figma.com/design/9sdxBVuSNWvTbR6D80PgqU/Hi-Fi-IRS-ODG-UI-Kit-4.3.1?node-id=46-646&t=tYiL1ke2pHHZbyDk-1"
 							className="text-blue-600 hover:text-blue-800 underline font-bold"
 						>
-							View the IRS Design Guide File (password protected).
+							View IRS Design Guide Figma File (password protected).
 						</a>
 					</p>
 					<p>Note: Password will be provided to interested employers.</p>
