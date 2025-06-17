@@ -23,38 +23,28 @@ const EmployerIdentificationNumber = () => {
 		>
 			<div className="space-y-8">
 				<section className="space-y-4 text-primary/70">
+					{/* PROJECT OVERVIEW */}
 					<h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
 					<p>
 						The EIN modernization project focused on improving the user
 						experience for employers applying for an Employer Identification
 						Number through the IRS online system. The legacy system was outdated
-						and long overdue for an overhaul.
-					</p>
-					<p>
-						Shortly after joining the IRS, I took over as lead designer for this
-						project and oversaw its transformation into a modernized, IRS
-						design-guide standardized, Section 508 compliant web application. I
-						also shepherded this project's seamless migration from
-						Sketch/InVision to Figma and avoided any work stoppages.
-					</p>
-					<p>
-						During handoff to the development team, I worked very closely with
-						developers to communicate the designs and resolve any issues that
-						arose, ensuring the project stayed on schedule under a tight
-						deadline.
+						and long overdue for an overhaul, presenting challenges such as a
+						complex application process, outdated interface design, and high
+						abandonment rates.
 					</p>
 					<p>
 						<a
 							href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&viewport=-224%2C1784%2C0.3&t=fgvKy8YNmb1vkGZp-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
 							className="text-blue-600 hover:text-blue-800 underline font-bold"
 						>
-							Link to the interactive prototype (password protected).
+							View the EIN interactive prototype (password protected).
 						</a>
 					</p>
-					<p>
-						I will provide the password on job applications and to interested
-						employers.
-					</p>
+					<p>Note: Password will be provided to interested employers.</p>
+
+					{/* MY CONTRIBUTIONS */}
+					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
 						<div className="bg-primary/5 p-4 rounded-lg">
 							<p className="font-bold">My Role</p>
@@ -69,13 +59,31 @@ const EmployerIdentificationNumber = () => {
 							<p className="text-primary/70">Figma, Sketch, InVision</p>
 						</div>
 					</div>
+					<p>
+						Shortly after joining the IRS, I took over as lead designer for this
+						project and oversaw its transformation into a modernized, IRS
+						design-guide standardized, Section 508 compliant web application. I
+						also shepherded this project's seamless migration from
+						Sketch/InVision to Figma and avoided any work stoppages. During this
+						process, I led the UX design modernization for critical IRS programs
+						like EIN, ensuring adherence to USWDS standards and enhancing the
+						digital experience for millions of taxpayers.
+					</p>
+					<p>
+						During handoff to the development team, I worked very closely with
+						developers to communicate the designs and resolve any issues that
+						arose, ensuring the project stayed on schedule under a tight
+						deadline.
+					</p>
 				</section>
 
 				<section>
+					{/* THE CHALLENGE */}
 					<h2 className="text-2xl font-semibold mb-4">The Challenge</h2>
 					<p className="text-primary/70 mb-4">
-						The legacy EIN application system presented several challenges for
-						employers trying to obtain their federal tax identification number:
+						The legacy EIN application system presented several key challenges
+						for employers trying to obtain their federal tax identification
+						number:
 					</p>
 					<ul className="space-y-3">
 						<li className="flex items-start">
@@ -83,10 +91,14 @@ const EmployerIdentificationNumber = () => {
 								<Users className="w-4 h-4 text-red-500" />
 							</span>
 							<div>
-								<p className="font-medium">Complex application process</p>
+								<p className="font-medium">Complex Application Process</p>
 								<p className="text-primary/70">
 									Users struggled with a lengthy, confusing application process
-									that wasn't intuitive for business owners.
+									that wasn't intuitive for business owners, leading to a high
+									volume of calls to support for assistance. The application
+									forced users to complete it in one sitting, and often required
+									restarting the entire application to correct a mistake or
+									typo.
 								</p>
 							</div>
 						</li>
@@ -95,10 +107,13 @@ const EmployerIdentificationNumber = () => {
 								<Bookmark className="w-4 h-4 text-red-500" />
 							</span>
 							<div>
-								<p className="font-medium">Outdated interface design</p>
+								<p className="font-medium">Outdated Interface Design</p>
 								<p className="text-primary/70">
-									The legacy system used outdated design patterns that didn't
-									meet modern accessibility and usability standards.
+									The legacy system used outdated design patterns, lacked visual
+									aids, and had inconsistent layouts that didn't meet modern
+									accessibility and usability standards. Pages were often
+									"squished" due to attempts to fit too much information "above
+									the fold".
 								</p>
 							</div>
 						</li>
@@ -107,10 +122,13 @@ const EmployerIdentificationNumber = () => {
 								<LineChart className="w-4 h-4 text-red-500" />
 							</span>
 							<div>
-								<p className="font-medium">High abandonment rates</p>
+								<p className="font-medium">Confusing Language and Navigation</p>
 								<p className="text-primary/70">
-									Many users abandoned the application mid-process due to
-									confusion and technical difficulties.
+									The application frequently used unfamiliar terms and jargon,
+									leading to an overload of redundant help text and hyperlinks
+									that further cluttered the interface and made it difficult for
+									users to understand. Navigation also lacked "back" buttons at
+									critical points, hindering user control.
 								</p>
 							</div>
 						</li>
@@ -120,10 +138,46 @@ const EmployerIdentificationNumber = () => {
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">Research & Discovery</h2>
 					<p className="text-primary/70 mb-6">
-						After a comprehensive research phase with user interviews, usability
-						testing and stakeholder collaboration, our team discovered several
-						key insights:
+						Our team conducted a comprehensive research phase, including
+						heuristic evaluations, Medallia survey data analysis, user
+						interviews, and usability testing, to uncover the core issues with
+						the existing EIN application.
 					</p>
+					<div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+						<div className="border border-primary/10 rounded-lg p-5">
+							<h3 className="font-medium mb-2">Heuristic Evaluation</h3>
+							<p className="text-primary/70">
+								Conducted expert reviews based on Nielsen Norman Group
+								principles to identify usability issues and areas for
+								improvement across the entire application flow.
+							</p>
+						</div>
+						<div className="border border-primary/10 rounded-lg p-5">
+							<h3 className="font-medium mb-2">Medallia Survey Analysis</h3>
+							<p className="text-primary/70">
+								Analyzed 68 responses from November 2024 to January 2025,
+								revealing that users struggled with finding simple ways to look
+								up EINs and described the information as confusing.
+							</p>
+						</div>
+						<div className="border border-primary/10 rounded-lg p-5">
+							<h3 className="font-medium mb-2">Usability Testing</h3>
+							<p className="text-primary/70">
+								Conducted 8 moderated remote sessions with business owners using
+								a clickable prototype to gain feedback on interface, content,
+								and overall usability. Key metrics included task success,
+								duration, and error rate.
+							</p>
+						</div>
+						<div className="border border-primary/10 rounded-lg p-5">
+							<h3 className="font-medium mb-2">Stakeholder Collaboration</h3>
+							<p className="text-primary/70">
+								Engaged with various IRS teams and business stakeholders to
+								align design efforts with project goals and technical
+								constraints .
+							</p>
+						</div>
+					</div>
 
 					<div
 						className={`${darkMode ? "bg-amber-900" : "bg-amber-50"} border ${
@@ -141,38 +195,62 @@ const EmployerIdentificationNumber = () => {
 						<ul
 							className={`space-y-2 ${
 								darkMode ? "text-amber-100" : "text-primary/70"
-							}`}
+							} list-disc pl-5`}
 						>
 							<li>
-								• Users needed clearer guidance on eligibility requirements
+								<strong>Need for User Control:</strong> Participants expressed
+								significant frustration with the inability to go back and edit
+								information without restarting the entire application.
 							</li>
 							<li>
-								• The application flow was too complex and needed simplification
+								<strong>Clarity in Language:</strong> Users struggled with
+								jargon and large blocks of text, indicating a strong need for
+								plain language, conciseness, and more scannable content.
 							</li>
-							<li>• Better error handling and validation was required</li>
-							<li>• Mobile responsiveness was essential for modern users</li>
+							<li>
+								<strong>Effective Help and Guidance:</strong> Help tips, example
+								text, and clear explanations for uncommon terms were highly
+								valued and improved user understanding and satisfaction.
+							</li>
+							<li>
+								<strong>Visible System Status:</strong> Users benefited from
+								visual cues like progress bars and animated spinners, which
+								provided a sense of progress and reassurance that their
+								application was being processed.
+							</li>
 						</ul>
 					</div>
 				</section>
 
 				<section>
+					{/* DESIGN SOLUTIONS */}
 					<h2 className="text-2xl font-semibold mb-4">Design Solutions</h2>
-					<div className="space-y-6">
+					<p className="text-primary/70 mb-6">
+						Based on our research and insights, I led the design of several key
+						improving the user flow, enhancing form interactions, and providing
+						clear, contextual assistance.
+					</p>
+					<div className="space-y-10">
+						{/* Streamlined Application Flow with Progress Indicators */}
 						<div>
 							<h3 className="font-medium flex items-center mb-3">
 								<Layout className="w-5 h-5 text-primary mr-2" /> Streamlined
-								Application Flow
+								Application Flow with Progress Indicators
 							</h3>
 							<p className="text-primary/70 mb-4">
-								Redesigned the application process with a clear step-by-step
-								flow and progress indicators.
+								The lengthy and confusing application process was redesigned
+								into a clear, multi-step flow with prominent progress
+								indicators. This provides users with a constant sense of where
+								they are in the application, reducing cognitive load and
+								improving motivation to complete the task. The previous version
+								lacked such a clear progression.
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
 											src="/lovable-uploads/mod-ein-new-steps.png"
-											alt="EIN application landing page redesign"
+											alt="Redesigned EIN application with clear step-by-step progress"
 											className="w-full h-full object-cover"
 										/>
 									</div>
@@ -180,7 +258,7 @@ const EmployerIdentificationNumber = () => {
 								<DialogContent className="max-w-6xl p-2">
 									<img
 										src="/lovable-uploads/mod-ein-new-steps.png"
-										alt="EIN application landing page redesign"
+										alt="Redesigned EIN application with clear step-by-step progress"
 										className="w-full h-full object-cover"
 									/>
 								</DialogContent>
@@ -188,20 +266,26 @@ const EmployerIdentificationNumber = () => {
 						</div>
 
 						<div>
+							{/* Enhanced Form Design with Improved Error Handling */}
 							<h3 className="font-medium flex items-center mb-3">
 								<Layout className="w-5 h-5 text-primary mr-2" /> Enhanced Form
-								Design
+								Design with Improved Error Handling
 							</h3>
 							<p className="text-primary/70 mb-4">
-								Created intuitive form layouts with clear labels, helpful
-								tooltips, and improved error handling.
+								To address issues with misplaced fields and lack of error
+								feedback, we created intuitive form layouts with clear labels
+								and real-time validation. Error messages are now expressed in
+								plain language, precisely indicating the problem and
+								constructively suggesting a solution, rather than just codes .
+								This significantly reduces user frustration and the need to
+								restart the application.
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
 											src="/lovable-uploads/mod-ein-error-help.png"
-											alt="EIN application landing page redesign"
+											alt="Improved error messages and form field layouts"
 											className="w-full h-full object-cover"
 										/>
 									</div>
@@ -209,7 +293,7 @@ const EmployerIdentificationNumber = () => {
 								<DialogContent className="max-w-6xl p-2">
 									<img
 										src="/lovable-uploads/mod-ein-error-help.png"
-										alt="EIN application landing page redesign"
+										alt="Improved error messages and form field layouts"
 										className="w-full h-full object-cover"
 									/>
 								</DialogContent>
@@ -217,19 +301,25 @@ const EmployerIdentificationNumber = () => {
 						</div>
 
 						<div>
+							{/* Contextual and Dynamic Assistance */}
 							<h3 className="font-medium flex items-center mb-3">
-								<Layout className="w-5 h-5 text-primary mr-2" /> Improved
-								Assistance
+								<Layout className="w-5 h-5 text-primary mr-2" /> Contextual and
+								Dynamic Assistance
 							</h3>
 							<p className="text-primary/70 mb-4">
-								Added dynamic assistance based on user responses.
+								We integrated dynamic assistance directly into the application
+								based on user responses. This includes helpful tooltips and
+								example text for uncommon terms and difficult concepts,
+								addressing the previous issue of overwhelming and redundant help
+								information in separate pop-ups. This ensures guidance is
+								available precisely when and where users need it.
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
 											src="/lovable-uploads/mod-ein-help.png"
-											alt="EIN application landing page redesign"
+											alt="Dynamic help tips and contextual assistance"
 											className="w-full h-full object-cover"
 										/>
 									</div>
@@ -237,32 +327,22 @@ const EmployerIdentificationNumber = () => {
 								<DialogContent className="max-w-6xl p-2">
 									<img
 										src="/lovable-uploads/mod-ein-help.png"
-										alt="EIN application landing page redesign"
+										alt="Dynamic help tips and contextual assistance"
 										className="w-full h-full object-cover"
 									/>
 								</DialogContent>
 							</Dialog>
 						</div>
-
-						{/* <div>
-							<h3 className="font-medium flex items-center mb-3">
-								<Layout className="w-5 h-5 text-primary mr-2" /> Mobile-First
-								Approach
-							</h3>
-							<p className="text-primary/70 mb-4">
-								Designed responsive layouts that work seamlessly across all
-								device sizes.
-							</p>
-						</div> */}
 					</div>
 				</section>
 
 				<section>
 					<h2 className="text-2xl font-semibold mb-4">Results & Impact</h2>
 					<p className="text-primary/70 mb-6">
-						The modernized EIN application has not yet gone live yet, however,
-						based on testing we expect the system to deliver significant
-						improvements in user experience and operational efficiency:
+						The modernized EIN application has not yet gone live due to ongoing
+						reductions in force. However, based on extensive usability testing,
+						we expect the system to deliver significant improvements in user
+						experience and operational efficiency:
 					</p>
 					<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
 						<div
@@ -278,12 +358,14 @@ const EmployerIdentificationNumber = () => {
 								/>
 								<div>
 									<p className="font-semibold text-2xl mb-1">
-										Improved completion
+										Improved Completion Rates
 									</p>
 									<p
 										className={darkMode ? "text-green-100" : "text-primary/70"}
 									>
-										Higher application completion rates
+										The simplified flow and clearer guidance are expected to
+										lead to higher application completion rates and reduce the
+										current high abandonment rates.
 									</p>
 								</div>
 							</div>
@@ -300,11 +382,13 @@ const EmployerIdentificationNumber = () => {
 									} mr-2`}
 								/>
 								<div>
-									<p className="font-semibold text-2xl mb-1">Reduced errors</p>
+									<p className="font-semibold text-2xl mb-1">Reduced Errors</p>
 									<p
 										className={darkMode ? "text-green-100" : "text-primary/70"}
 									>
-										Fewer application errors and resubmissions
+										Enhanced error handling and plain language content will
+										result in fewer application errors and resubmissions,
+										addressing a major pain point of the legacy system.
 									</p>
 								</div>
 							</div>
@@ -322,12 +406,14 @@ const EmployerIdentificationNumber = () => {
 								/>
 								<div>
 									<p className="font-semibold text-2xl mb-1">
-										Better accessibility
+										Better Accessibility & Trust
 									</p>
 									<p
 										className={darkMode ? "text-green-100" : "text-primary/70"}
 									>
-										Improved accessibility compliance
+										Adherence to IRS design standards and Section 508 compliance
+										ensures improved accessibility. Participants also expressed
+										higher trust in the new application due to its usability.
 									</p>
 								</div>
 							</div>
