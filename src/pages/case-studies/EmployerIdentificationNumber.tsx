@@ -1,5 +1,8 @@
 import React from "react";
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import {
 	Bookmark,
 	Users,
@@ -419,21 +422,59 @@ const EmployerIdentificationNumber = () => {
 							</div>
 						</div>
 					</div>
+
 					<div className="border-t border-primary/10 pt-6">
-						<blockquote className="italic text-primary/80 pl-4 border-l-2 border-primary/20">
-							"You have exceeded expectations in your support of unauthenticated
-							apps and the IRS.gov website. I’ve watched you work closely with
-							an array of stakeholders, asking the right questions, delivering
-							excellent UX solutions, and diving into complex technical
-							workflows on short notice. I especially appreciate your work to
-							date on Free File and Mod EIN, as those are major projects that
-							require an ongoing effort to support on top of a full plate of
-							daily duties. This is a relatively new area of the portfolio where
-							you’ve made major contributions to help stand it up."
-							<footer className="mt-2 font-medium text-primary not-italic">
-								— Patrick Prugh | Design Team Supervisor @ IRS
-							</footer>
-						</blockquote>
+						<div className="mt-2 rounded-lg border bg-primary/5 p-6">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								strokeWidth="2"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								className="h-8 w-8 text-primary/20 mb-4"
+							>
+								<path d="M3 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2H4c-1.25 0-2 .75-2 2v6c0 7 4 8 7 8Z" />
+								<path d="M14 21c3 0 7-1 7-8V5c0-1.25-.75-2-2-2h-4c-1.25 0-2 .75-2 2v6c0 7 4 8 7 8Z" />
+							</svg>
+							<blockquote className="italic text-primary/80 text-base">
+								"You have exceeded expectations in your support of
+								unauthenticated apps and the IRS.gov website. I’ve watched you
+								work closely with an array of stakeholders, asking the right
+								questions, delivering excellent UX solutions, and diving into
+								complex technical workflows on short notice. I especially
+								appreciate your work to date on Free File and Mod EIN, as those
+								are major projects that require an ongoing effort to support on
+								top of a full plate of daily duties. This is a relatively new
+								area of the portfolio where you’ve made major contributions to
+								help stand it up."
+								<footer className="mt-4 font-medium text-primary not-italic">
+									— Patrick Prugh, UX Design Team Supervisor @ IRS
+								</footer>
+							</blockquote>
+						</div>
+						<div className="flex justify-center mt-8">
+							<Button asChild>
+								<a
+									href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&viewport=-224%2C1784%2C0.3&t=fgvKy8YNmb1vkGZp-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									View EIN Interactive Prototype
+								</a>
+							</Button>
+						</div>
+						<div className="mt-12 flex justify-start">
+							<Link
+								to="/#projects"
+								className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-primary transition-standard w-fit"
+							>
+								<ArrowLeft className="mr-2 w-4 h-4" /> Back to Projects
+							</Link>
+						</div>
 					</div>
 				</section>
 			</div>
