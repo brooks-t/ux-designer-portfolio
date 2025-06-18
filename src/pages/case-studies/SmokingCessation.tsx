@@ -65,7 +65,20 @@ const SmokingCessation = () => {
 							></iframe>
 						</div>
 					</div>
-					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
+					<h2 className="text-2xl font-semibold">My Contributions</h2>
+					<p className="text-primary/70 mt-4 mb-6">
+						As the lead UX researcher and designer on the GEMS project, I guided
+						the product from its initial conception through multiple phases of
+						research, design, and testing. My responsibilities were extensive
+						and covered the full spectrum of the design process: I conducted the
+						initial competitive analysis and user interviews, created detailed
+						user flows, designed and tested prototypes at all fidelities, and
+						co-authored the resulting 2020 JMIR research paper. Ultimately, my
+						work culminated in delivering the comprehensive, high-fidelity
+						design and specifications that enabled the development of the final
+						application; an application that was successfully validated in a
+						randomized pilot study and published in 2023.
+					</p>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 						<div className="bg-primary/5 p-6 rounded-lg">
 							<h3 className="font-semibold text-lg mb-2">
@@ -100,19 +113,6 @@ const SmokingCessation = () => {
 							</ul>
 						</div>
 					</div>
-					<p className="text-primary/70 mt-6">
-						As the lead UX researcher and designer on the GEMS project, I guided
-						the product from its initial conception through multiple phases of
-						research, design, and testing. My responsibilities were extensive
-						and covered the full spectrum of the design process: I conducted the
-						initial competitive analysis and user interviews, created detailed
-						user flows, designed and tested prototypes at all fidelities, and
-						co-authored the resulting 2020 JMIR research paper. Ultimately, my
-						work culminated in delivering the comprehensive, high-fidelity
-						design and specifications that enabled the development of the final
-						application—an application that was successfully validated in a
-						randomized pilot study and published in 2023.
-					</p>
 				</section>
 
 				{/* -- THE CHALLENGE -- */}
@@ -198,6 +198,14 @@ const SmokingCessation = () => {
 								support, progress tracking, and help cutting back slowly, not
 								quitting "cold turkey".
 							</p>
+							<blockquote className="mt-4 mb-4 border-l-4 border-primary/20 pl-4 italic text-primary/80">
+								"He also really liked the social support features. Tracking your
+								cigarettes was another feature that he liked -
+								tracking/rationing that would help him cut back slowly."
+							</blockquote>
+							<p className="text-right text-sm text-primary/60 mb-6">
+								— Direct feedback from a user interview
+							</p>
 							<Dialog>
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-md overflow-hidden cursor-pointer border">
@@ -274,6 +282,16 @@ const SmokingCessation = () => {
 								field test was so successful that it achieved a 100% completion
 								rate!
 							</p>
+							<div className="mt-4 mb-6 border-l-4 border-primary/20 pl-4 text-primary/80">
+								<p>
+									The 2020 JMIR paper noted that participants found the
+									prototype to be <strong>"highly acceptable"</strong> and that{" "}
+									<strong>
+										100% of participants completed all 7 experiments
+									</strong>
+									.
+								</p>
+							</div>
 							<Dialog>
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-md overflow-hidden cursor-pointer border">
@@ -317,6 +335,13 @@ const SmokingCessation = () => {
 								resulting application, built directly from my designs, was
 								ultimately used in the randomized pilot trial that produced the
 								impressive, published results in the 2023 JMIR paper.
+							</p>
+							<blockquote className="mt-4 mb-4 border-l-4 border-primary/20 pl-4 italic text-primary/80">
+								"We are deeply grateful to Brooks Tiffany for creating the user
+								interface design..."
+							</blockquote>
+							<p className="text-right text-sm text-primary/60 mb-6">
+								— Acknowledgement in JMIR mHealth and uHealth (2023)
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
