@@ -46,6 +46,26 @@ const SmokingCessation = () => {
 						peer-reviewed publications (since my addition to team) in the
 						prestigious Journal of Medical Internet Research (JMIR).
 					</p>
+
+					<p className="text-primary/70 mb-6">
+						<strong>Video Orientation: </strong>I produced the following video
+						to onboard users to the medium-fidelity prototype used in our
+						'Wizard of Oz' field test.
+					</p>
+					<div className="mt-6 mb-6 overflow-hidden rounded-lg shadow-md border">
+						<div className="aspect-video">
+							<iframe
+								className="w-full h-full border-0"
+								src="https://www.youtube.com/embed/LuxOsRsjOBk?si=HZwn0qn_XkEvaFo_"
+								title="YouTube video player"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								referrerPolicy="strict-origin-when-cross-origin"
+								allowFullScreen
+								loading="lazy"
+							></iframe>
+						</div>
+					</div>
+					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 						<div className="bg-primary/5 p-6 rounded-lg">
 							<h3 className="font-semibold text-lg mb-2">
@@ -80,6 +100,19 @@ const SmokingCessation = () => {
 							</ul>
 						</div>
 					</div>
+					<p className="text-primary/70 mt-6">
+						As the lead UX researcher and designer on the GEMS project, I guided
+						the product from its initial conception through multiple phases of
+						research, design, and testing. My responsibilities were extensive
+						and covered the full spectrum of the design process: I conducted the
+						initial competitive analysis and user interviews, created detailed
+						user flows, designed and tested prototypes at all fidelities, and
+						co-authored the resulting 2020 JMIR research paper. Ultimately, my
+						work culminated in delivering the comprehensive, high-fidelity
+						design and specifications that enabled the development of the final
+						application—an application that was successfully validated in a
+						randomized pilot study and published in 2023.
+					</p>
 				</section>
 
 				{/* -- THE CHALLENGE -- */}
