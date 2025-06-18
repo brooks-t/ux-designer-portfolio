@@ -61,15 +61,23 @@ const SmokingCessation = () => {
 								<li>User Recruitment & Screening</li>
 								<li>Usability & Field Testing</li>
 								<li>Co-author & Contributor</li>
+								<li>Brand Identity & Marketing Creative</li>
 							</ul>
 						</div>
 						<div className="bg-primary/5 p-6 rounded-lg">
 							<h3 className="font-semibold text-lg mb-2">Tools & Methods</h3>
 							<p className="text-primary/70 text-sm">
-								Adobe XD, Illustrator, Premier Pro, InVision, User Interviews,
-								Focus Groups, Heuristic Analysis, Competitive Analysis,
-								Usability Testing, Prototyping, Flow-charting, Video Production.
+								I leveraged a diverse toolkit to translate complex research
+								insights into a tangible, user-tested product:
 							</p>
+							<ul className="list-disc pl-5 mt-2 space-y-1 text-primary/70 text-sm">
+								<li>Adobe XD, Illustrator, Premier Pro</li>
+								<li>Wireframing, Prototyping, User flows</li>
+								<li>User Interviews, Focus Groups</li>
+								<li>Usability Testing, Database Management</li>
+								<li>Heuristic Analysis, Competitive Analysis</li>
+								<li>Graphic Design, Video Production</li>
+							</ul>
 						</div>
 					</div>
 				</section>
