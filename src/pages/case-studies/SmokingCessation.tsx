@@ -237,7 +237,9 @@ const SmokingCessation = () => {
 								with people using the app on their phone while they go about
 								their lives. This allowed us to collect rich, in-context
 								feedback on the prototype before full development, which proved
-								to be "highly acceptable" to participants.
+								to be "highly acceptable" to participants. Furthermore, the
+								field test was so successful that it achieved a 100% completion
+								rate!
 							</p>
 							<Dialog>
 								<DialogTrigger asChild>
