@@ -68,16 +68,16 @@ const SmokingCessation = () => {
 					<h2 className="text-2xl font-semibold">My Contributions</h2>
 					<p className="text-primary/70 mt-4 mb-6">
 						As the lead UX researcher and designer on the GEMS project, I guided
-						the product from its initial conception through multiple phases of
+						the product from initial conception through multiple phases of
 						research, design, and testing. My responsibilities were extensive
 						and covered the full spectrum of the design process: I conducted the
-						initial competitive analysis and user interviews, created detailed
-						user flows, designed and tested prototypes at all fidelities, and
+						initial competitive analysis, user interviews, created detailed user
+						flows, designed and tested prototypes at all fidelities, and
 						co-authored the resulting 2020 JMIR research paper. Ultimately, my
 						work culminated in delivering the comprehensive, high-fidelity
-						design and specifications that enabled the development of the final
-						application; an application that was successfully validated in a
-						randomized pilot study and published in 2023.
+						design and specs that enabled the development of the final app; an
+						app that was successfully validated in a randomized pilot study and
+						published in 2023.
 					</p>
 					<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 						<div className="bg-primary/5 p-6 rounded-lg">
