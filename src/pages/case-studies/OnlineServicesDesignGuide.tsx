@@ -38,14 +38,15 @@ const OnlineServicesDesignGuide = () => {
 						palettes, specs, and templates for creating consistent and
 						accessible digital experiences across all of IRS online services.
 					</p>
-					<p>
+					<Button asChild>
 						<a
-							href="https://www.figma.com/design/9sdxBVuSNWvTbR6D80PgqU/Hi-Fi-IRS-ODG-UI-Kit-4.3.1?node-id=46-646&t=Nbe0LLz3fo86LXD1-1"
-							className="text-blue-600 hover:text-blue-800 underline font-bold"
+							href="https://www.figma.com/design/9sdxBVuSNWvTbR6D80PgqU/Hi-Fi-IRS-ODG-UI-Kit-4.3.1?node-id=46-646&t=tYiL1ke2pHHZbyDk-1"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
-							View IRS Design Guide Figma File.
+							View Design Guide in Figma
 						</a>
-					</p>
+					</Button>
 
 					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
