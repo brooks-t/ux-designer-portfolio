@@ -36,15 +36,15 @@ const EmployerIdentificationNumber = () => {
 						complex application process, outdated interface design, and high
 						abandonment rates.
 					</p>
-					<p>
+					<Button asChild>
 						<a
-							href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&viewport=-224%2C1784%2C0.3&t=fgvKy8YNmb1vkGZp-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
-							className="text-blue-600 hover:text-blue-800 underline font-bold"
+							href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&p=f&viewport=-1416%2C2430%2C0.52&t=EMfqh8SJVrhD37Y0-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
-							View EIN Figma prototype (password protected).
+							View EIN Figma Prototype
 						</a>
-					</p>
-					<p>Note: Password will be provided to interested employers.</p>
+					</Button>
 
 					{/* MY CONTRIBUTIONS */}
 					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
@@ -461,7 +461,7 @@ const EmployerIdentificationNumber = () => {
 						<div className="flex justify-center mt-8">
 							<Button asChild>
 								<a
-									href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&viewport=-224%2C1784%2C0.3&t=fgvKy8YNmb1vkGZp-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
+									href="https://www.figma.com/proto/8v6LHTHrGxkJ5dNghBaWeT/Mod-EIN-2025-Q1?page-id=4522%3A10099&node-id=4671-15381&p=f&viewport=294%2C235%2C0.05&t=A6Im8n2ycWBn97RX-8&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4671%3A15381&hide-ui=1"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
