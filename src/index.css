@@ -32,7 +32,7 @@
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 240 5.9% 10%;
+    --ring: 221 83% 53%;
 
     --radius: 0.75rem;
   }
@@ -64,7 +64,7 @@
 
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 240 4.9% 83.9%;
+    --ring: 217 91% 60%;
   }
 
   * {
@@ -87,27 +87,27 @@
   .glass-effect {
     @apply bg-white/25 backdrop-blur-xl border border-white/40 shadow-sm dark:bg-black/25 dark:border-gray-800/40;
   }
-  
+
   .text-balance {
     text-wrap: balance;
   }
-  
+
   .text-gradient {
     @apply bg-gradient-to-r from-[#4A90E2] to-[#4A90E2]/80 bg-clip-text text-transparent;
   }
-  
+
   .section-padding {
     @apply py-20 md:py-28;
   }
-  
+
   .content-container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full;
   }
-  
+
   .transition-standard {
     @apply transition-all duration-300 ease-in-out;
   }
-  
+
   .center-absolute {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
   }
