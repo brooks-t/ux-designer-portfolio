@@ -1,160 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 240 10% 3.9%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+		--card: 0 0% 100%;
+		--card-foreground: 240 10% 3.9%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+		--popover: 0 0% 100%;
+		--popover-foreground: 240 10% 3.9%;
 
-    --primary: 240 5.9% 10%;
-    --primary-foreground: 0 0% 98%;
+		--primary: 240 5.9% 10%;
+		--primary-foreground: 0 0% 98%;
 
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
+		--secondary: 240 4.8% 95.9%;
+		--secondary-foreground: 240 5.9% 10%;
 
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
+		--muted: 240 4.8% 95.9%;
+		--muted-foreground: 240 3.8% 46.1%;
 
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+		--accent: 240 4.8% 95.9%;
+		--accent-foreground: 240 5.9% 10%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+		--destructive: 0 84.2% 60.2%;
+		--destructive-foreground: 0 0% 98%;
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 221 83% 53%;
+		--border: 240 5.9% 90%;
+		--input: 240 5.9% 90%;
+		--ring: 221 83% 53%;
 
-    --radius: 0.75rem;
-  }
+		--radius: 0.75rem;
+	}
 
-  .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
+	.dark {
+		--background: 240 10% 3.9%;
+		--foreground: 0 0% 98%;
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
+		--card: 240 10% 3.9%;
+		--card-foreground: 0 0% 98%;
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+		--popover: 240 10% 3.9%;
+		--popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
+		--primary: 0 0% 98%;
+		--primary-foreground: 240 5.9% 10%;
 
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
+		--secondary: 240 3.7% 15.9%;
+		--secondary-foreground: 0 0% 98%;
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+		--muted: 240 3.7% 15.9%;
+		--muted-foreground: 240 5% 64.9%;
 
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+		--accent: 240 3.7% 15.9%;
+		--accent-foreground: 0 0% 98%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 0% 98%;
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 0 0% 98%;
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 217 91% 60%;
-  }
+		--border: 240 3.7% 15.9%;
+		--input: 240 3.7% 15.9%;
+		--ring: 217 91% 60%;
+	}
 
-  * {
-    @apply border-border;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+	* {
+		@apply border-border;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
 
-  body {
-    @apply bg-background text-foreground;
-    font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
-  }
+	body {
+		@apply bg-background text-foreground;
+		font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
+	}
 
-  html {
-    @apply scroll-smooth;
-  }
+	html {
+		@apply scroll-smooth;
+	}
 }
 
 @layer utilities {
-  .glass-effect {
-    @apply bg-white/25 backdrop-blur-xl border border-white/40 shadow-sm dark:bg-black/25 dark:border-gray-800/40;
-  }
+	.glass-effect {
+		@apply bg-white/25 backdrop-blur-xl border border-white/40 shadow-sm dark:bg-black/25 dark:border-gray-800/40;
+	}
 
-  .text-balance {
-    text-wrap: balance;
-  }
+	.text-balance {
+		text-wrap: balance;
+	}
 
-  .text-gradient {
-    @apply bg-gradient-to-r from-[#4A90E2] to-[#4A90E2]/80 bg-clip-text text-transparent;
-  }
+	.text-gradient {
+		@apply bg-gradient-to-r from-[#4A90E2] to-[#4A90E2]/80 bg-clip-text text-transparent;
+	}
 
-  .section-padding {
-    @apply py-20 md:py-28;
-  }
+	.section-padding {
+		@apply py-20 md:py-28;
+	}
 
-  .content-container {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full;
-  }
+	.content-container {
+		@apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full;
+	}
 
-  .transition-standard {
-    @apply transition-all duration-300 ease-in-out;
-  }
+	.transition-standard {
+		@apply transition-all duration-300 ease-in-out;
+	}
 
-  .center-absolute {
-    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
-  }
+	.center-absolute {
+		@apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+	}
 
-  .scroll-down-container {
-    @apply w-full flex justify-center mt-16 sm:mt-20 md:mt-24;
-  }
+	.scroll-down-container {
+		@apply w-full flex justify-center mt-16 sm:mt-20 md:mt-24;
+	}
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+	width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-secondary/50;
+	@apply bg-secondary/50;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary/10 hover:bg-primary/20 rounded-full transition-all duration-300;
+	@apply bg-primary/10 hover:bg-primary/20 rounded-full transition-all duration-300;
 }
 
 .page-enter {
-  opacity: 0;
-  transform: translateY(10px);
+	opacity: 0;
+	transform: translateY(10px);
 }
 
 .page-enter-active {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 500ms, transform 500ms;
+	opacity: 1;
+	transform: translateY(0);
+	transition: opacity 500ms, transform 500ms;
 }
 
 .page-exit {
-  opacity: 1;
-  transform: translateY(0);
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .page-exit-active {
-  opacity: 0;
-  transform: translateY(-10px);
-  transition: opacity 300ms, transform 300ms;
+	opacity: 0;
+	transform: translateY(-10px);
+	transition: opacity 300ms, transform 300ms;
 }
 
 .dark .bg-white {
-  @apply bg-background text-foreground;
+	@apply bg-background text-foreground;
 }
 
 .dark .text-primary\/70 {
-  @apply text-gray-300;
+	@apply text-gray-300;
 }
