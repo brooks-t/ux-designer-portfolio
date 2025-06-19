@@ -39,6 +39,13 @@ const About = () => {
 							testing to build products that are not just functional, but
 							essential.
 						</p>
+						<p className="text-primary/70 mb-6">
+							When I step away from the pixels and prototypes, I’m a passionate
+							football fan, cheering on the Washington Commanders and my alma
+							mater, the Virginia Tech Hokies. I also stay active and energized
+							through a mix of running around Alexandria, riding Peloton, and
+							strength training.
+						</p>
 
 						<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
 							<div>
