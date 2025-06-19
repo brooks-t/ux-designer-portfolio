@@ -20,10 +20,17 @@ import EmployerIdentificationNumber from "./pages/case-studies/EmployerIdentific
 import OnlineServicesDesignGuide from "./pages/case-studies/OnlineServicesDesignGuide";
 import { ThemeProvider } from "./components/ThemeProvider";
 
-const GA_MEASUREMENT_ID = "G-M8F554D057";
+// Access the environment variable
+const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID;
 
-// Initialize Google Analytics directly
-ReactGA.initialize(GA_MEASUREMENT_ID);
+// Initialize Google Analytics only if the ID exists
+if (GA_MEASUREMENT_ID) {
+	ReactGA.initialize(GA_MEASUREMENT_ID);
+} else {
+	console.error(
+		"Google Analytics Measurement ID is not defined. Please check your .env file."
+	);
+}
 
 const queryClient = new QueryClient();
 
