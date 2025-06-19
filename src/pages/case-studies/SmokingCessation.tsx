@@ -210,7 +210,7 @@ const SmokingCessation = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-md overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/kp-comp.png"
+											src="/lovable-uploads/kp-comp.webp"
 											alt="A slide from the competitive analysis presentation showing a breakdown of a competitor's app."
 											className="w-full h-full object-cover"
 										/>
@@ -218,7 +218,7 @@ const SmokingCessation = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/kp-comp.png"
+										src="/lovable-uploads/kp-comp.webp"
 										alt="A slide from the competitive analysis presentation showing a breakdown of a competitor's app."
 										className="w-full h-auto rounded-lg"
 									/>
@@ -246,7 +246,7 @@ const SmokingCessation = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-md overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/kp-flow.png"
+											src="/lovable-uploads/kp-flow.webp"
 											alt="A user flowchart showing the complex, multi-day journey for a study participant."
 											className="w-full h-full object-cover"
 										/>
@@ -254,7 +254,7 @@ const SmokingCessation = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/kp-flow.png"
+										src="/lovable-uploads/kp-flow.webp"
 										alt="A user flowchart showing the complex, multi-day journey for a study participant."
 										className="w-full h-auto rounded-lg"
 									/>
@@ -296,7 +296,7 @@ const SmokingCessation = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-md overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/kp-wizard.png"
+											src="/lovable-uploads/kp-wizard.webp"
 											alt="The high-fidelity prototype of the experiment selection screen."
 											className="w-full h-full object-cover"
 										/>
@@ -304,7 +304,7 @@ const SmokingCessation = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/kp-wizard.png"
+										src="/lovable-uploads/kp-wizard.webp"
 										alt="The high-fidelity prototype of the experiment selection screen."
 										className="w-full h-auto rounded-lg"
 									/>
@@ -347,7 +347,7 @@ const SmokingCessation = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-md overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/kp-high-fidelity.png"
+											src="/lovable-uploads/kp-high-fidelity.webp"
 											alt="The high-fidelity prototype of the experiment selection screen."
 											className="w-full h-full object-cover"
 										/>
@@ -355,7 +355,7 @@ const SmokingCessation = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/kp-high-fidelity.png"
+										src="/lovable-uploads/kp-high-fidelity.webp"
 										alt="The high-fidelity prototype of the experiment selection screen."
 										className="w-full h-auto rounded-lg"
 									/>

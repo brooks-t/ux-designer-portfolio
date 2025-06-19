@@ -237,7 +237,7 @@ const FreeFile = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/free-file-single.png"
+											src="/lovable-uploads/free-file-single.webp"
 											alt="Redesigned Free File main page with a single call to action"
 											className="w-full h-full object-cover"
 										/>
@@ -245,7 +245,7 @@ const FreeFile = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/free-file-single.png"
+										src="/lovable-uploads/free-file-single.webp"
 										alt="Redesigned Free File main page with a single call to action"
 										className="w-full h-full object-cover"
 									/>
@@ -269,7 +269,7 @@ const FreeFile = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/free-file-browse.png"
+											src="/lovable-uploads/free-file-browse.webp"
 											alt="Enhanced partner information cards"
 											className="w-full h-full object-cover"
 										/>
@@ -277,7 +277,7 @@ const FreeFile = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/free-file-browse.png"
+										src="/lovable-uploads/free-file-browse.webp"
 										alt="Enhanced partner information cards"
 										className="w-full h-full object-cover"
 									/>
@@ -300,7 +300,7 @@ const FreeFile = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/free-file-AGI.png"
+											src="/lovable-uploads/free-file-AGI.webp"
 											alt="Simplified filtering and results page"
 											className="w-full h-full object-cover"
 										/>
@@ -308,7 +308,7 @@ const FreeFile = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/free-file-AGI.png"
+										src="/lovable-uploads/free-file-AGI.webp"
 										alt="Simplified filtering and results page"
 										className="w-full h-full object-cover"
 									/>

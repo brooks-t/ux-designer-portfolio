@@ -252,7 +252,7 @@ const EmployerIdentificationNumber = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
-											src="/lovable-uploads/mod-ein-new-steps.png"
+											src="/lovable-uploads/mod-ein-new-steps.webp"
 											alt="Redesigned EIN application with clear step-by-step progress"
 											className="w-full h-full object-cover"
 										/>
@@ -260,7 +260,7 @@ const EmployerIdentificationNumber = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/mod-ein-new-steps.png"
+										src="/lovable-uploads/mod-ein-new-steps.webp"
 										alt="Redesigned EIN application with clear step-by-step progress"
 										className="w-full h-full object-cover"
 									/>
@@ -287,7 +287,7 @@ const EmployerIdentificationNumber = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
-											src="/lovable-uploads/mod-ein-error-help.png"
+											src="/lovable-uploads/mod-ein-error-help.webp"
 											alt="Improved error messages and form field layouts"
 											className="w-full h-full object-cover"
 										/>
@@ -295,7 +295,7 @@ const EmployerIdentificationNumber = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/mod-ein-error-help.png"
+										src="/lovable-uploads/mod-ein-error-help.webp"
 										alt="Improved error messages and form field layouts"
 										className="w-full h-full object-cover"
 									/>
@@ -321,7 +321,7 @@ const EmployerIdentificationNumber = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
-											src="/lovable-uploads/mod-ein-help.png"
+											src="/lovable-uploads/mod-ein-help.webp"
 											alt="Dynamic help tips and contextual assistance"
 											className="w-full h-full object-cover"
 										/>
@@ -329,7 +329,7 @@ const EmployerIdentificationNumber = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/mod-ein-help.png"
+										src="/lovable-uploads/mod-ein-help.webp"
 										alt="Dynamic help tips and contextual assistance"
 										className="w-full h-full object-cover"
 									/>

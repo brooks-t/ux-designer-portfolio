@@ -15,7 +15,6 @@ import ReactGA from "react-ga4";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import FreeFile from "./pages/case-studies/FreeFile";
-import EcommerceWebsite from "./pages/case-studies/EcommerceWebsite";
 import SmokingCessation from "./pages/case-studies/SmokingCessation";
 import EmployerIdentificationNumber from "./pages/case-studies/EmployerIdentificationNumber";
 import OnlineServicesDesignGuide from "./pages/case-studies/OnlineServicesDesignGuide";
@@ -49,10 +48,6 @@ const AppContent = () => {
 		<Routes>
 			<Route path="/" element={<Index />} />
 			<Route path="/case-study/free-file" element={<FreeFile />} />
-			<Route
-				path="/case-study/ecommerce-website"
-				element={<EcommerceWebsite />}
-			/>
 			<Route
 				path="/case-study/smoking-cessation"
 				element={<SmokingCessation />}
