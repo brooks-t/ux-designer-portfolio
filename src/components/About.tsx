@@ -10,7 +10,7 @@ const About = () => {
 						<div className="max-w-md mx-auto lg:mx-0">
 							<div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
 								<img
-									src="/lovable-uploads/a264fdb3-2dc5-4268-92c3-6bd7e6e2f267.png"
+									src="/lovable-uploads/brooks-tiffany_profile-pic.webp"
 									alt="UX Designer Portrait"
 									className="w-full h-full object-cover"
 								/>

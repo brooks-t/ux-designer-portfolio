@@ -7,7 +7,7 @@ const projectsData = [
 		description:
 			"Leading the migration and build of a comprehensive design system in Figma to unify and accelerate design across the IRS.",
 		category: ["UX Design", "GovTech", "Design System", "UI Kit"],
-		image: "/lovable-uploads/ols-design-guide.png",
+		image: "/lovable-uploads/odg-hero.webp",
 		slug: "online-services-design-guide",
 	},
 	{
@@ -15,7 +15,7 @@ const projectsData = [
 		description:
 			"Redesigning a critical legacy system to provide a modern, accessible, and streamlined EIN application process for employers.",
 		category: ["UX Design", "GovTech", "Web App", "Prototype"],
-		image: "/lovable-uploads/mod-ein-default.png",
+		image: "/lovable-uploads/mod-ein-hero.webp",
 		slug: "employer-identification-number",
 	},
 	{
@@ -23,7 +23,7 @@ const projectsData = [
 		description:
 			"Simplifying the path to free tax software for millions of taxpayers to improve clarity and confidence in selecting the right product.",
 		category: ["UX Design", "GovTech", "Web App", "Case Study"],
-		image: "/lovable-uploads/free-file-default.png",
+		image: "/lovable-uploads/free-file-hero.webp",
 		slug: "free-file",
 	},
 	{
@@ -31,7 +31,7 @@ const projectsData = [
 		description:
 			"Spearheading the UX research and design of a mobile app that uses behavioral experiments to motivate ambivalent smokers to quit.",
 		category: ["UX Research", "UX Design", "HealthTech", "Mobile App"],
-		image: "/lovable-uploads/gems-new-1.png",
+		image: "/lovable-uploads/gems-hero.webp",
 		slug: "smoking-cessation",
 	},
 ];
