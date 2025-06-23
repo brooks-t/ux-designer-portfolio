@@ -1,4 +1,4 @@
-# Tiffany Brooks - UX Designer Portfolio
+# Brooks Tiffany - UX Designer Portfolio
 
 This repository contains the source code for my personal UX design portfolio, a React-based application built with Vite and styled with Tailwind CSS. It's designed to showcase my work, skills, and professional experience in a clean, modern, and accessible format.
 
