@@ -527,7 +527,7 @@ const SmokingCessation = () => {
 								</p>
 							</div>
 						</div>
-						<div className="flex justify-center mt-8">
+						<div className="flex mt-8">
 							<Button asChild>
 								<a
 									href="/lovable-uploads/MyMAP_interactive-prototype.xd"
@@ -538,14 +538,14 @@ const SmokingCessation = () => {
 								</a>
 							</Button>
 						</div>
-						<div className="mt-12 flex justify-start">
-							<Link
-								to="/#projects"
-								className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-primary transition-standard w-fit"
-							>
-								<ArrowLeft className="mr-2 w-4 h-4" /> Back to Projects
-							</Link>
-						</div>
+					</div>
+					<div className="mt-12 flex justify-start">
+						<Link
+							to="/#projects"
+							className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-primary transition-standard w-fit"
+						>
+							<ArrowLeft className="mr-2 w-4 h-4" /> Back to Projects
+						</Link>
 					</div>
 				</section>
 			</div>
