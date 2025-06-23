@@ -45,20 +45,20 @@ const Contact = () => {
 							<div className="flex items-center space-x-4">
 								<a
 									href="https://www.linkedin.com/in/brookstiffany/"
+									target="_blank"
 									className="h-10 w-10 rounded-full bg-primary/5 flex items-center justify-center hover:bg-primary/10 transition-standard"
 									aria-label="LinkedIn"
 								>
 									<Linkedin className="h-5 w-5 text-primary" />
 								</a>
-								{/* SAVING GITHUB LINK FOR LATER
-                <a 
-                  href="#" 
-                  className="h-10 w-10 rounded-full bg-primary/5 flex items-center justify-center hover:bg-primary/10 transition-standard"
-                  aria-label="Github"
-                >
-                  <Github className="h-5 w-5 text-primary" />
-                </a>
-                */}
+								<a
+									href="https://github.com/brooks-t"
+									target="_blank"
+									className="h-10 w-10 rounded-full bg-primary/5 flex items-center justify-center hover:bg-primary/10 transition-standard"
+									aria-label="Github"
+								>
+									<Github className="h-5 w-5 text-primary" />
+								</a>
 							</div>
 							<p className="text-xs text-muted-foreground mt-8">
 								Looking forward to connecting!
