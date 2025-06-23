@@ -70,7 +70,7 @@ const SmokingCessation = () => {
 
 					<p className="text-primary/70 mb-6 mt-6">
 						<strong>Video Orientation: </strong>I produced the following video
-						to onboard users to the medium-fidelity prototype used in our
+						to onboard users to the medium-fidelity prototype used in our GEMS
 						'Wizard of Oz' field test.
 					</p>
 					<div className="mt-6 mb-6 overflow-hidden rounded-lg shadow-md border">
