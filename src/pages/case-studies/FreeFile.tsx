@@ -38,6 +38,9 @@ const FreeFile = () => {
 						ultimately empower taxpayers to file their taxes for free with
 						confidence.
 					</p>
+					<div className="flex mt-6 mb-6">
+						<Button disabled>Interactive Prototype Coming Soon</Button>
+					</div>
 
 					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
