@@ -1,5 +1,8 @@
 import React from "react";
 import CaseStudyLayout from "@/components/CaseStudyLayout";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import {
 	Heart,
 	Shield,
@@ -47,7 +50,25 @@ const SmokingCessation = () => {
 						prestigious Journal of Medical Internet Research (JMIR).
 					</p>
 
-					<p className="text-primary/70 mb-6">
+					<p className="text-primary/70 mb-6 mt-6">
+						<strong>Note: </strong> Adobe has relegated XD to "maintenance mode"
+						meaning they are no longer investing in its development. So, I am no
+						longer subscribed to XD and cannot host a live prototype. However,
+						you can download and run this file locally. The prototype is for a
+						project called MyMAP (My Mobile Assistance Program) which was a
+						precursor to GEMS.
+					</p>
+					<Button asChild>
+						<a
+							href="/lovable-uploads/MyMAP_interactive-prototype.xd"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Download Adobe XD Prototype
+						</a>
+					</Button>
+
+					<p className="text-primary/70 mb-6 mt-6">
 						<strong>Video Orientation: </strong>I produced the following video
 						to onboard users to the medium-fidelity prototype used in our
 						'Wizard of Oz' field test.
@@ -505,6 +526,25 @@ const SmokingCessation = () => {
 									</a>
 								</p>
 							</div>
+						</div>
+						<div className="flex justify-center mt-8">
+							<Button asChild>
+								<a
+									href="/lovable-uploads/MyMAP_interactive-prototype.xd"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Download Adobe XD Prototype
+								</a>
+							</Button>
+						</div>
+						<div className="mt-12 flex justify-start">
+							<Link
+								to="/#projects"
+								className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-primary transition-standard w-fit"
+							>
+								<ArrowLeft className="mr-2 w-4 h-4" /> Back to Projects
+							</Link>
 						</div>
 					</div>
 				</section>
