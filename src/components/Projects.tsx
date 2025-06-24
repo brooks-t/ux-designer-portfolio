@@ -6,7 +6,7 @@ const projectsData = [
 		title: "IRS Design Guide ",
 		description:
 			"Leading the migration and build of a comprehensive design system in Figma to unify and accelerate design across the IRS.",
-		category: ["UX Design", "GovTech", "Design System", "UI Kit"],
+		category: ["UX Design", "GovTech", "Design System"],
 		image: "/lovable-uploads/odg-hero.webp",
 		slug: "online-services-design-guide",
 	},
@@ -14,7 +14,7 @@ const projectsData = [
 		title: "IRS Employer Identification Number",
 		description:
 			"Redesigning a critical legacy system to provide a modern, accessible, and streamlined EIN application process for employers.",
-		category: ["UX Design", "GovTech", "Web App", "Prototype"],
+		category: ["UX Design", "GovTech", "Web App"],
 		image: "/lovable-uploads/mod-ein-hero.webp",
 		slug: "employer-identification-number",
 	},
@@ -22,7 +22,7 @@ const projectsData = [
 		title: "IRS Free File",
 		description:
 			"Simplifying the path to free tax software for millions of taxpayers to improve clarity and confidence in selecting the right product.",
-		category: ["UX Design", "GovTech", "Web App", "Case Study"],
+		category: ["UX Design", "GovTech", "Web App"],
 		image: "/lovable-uploads/free-file-hero.webp",
 		slug: "free-file",
 	},
@@ -30,7 +30,7 @@ const projectsData = [
 		title: "Kaiser Permanente Gems App",
 		description:
 			"Spearheading the UX research and design of a mobile app that uses behavioral experiments to motivate ambivalent smokers to quit.",
-		category: ["UX Research", "UX Design", "HealthTech", "Mobile App"],
+		category: ["UX Research", "HealthTech", "Mobile App"],
 		image: "/lovable-uploads/gems-hero.webp",
 		slug: "smoking-cessation",
 	},
