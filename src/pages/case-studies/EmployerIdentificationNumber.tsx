@@ -45,6 +45,9 @@ const EmployerIdentificationNumber = () => {
 							View EIN Figma Prototype
 						</a>
 					</Button>
+					<p className="text-primary/70 mb-6 mt-6">
+						<strong>Lightning Demo Video: </strong>Coming soon!
+					</p>
 
 					{/* MY CONTRIBUTIONS */}
 					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>

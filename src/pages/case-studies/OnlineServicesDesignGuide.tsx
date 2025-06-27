@@ -47,6 +47,9 @@ const OnlineServicesDesignGuide = () => {
 							View Design Guide in Figma
 						</a>
 					</Button>
+					<p className="text-primary/70 mb-6 mt-6">
+						<strong>Lightning Demo Video: </strong>Coming soon!
+					</p>
 
 					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
