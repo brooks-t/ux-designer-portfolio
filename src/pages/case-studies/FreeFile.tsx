@@ -22,7 +22,7 @@ const FreeFile = () => {
 		<CaseStudyLayout
 			title="IRS Free File Modernization"
 			category={["UX Design", "GovTech", "Web App"]}
-			heroImage="/lovable-uploads/free-file-hero.webp"
+			heroImage="/assets/free-file-hero.webp"
 		>
 			<div className="space-y-12">
 				<section>
@@ -240,7 +240,7 @@ const FreeFile = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/free-file-single.webp"
+											src="/assets/free-file-single.webp"
 											alt="Redesigned Free File main page with a single call to action"
 											className="w-full h-full object-cover"
 										/>
@@ -248,7 +248,7 @@ const FreeFile = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/free-file-single.webp"
+										src="/assets/free-file-single.webp"
 										alt="Redesigned Free File main page with a single call to action"
 										className="w-full h-full object-cover"
 									/>
@@ -272,7 +272,7 @@ const FreeFile = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/free-file-browse.webp"
+											src="/assets/free-file-browse.webp"
 											alt="Enhanced partner information cards"
 											className="w-full h-full object-cover"
 										/>
@@ -280,7 +280,7 @@ const FreeFile = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/free-file-browse.webp"
+										src="/assets/free-file-browse.webp"
 										alt="Enhanced partner information cards"
 										className="w-full h-full object-cover"
 									/>
@@ -303,7 +303,7 @@ const FreeFile = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/free-file-AGI.webp"
+											src="/assets/free-file-AGI.webp"
 											alt="Simplified filtering and results page"
 											className="w-full h-full object-cover"
 										/>
@@ -311,7 +311,7 @@ const FreeFile = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/free-file-AGI.webp"
+										src="/assets/free-file-AGI.webp"
 										alt="Simplified filtering and results page"
 										className="w-full h-full object-cover"
 									/>

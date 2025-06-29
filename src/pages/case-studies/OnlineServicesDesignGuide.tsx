@@ -27,7 +27,7 @@ const OnlineServicesDesignGuide = () => {
 		<CaseStudyLayout
 			title="IRS Online Services Design Guide"
 			category={["UX Design", "GovTech", "Design System"]}
-			heroImage="/lovable-uploads/odg-hero.webp"
+			heroImage="/assets/odg-hero.webp"
 		>
 			<div className="space-y-8">
 				<section className="space-y-4 text-primary/70">
@@ -49,7 +49,7 @@ const OnlineServicesDesignGuide = () => {
 					</Button>
 					<Button asChild className="ml-4">
 						<a
-							href="/lovable-uploads/odg-designs.pdf"
+							href="/assets/odg-designs.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -127,7 +127,7 @@ const OnlineServicesDesignGuide = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/odg-styles.webp"
+											src="/assets/odg-styles.webp"
 											alt="Color palette and typography from the design system"
 											className="w-full h-full object-cover"
 										/>
@@ -135,7 +135,7 @@ const OnlineServicesDesignGuide = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/odg-styles.webp"
+										src="/assets/odg-styles.webp"
 										alt="Color palette and typography from the design system"
 										className="w-full h-auto rounded-lg"
 									/>
@@ -159,7 +159,7 @@ const OnlineServicesDesignGuide = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/odg-forms.webp"
+											src="/assets/odg-forms.webp"
 											alt="Form components from the design system"
 											className="w-full h-full object-cover"
 										/>
@@ -167,7 +167,7 @@ const OnlineServicesDesignGuide = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/odg-forms.webp"
+										src="/assets/odg-forms.webp"
 										alt="Form components from the design system"
 										className="w-full h-auto rounded-lg"
 									/>
@@ -192,7 +192,7 @@ const OnlineServicesDesignGuide = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/odg-components.webp"
+											src="/assets/odg-components.webp"
 											alt="Button and step indicator components"
 											className="w-full h-full object-cover"
 										/>
@@ -200,7 +200,7 @@ const OnlineServicesDesignGuide = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/odg-components.webp"
+										src="/assets/odg-components.webp"
 										alt="Button and step indicator components"
 										className="w-full h-auto rounded-lg"
 									/>
@@ -225,7 +225,7 @@ const OnlineServicesDesignGuide = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer border">
 										<img
-											src="/lovable-uploads/odg-navigation.webp"
+											src="/assets/odg-navigation.webp"
 											alt="Navigation components from the design system"
 											className="w-full h-full object-cover"
 										/>
@@ -233,7 +233,7 @@ const OnlineServicesDesignGuide = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/odg-navigation.webp"
+										src="/assets/odg-navigation.webp"
 										alt="Navigation components from the design system"
 										className="w-full h-auto rounded-lg"
 									/>

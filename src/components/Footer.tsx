@@ -129,18 +129,14 @@ const Footer = () => {
 							Contact
 						</a>
 						<a
-							href="/lovable-uploads/resume_brooks-tiffany.pdf"
+							href="/assets/resume_brooks-tiffany.pdf"
 							className={`text-sm ${
 								theme === "dark"
 									? "text-secondary-foreground/80 hover:text-secondary-foreground"
 									: "text-primary-foreground/80 hover:text-primary-foreground"
 							} transition-standard flex items-center gap-1`}
 							onClick={(e) =>
-								handleNavigation(
-									"/lovable-uploads/resume_brooks-tiffany.pdf",
-									e,
-									true
-								)
+								handleNavigation("/assets/resume_brooks-tiffany.pdf", e, true)
 							}
 						>
 							<FileText className="h-3 w-3" />

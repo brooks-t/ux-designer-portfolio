@@ -10,7 +10,7 @@ const About = () => {
 						<div className="max-w-md mx-auto lg:mx-0">
 							<div className="aspect-square rounded-2xl overflow-hidden shadow-lg">
 								<img
-									src="/lovable-uploads/brooks-tiffany_profile-pic.webp"
+									src="/assets/brooks-tiffany_profile-pic.webp"
 									alt="UX Designer Portrait"
 									className="w-full h-full object-cover"
 								/>
@@ -117,7 +117,7 @@ const About = () => {
 								Get In Touch
 							</a>
 							<a
-								href="/lovable-uploads/resume_brooks-tiffany.pdf"
+								href="/assets/resume_brooks-tiffany.pdf"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="bg-transparent text-primary border border-primary/20 rounded-full px-8 py-3 font-medium transition-standard hover:border-primary/60 hover:-translate-y-1 inline-flex items-center justify-center gap-2"

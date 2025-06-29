@@ -22,7 +22,7 @@ const EmployerIdentificationNumber = () => {
 		<CaseStudyLayout
 			title="Employer Identification Number Modernization"
 			category={["UX Design", "GovTech", "Web App"]}
-			heroImage="/lovable-uploads/mod-ein-hero.webp"
+			heroImage="/assets/mod-ein-hero.webp"
 		>
 			<div className="space-y-8">
 				<section className="space-y-4 text-primary/70">
@@ -47,7 +47,7 @@ const EmployerIdentificationNumber = () => {
 					</Button>
 					<Button asChild className="ml-4">
 						<a
-							href="/lovable-uploads/mod-ein-designs.pdf"
+							href="/assets/mod-ein-designs.pdf"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -264,7 +264,7 @@ const EmployerIdentificationNumber = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
-											src="/lovable-uploads/mod-ein-new-steps.webp"
+											src="/assets/mod-ein-new-steps.webp"
 											alt="Redesigned EIN application with clear step-by-step progress"
 											className="w-full h-full object-cover"
 										/>
@@ -272,7 +272,7 @@ const EmployerIdentificationNumber = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/mod-ein-new-steps.webp"
+										src="/assets/mod-ein-new-steps.webp"
 										alt="Redesigned EIN application with clear step-by-step progress"
 										className="w-full h-full object-cover"
 									/>
@@ -299,7 +299,7 @@ const EmployerIdentificationNumber = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
-											src="/lovable-uploads/mod-ein-error-help.webp"
+											src="/assets/mod-ein-error-help.webp"
 											alt="Improved error messages and form field layouts"
 											className="w-full h-full object-cover"
 										/>
@@ -307,7 +307,7 @@ const EmployerIdentificationNumber = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/mod-ein-error-help.webp"
+										src="/assets/mod-ein-error-help.webp"
 										alt="Improved error messages and form field layouts"
 										className="w-full h-full object-cover"
 									/>
@@ -333,7 +333,7 @@ const EmployerIdentificationNumber = () => {
 								<DialogTrigger asChild>
 									<div className="aspect-[16/9] bg-slate-100 rounded-lg shadow-lg overflow-hidden cursor-pointer">
 										<img
-											src="/lovable-uploads/mod-ein-help.webp"
+											src="/assets/mod-ein-help.webp"
 											alt="Dynamic help tips and contextual assistance"
 											className="w-full h-full object-cover"
 										/>
@@ -341,7 +341,7 @@ const EmployerIdentificationNumber = () => {
 								</DialogTrigger>
 								<DialogContent className="max-w-6xl p-2">
 									<img
-										src="/lovable-uploads/mod-ein-help.webp"
+										src="/assets/mod-ein-help.webp"
 										alt="Dynamic help tips and contextual assistance"
 										className="w-full h-full object-cover"
 									/>

@@ -71,7 +71,7 @@ const Navbar = () => {
 		{ name: "Contact", url: "contact", icon: Mail },
 		{
 			name: "Resume",
-			url: "/lovable-uploads/resume_brooks-tiffany.pdf",
+			url: "/assets/resume_brooks-tiffany.pdf",
 			icon: FileText,
 			external: true,
 		},
