@@ -43,7 +43,7 @@ const skillsData = [
 	{
 		title: "Front-End Web Development",
 		description:
-			"Working knowledge of HTML, CSS, JavaScript, React, Tailwind, Bootstrap, Command Line, Git, GitHub and VS Code to collaborate effectively with developers.",
+			"Working knowledge of HTML, CSS, JavaScript, Typescript, React, Tailwind, Bootstrap, Git, GitHub and APIs to collaborate effectively with developers.",
 		icon: <Code className="w-8 h-8" />,
 	},
 ];
