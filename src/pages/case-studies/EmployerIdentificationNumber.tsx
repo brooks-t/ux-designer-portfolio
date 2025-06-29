@@ -45,6 +45,15 @@ const EmployerIdentificationNumber = () => {
 							View EIN Figma Prototype
 						</a>
 					</Button>
+					<Button asChild className="ml-4">
+						<a
+							href="/lovable-uploads/mod-ein-designs.pdf"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							View EIN Designs PDF
+						</a>
+					</Button>
 					<p className="text-primary/70 mb-6 mt-6">
 						<strong>Lightning Demo Video: </strong>Coming soon!
 					</p>
