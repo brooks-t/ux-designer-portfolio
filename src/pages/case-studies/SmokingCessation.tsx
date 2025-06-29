@@ -54,10 +54,19 @@ const SmokingCessation = () => {
 						<strong>Note: </strong> Adobe has relegated XD to "maintenance mode"
 						meaning they are no longer investing in its development. So, I am no
 						longer subscribed to XD and cannot host a live prototype. However,
-						you can download and run this file locally. The prototype is for a
-						project called MyMAP (My Mobile Assistance Program) which was a
-						precursor to GEMS.
+						you can view the pdf or download and run this file locally. The
+						prototype is for a project called MyMAP (My Mobile Assistance
+						Program) which was a precursor to GEMS.
 					</p>
+					<Button asChild className="mr-4">
+						<a
+							href="/lovable-uploads/MyMAP_interactive-prototype.pdf"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							View Adobe XD PDF
+						</a>
+					</Button>
 					<Button asChild>
 						<a
 							href="/lovable-uploads/MyMAP_interactive-prototype.xd"
