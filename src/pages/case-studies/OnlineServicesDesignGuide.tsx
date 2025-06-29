@@ -47,6 +47,15 @@ const OnlineServicesDesignGuide = () => {
 							View Design Guide in Figma
 						</a>
 					</Button>
+					<Button asChild className="ml-4">
+						<a
+							href="/lovable-uploads/odg-designs.pdf"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							View Design Guide PDF
+						</a>
+					</Button>
 					<p className="text-primary/70 mb-6 mt-6">
 						<strong>Lightning Demo Video: </strong>Coming soon!
 					</p>
