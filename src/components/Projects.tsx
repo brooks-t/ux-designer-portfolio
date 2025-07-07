@@ -22,7 +22,7 @@ const projectsData = [
 		title: "Budget Buddy",
 		description:
 			"Developing a dynamic FinTech dashboard with Angular to provide users with clear data visualization and powerful budgeting tools.",
-		category: ["Front-end Dev", "FinTech", "Angular", "Data Visualization"],
+		category: ["Front-end Development", "FinTech", "Angular", "Data Viz"],
 		image: "/assets/budget-buddy.png",
 		slug: "budget-buddy",
 	},

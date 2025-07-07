@@ -37,13 +37,13 @@ const skillsData = [
 	{
 		title: "AI & Project Tools",
 		description:
-			"Experienced with the latest AI and project collaboration tools to include ChatGPT, Gemini, NotebookLM, AI Coders, Jira, Trello, Sharepoint, Teams and Slack.",
+			"Experienced with the latest AI and project collaboration tools to include ChatGPT, Gemini, NotebookLM, GitHub Copilot, Jira, Trello, Sharepoint, Teams and Slack.",
 		icon: <Layers className="w-8 h-8" />,
 	},
 	{
 		title: "Front-End Web Development",
 		description:
-			"Working knowledge of HTML, CSS, JavaScript, React, Angular, Tailwind, Bootstrap, Git, GitHub and APIs to collaborate effectively with developers.",
+			"Working knowledge of HTML, CSS, JavaScript, Typescript, React, Angular, Tailwind, Bootstrap, and APIs to collaborate effectively with developers.",
 		icon: <Code className="w-8 h-8" />,
 	},
 ];
