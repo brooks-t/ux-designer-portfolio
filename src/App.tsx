@@ -18,6 +18,7 @@ import FreeFile from "./pages/case-studies/FreeFile";
 import SmokingCessation from "./pages/case-studies/SmokingCessation";
 import EmployerIdentificationNumber from "./pages/case-studies/EmployerIdentificationNumber";
 import OnlineServicesDesignGuide from "./pages/case-studies/OnlineServicesDesignGuide";
+import BudgetBuddy from "./pages/case-studies/BudgetBuddy"; // Add this import
 import { ThemeProvider } from "./components/ThemeProvider";
 
 // Access the environment variable
@@ -67,6 +68,8 @@ const AppContent = () => {
 				path="/case-study/online-services-design-guide"
 				element={<OnlineServicesDesignGuide />}
 			/>
+			<Route path="/case-study/budget-buddy" element={<BudgetBuddy />} />{" "}
+			{/* Add this new route */}
 			{/* Redirect from old URLs to maintain backward compatibility */}
 			<Route
 				path="/case-study/financial-app-redesign"

@@ -19,12 +19,17 @@ const projectsData = [
 		slug: "employer-identification-number",
 	},
 	{
-		title: "IRS Free File",
+		title: "Budget Buddy",
 		description:
-			"Simplifying the path to free tax software for millions of taxpayers to improve clarity and confidence in selecting the right product.",
-		category: ["UX Design", "GovTech", "Web App"],
-		image: "/assets/free-file-hero.webp",
-		slug: "free-file",
+			"Developing a dynamic FinTech dashboard with Angular to provide users with clear data visualization and powerful budgeting tools.",
+		category: [
+			"Front-end Development",
+			"FinTech",
+			"Angular",
+			"Data Visualization",
+		],
+		image: "/assets/budget-buddy.png",
+		slug: "budget-buddy",
 	},
 	{
 		title: "Kaiser Permanente Gems App",
