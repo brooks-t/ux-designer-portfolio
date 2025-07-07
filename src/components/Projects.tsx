@@ -6,15 +6,15 @@ const projectsData = [
 		title: "IRS Design Guide ",
 		description:
 			"Leading the migration and build of a comprehensive design system in Figma to unify and accelerate design across the IRS.",
-		category: ["UX Design", "GovTech", "Design System"],
+		category: ["UX Design", "GovTech", "Design System", "Figma"],
 		image: "/assets/odg-hero.webp",
 		slug: "online-services-design-guide",
 	},
 	{
 		title: "IRS Employer Identification Number",
 		description:
-			"Redesigning a critical legacy system to provide a modern, accessible, and streamlined EIN application process for employers.",
-		category: ["UX Design", "GovTech", "Web App"],
+			"Modernizing a critical legacy system to provide a modern, accessible, and streamlined EIN application process for employers.",
+		category: ["UX Design", "GovTech", "Accessibility", "Figma"],
 		image: "/assets/mod-ein-hero.webp",
 		slug: "employer-identification-number",
 	},
@@ -22,12 +22,7 @@ const projectsData = [
 		title: "Budget Buddy",
 		description:
 			"Developing a dynamic FinTech dashboard with Angular to provide users with clear data visualization and powerful budgeting tools.",
-		category: [
-			"Front-end Development",
-			"FinTech",
-			"Angular",
-			"Data Visualization",
-		],
+		category: ["Front-end Dev", "FinTech", "Angular", "Data Visualization"],
 		image: "/assets/budget-buddy.png",
 		slug: "budget-buddy",
 	},
@@ -35,7 +30,7 @@ const projectsData = [
 		title: "Kaiser Permanente Gems App",
 		description:
 			"Spearheading the UX research and design of a mobile app that uses behavioral experiments to motivate ambivalent smokers to quit.",
-		category: ["UX Research", "HealthTech", "Mobile App"],
+		category: ["UX Research", "UX Design", "HealthTech", "Mobile App"],
 		image: "/assets/gems-hero.webp",
 		slug: "smoking-cessation",
 	},
