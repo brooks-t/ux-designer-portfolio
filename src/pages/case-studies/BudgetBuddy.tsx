@@ -45,6 +45,11 @@ const OnlineServicesDesignGuide = () => {
 						user-friendly interface for creating and managing budgets, setting
 						savings goals, and visualizing spending habits.
 					</p>
+					<p>
+						<strong>Note:</strong> This project is still a work in progress, and
+						additional features are being added daily. Dummy data is currently
+						being used for demonstration purposes.
+					</p>
 					<Button asChild>
 						<a
 							href="https://brooks-tiffany-budget-buddy.netlify.app"
