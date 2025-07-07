@@ -537,6 +537,15 @@ const SmokingCessation = () => {
 							</div>
 						</div>
 						<div className="flex mt-8">
+							<Button asChild className="mr-4">
+								<a
+									href="/assets/MyMAP_interactive-prototype.pdf"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									View Adobe XD PDF
+								</a>
+							</Button>
 							<Button asChild>
 								<a
 									href="/assets/MyMAP_interactive-prototype.xd"
