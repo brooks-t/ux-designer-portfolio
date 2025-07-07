@@ -14,7 +14,7 @@ const projectsData = [
 		title: "IRS Employer Identification Number",
 		description:
 			"Modernizing a critical legacy system to provide a modern, accessible, and streamlined EIN application process for employers.",
-		category: ["UX Design", "GovTech", "Accessibility", "Figma"],
+		category: ["UX Design", "GovTech", "Accessibility", "Redesign"],
 		image: "/assets/mod-ein-hero.webp",
 		slug: "employer-identification-number",
 	},

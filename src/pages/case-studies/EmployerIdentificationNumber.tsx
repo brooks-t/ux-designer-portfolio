@@ -21,7 +21,7 @@ const EmployerIdentificationNumber = () => {
 	return (
 		<CaseStudyLayout
 			title="Employer Identification Number Modernization"
-			category={["UX Design", "GovTech", "Accessibility", "Figma"]}
+			category={["UX Design", "GovTech", "Accessibility", "Redesign", "Figma"]}
 			heroImage="/assets/mod-ein-hero.webp"
 		>
 			<div className="space-y-8">
