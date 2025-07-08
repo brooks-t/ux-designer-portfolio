@@ -57,8 +57,22 @@ const OnlineServicesDesignGuide = () => {
 						</a>
 					</Button>
 					<p className="text-primary/70 mb-6 mt-6">
-						<strong>Lightning Demo Video: </strong>Coming soon!
+						<strong>Video Summary: </strong>Check out the following video for a
+						brief overview of this project.
 					</p>
+					<div className="mt-6 mb-6 overflow-hidden rounded-lg shadow-md border">
+						<div className="aspect-video">
+							<iframe
+								className="w-full h-full border-0"
+								src="https://www.youtube.com/embed/D3ELdZkYHFA?si=RJEYUIKINpv1EGf_"
+								title="YouTube video player"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+								referrerPolicy="strict-origin-when-cross-origin"
+								allowFullScreen
+								loading="lazy"
+							></iframe>
+						</div>
+					</div>
 
 					<h2 className="text-2xl font-semibold mb-4">My Contributions</h2>
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
