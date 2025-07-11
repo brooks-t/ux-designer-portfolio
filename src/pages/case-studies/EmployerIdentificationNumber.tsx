@@ -21,7 +21,13 @@ const EmployerIdentificationNumber = () => {
 	return (
 		<CaseStudyLayout
 			title="Employer Identification Number Modernization"
-			category={["UX Design", "GovTech", "Accessibility", "Redesign", "Figma"]}
+			category={[
+				"UX Design",
+				"GovTech",
+				"Accessibility",
+				"Modernization",
+				"Figma",
+			]}
 			heroImage="/assets/mod-ein-hero.webp"
 		>
 			<div className="space-y-8">
@@ -76,16 +82,13 @@ const EmployerIdentificationNumber = () => {
 					</div>
 					<p>
 						Shortly after joining the IRS, I took over as lead designer for this
-						project and oversaw its transformation into a modernized, IRS
-						design-guide standardized, Section 508 compliant web application. I
-						also shepherded this project's seamless migration from
-						Sketch/InVision to Figma and avoided any work stoppages. During this
-						process, I led the UX design modernization for critical IRS programs
-						like EIN, ensuring adherence to USWDS standards and enhancing the
-						digital experience for millions of taxpayers.
+						project and oversaw its transformation into a modernized, section
+						508 compliant web application by methodically applying the IRS
+						Design Guide. I also shepherded this project's seamless migration
+						from Sketch/InVision to Figma and avoided any work stoppages.
 					</p>
 					<p>
-						During handoff to the development team, I worked very closely with
+						During the project handoff phase, I worked very closely with
 						developers to communicate the designs and resolve any issues that
 						arose, ensuring the project stayed on schedule under a tight
 						deadline.
