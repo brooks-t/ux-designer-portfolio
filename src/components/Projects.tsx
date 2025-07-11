@@ -38,7 +38,7 @@ const projectsData = [
 		title: "IRS Free File Enhancement",
 		description:
 			"Redesigning the Free File user experience to improve clarity, simplify the selection process, and empower taxpayers to file for free with confidence.",
-		category: ["UX Design", "GovTech", "Web App", "Redesign"],
+		category: ["UX Design", "GovTech", "Business Partners", "Redesign"],
 		image: "/assets/free-file-hero.webp",
 		slug: "free-file",
 	},
