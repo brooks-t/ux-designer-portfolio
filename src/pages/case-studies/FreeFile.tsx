@@ -20,7 +20,7 @@ const FreeFile = () => {
 
 	return (
 		<CaseStudyLayout
-			title="IRS Free File Modernization"
+			title="IRS Free File Enhancement"
 			category={["UX Design", "GovTech", "Web App"]}
 			heroImage="/assets/free-file-hero.webp"
 		>
@@ -61,15 +61,14 @@ const FreeFile = () => {
 					</div>
 					<p className="text-primary/70 mt-4">
 						As the Lead UX Designer for the IRS Free File Modernization project,
-						I quickly stepped in to lead the effort. I worked closely with our
-						internal team, stakeholders, developers, and especially our 8 key
-						third-party tax software partners. This project was unique because
-						we had to juggle complex legal obligations with keeping all our
-						partners happy, which meant finding smart compromises in our design
-						decisions to make sure everyone felt fairly treated. I also got to
-						dive into supporting user testing and helping brainstorm fresh ideas
-						and solutions for any design hurdles that popped up during our many
-						collaborations.
+						I quickly stepped in to lead the effort. I worked closely with the
+						product owner, business analyst, developers, content strategists and
+						stakeholders. This project was unique because we had to juggle
+						complex legal obligations with keeping all our partners happy, which
+						meant finding smart compromises in our design decisions to make sure
+						everyone felt fairly treated. I also got to dive into supporting
+						user testing and helping brainstorm fresh ideas and solutions for
+						any design hurdles that popped up during our many collaborations.
 					</p>
 				</section>
 

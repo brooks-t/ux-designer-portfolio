@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
 	{
-		title: "IRS Design Guide ",
+		title: "IRS Design Guide Migration ",
 		description:
 			"Leading the migration and build of a comprehensive design system in Figma to unify and accelerate design across the IRS.",
 		category: ["UX Design", "GovTech", "Design System", "Figma"],
@@ -11,9 +11,9 @@ const projectsData = [
 		slug: "online-services-design-guide",
 	},
 	{
-		title: "IRS Employer Identification Number",
+		title: "IRS EIN Modernization",
 		description:
-			"Modernizing a critical legacy system to provide a modern, accessible, and streamlined EIN application process for employers.",
+			"Modernizing the Employer Identification Number application to provide an accessible and streamlinedprocess for employers.",
 		category: ["UX Design", "GovTech", "Accessibility", "Redesign"],
 		image: "/assets/mod-ein-hero.webp",
 		slug: "employer-identification-number",
@@ -33,6 +33,14 @@ const projectsData = [
 		category: ["UX Research", "UX Design", "HealthTech", "Mobile App"],
 		image: "/assets/gems-hero.webp",
 		slug: "smoking-cessation",
+	},
+	{
+		title: "IRS Free File Enhancement",
+		description:
+			"Redesigning the Free File user experience to improve clarity, simplify the selection process, and empower taxpayers to file for free with confidence.",
+		category: ["UX Design", "GovTech", "Web App", "Redesign"],
+		image: "/assets/free-file-hero.webp",
+		slug: "free-file",
 	},
 ];
 
